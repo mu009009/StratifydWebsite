@@ -1,0 +1,106 @@
+.Introducing{
+	width: auto;
+	height: 475px;
+	background: white;
+	position: relative;
+}
+.IntroduceBackground{
+	height: 100%;
+	margin-left: 0px;
+	position: static;
+}
+.Introduce{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 50%;
+	margin-top: 10%;
+	font-family: "Gotham Rounded";
+	text-shadow: 0.1em 0.05em 0.1em black;
+	color: white;
+}
+.IntroTitle{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.IntroCotent{
+	margin-top: 13%;
+	font-size: 2.0em;
+}
+.LinkTitlePart{
+	width: auto;
+	height: 158px;
+	background: white;
+	position: relative;
+}
+.LinkButtonPart{
+	width: auto;
+	height: 427px;
+	background: white;
+	position: relative;
+}
+.AdvertisementPart{
+	width: auto;
+	height: 297px;
+	background: white;
+	position: relative;
+	background: url(Resource/Icons/Advertisement/Background.png);
+	background-size: contain;
+}
+.LinkButtonCotainBox{
+	width: 60%;
+	margin-left: 20%;
+	height: inherit;
+}
+.LinkIconBox{
+	width: 25%;
+	float: left;
+	height: inherit;
+}
+.BottomIcons{
+	width: 22%;
+	margin-left: 39%;
+	cursor: pointer;
+}
+.AdvertisementBox{
+	width: 60%;
+	margin-left: 20%;
+	height: inherit;
+}
+.PlayImagePart{
+	width: 100%;
+	height: auto;
+}
+#FirstLearnMore{
+	background-color: rgb(255,153,0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 50%;
+	margin-top: 16%;
+	color: white;
+}
+#FirstWatchVideo{
+	background-color: rgb(84,114,210);
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 56.5%;
+	margin-top: 16%;
+	color: white;
+}
+#SecondLearnMore{
+	margin-left: 47%;
+	margin-top: 2%;
+}
+#SecondAboutUs{
+	margin-left: 47%;
+	margin-top: 2%;
+}
+#LinkButtonPart1{
+	height: 277px;
+}
+#LinkButtonPart2{
+	height: 150px;
+}
+
