@@ -97,7 +97,6 @@ body{
 	font-size: 0.7em;
 	color: black;
 	cursor: pointer;
-/*	text-align: center;*/
 }
 .ButtonTextLeft{
 	margin-left: 5%;
@@ -110,6 +109,9 @@ body{
 	float: right;
 }
 .CompanyIcon{
+	clear: both;
+	margin: auto;
+	display: block;
 	height: 75%;
 	cursor: pointer;
 }
@@ -149,6 +151,9 @@ body{
 }
 .ContentImage{
 	margin-top: 2%;
+	clear: both;
+	margin: auto;
+	display: block;
 }
 .ContentVideo{
 	position: relative;
