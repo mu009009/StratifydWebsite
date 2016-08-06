@@ -19,38 +19,38 @@ var CompanyIconPartHeight = document.getElementById("CompanyIconPart").getBoundi
 var CompanyIconHeight = document.getElementById("CompanyIcon").getBoundingClientRect().height;
 var CompanyIconPartWidth = document.getElementById("CompanyIconPart").getBoundingClientRect().width;
 var CompanyIconWidth = document.getElementById("CompanyIcon").getBoundingClientRect().width;
-d3.select('#CompanyIconPart')
+d3.select('#CompanyIcon')
 	.style("margin-top",function()
 	{
 		var MargintopValue = (CompanyIconPartHeight - CompanyIconHeight)/2;
 		return MargintopValue + "px";
 	})
-	.style("padding-left",function()
-	{
-		var PaddingleftValue = (CompanyIconPartWidth - CompanyIconWidth)/2;
-		return PaddingleftValue + "px";
-	})
+//	.style("padding-left",function()
+//	{
+//		var PaddingleftValue = (CompanyIconPartWidth - CompanyIconWidth)/2;
+//		return PaddingleftValue + "px";
+//	})
 
 
 //Vertical center Funcation part for Introducing Part Background Image and Texts
 var IntroducePartWidth = document.getElementById("IntroduceBackground").getBoundingClientRect().width;
 var IntroducingWidth = document.getElementById("Introducing").getBoundingClientRect().width;
-d3.select('#IntroduceBackground')
-	.style("margin-left",function()
-	{
-		var MarginleftValue = (IntroducingWidth - IntroducePartWidth)/2;
-		return MarginleftValue + "px";
-	})
+//d3.select('#IntroduceBackground')
+//	.style("margin-left",function()
+//	{
+//		var MarginleftValue = (IntroducingWidth - IntroducePartWidth)/2;
+//		return MarginleftValue + "px";
+//	})
 
 var ContentPartWidth = document.getElementById("ContentPart").getBoundingClientRect().width;
 var TeamPhotoWidh = document.getElementById("TeamPhoto1").getBoundingClientRect().width;
 
-d3.select("#TeamPhoto1")
-	.style("margin-left",function()
-	{
-		var MarginLeftValue = (ContentPartWidth - TeamPhotoWidh)/2;
-		return MarginLeftValue + "px";
-	})
+//d3.select("#TeamPhoto1")
+//	.style("margin-left",function()
+//	{
+//		var MarginLeftValue = (ContentPartWidth - TeamPhotoWidh)/2;
+//		return MarginLeftValue + "px";
+//	})
 
 d3.selectAll(".Icons")
 	.on("mouseover",function()
@@ -520,3 +520,11 @@ d3.select("#ContactText")
 	{
 		window.location.href="http://www.tasteanalytics.com/contact-us/";
 	})	
+
+//Play Video
+d3.selectAll(".ContentVideo")
+.on("click",function()
+	{
+		d3.select(this).loop = true;
+		d3.select(this).play();
+	})
