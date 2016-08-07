@@ -1,5 +1,59 @@
 // Time for Transition Animation setting
 var ShorDurationTime = 200;
+var MiddleDurationTime = 500;
+
+// GetTime;
+var T = 0;
+var TimeValue ;
+var LoopChangeTime = 3000;
+var AdImageBoxNumber = 8;
+var StableMarginLeft = 10;
+var DirectionJudge = 0;
+
+RecordtheTime();
+function RecordtheTime(){
+	if(T==AdImageBoxNumber)
+	{
+		DirectionJudge = 1;
+	}
+	else if(T==0)
+	{
+		DirectionJudge = 0;
+	}
+	
+	if(DirectionJudge==0)
+	{
+		d3.select(("#AdImageBox"+T))
+		.transition()
+		.duration(MiddleDurationTime)
+		.style("margin-left",function()
+		{
+			var LeftMoveDistance = 0;
+			LeftMoveDistance = -((document.getElementById("AdImageBox1").getBoundingClientRect().width) + StableMarginLeft)
+			console.log(LeftMoveDistance);
+			return LeftMoveDistance + "px";
+		})
+		T = T + 1;			
+	}
+	else
+	{
+		T = T-1;
+		d3.select(("#AdImageBox"+T))
+		.transition()
+		.duration(MiddleDurationTime)
+		.style("margin-left",function()
+		{
+			var LeftMoveDistance = 0;
+			console.log(LeftMoveDistance);
+			return LeftMoveDistance + StableMarginLeft + "px";
+		})
+			
+	}
+
+	TimeValue = setTimeout("RecordtheTime()",LoopChangeTime);
+}
+
+
 
 
 //Vertical center function part for title text buttons
@@ -528,3 +582,6 @@ d3.selectAll(".ContentVideo")
 		d3.select(this).loop = true;
 		d3.select(this).play();
 	})
+
+//Auton Scroll
+//console.log()

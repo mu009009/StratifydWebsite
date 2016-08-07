@@ -233,6 +233,21 @@ body{
 	cursor: pointer;
 	font-size: 1em;
 }
+.PlayImagePart{
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+}
+.AdImageBox{
+	margin-left: 10px;
+	width: 284px;
+	height: inherit;
+	float: left;
+}
+.AdImageShow{
+	width: inherit;
+	height: auto;
+}
 .CopyRightBox{
 	width: 30%;
 	height: inherit;
