@@ -1,0 +1,50 @@
+.IntroImage{
+	width: 30%;
+	margin-left: 20%;
+	position: relative;
+}
+.DetailImage{
+	width: 60%;
+	margin-left: 20%;
+	height: auto;
+	cursor: pointer;
+}
+#SignalIntroTextBox{
+	width: 100%;
+	margin-top: 2%;
+}
+#ProductIntroBox{
+	padding-bottom: 1%;
+}
+#ProductTryB1{
+	position: relative;
+	width: 15%;
+	margin-top: 2%;
+}
+#ProductDetailBox{
+	margin-top: 4%;
+}
+.DetailLessPartCut{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.DetailLargePartCut{
+	width: 70%;
+	height: 100%;
+	padding-left: 8%;
+	padding-right: 2%;
+	float: left;
+}
+.ContentProDetailTitle-Left{
+	text-align: left;
+	color: rgb(81,81,82);
+	cursor: pointer;
+}
+.ContentProDetailText-Left{
+	font-family: "Gotham Rounded";
+	text-align: left;
+	color: rgb(158,158,158);
+	font-size: 1em;
+	cursor: pointer;
+}

@@ -59,7 +59,7 @@ function RecordtheTime(){
 //Vertical center function part for title text buttons
 var FontSizeNumberStr = d3.select(".ButtonText").style("font-size");
 var ProductSolutionPartHeight = document.getElementById("ProductSolutionPart").getBoundingClientRect().height;
-var FontSizeNumber = FontSizeNumberStr.substring(0,(FontSizeNumberStr.length-2));
+var FontSizeNumber = parseFloat(ValuewithPxStrtoNumValue(FontSizeNumberStr));
 
 var TextMiddlePosition = (ProductSolutionPartHeight - FontSizeNumber/2)/2;
 console.log(TextMiddlePosition);
@@ -79,32 +79,9 @@ d3.select('#CompanyIcon')
 		var MargintopValue = (CompanyIconPartHeight - CompanyIconHeight)/2;
 		return MargintopValue + "px";
 	})
-//	.style("padding-left",function()
-//	{
-//		var PaddingleftValue = (CompanyIconPartWidth - CompanyIconWidth)/2;
-//		return PaddingleftValue + "px";
-//	})
-
-
-//Vertical center Funcation part for Introducing Part Background Image and Texts
-var IntroducePartWidth = document.getElementById("IntroduceBackground").getBoundingClientRect().width;
-var IntroducingWidth = document.getElementById("Introducing").getBoundingClientRect().width;
-//d3.select('#IntroduceBackground')
-//	.style("margin-left",function()
-//	{
-//		var MarginleftValue = (IntroducingWidth - IntroducePartWidth)/2;
-//		return MarginleftValue + "px";
-//	})
 
 var ContentPartWidth = document.getElementById("ContentPart").getBoundingClientRect().width;
 var TeamPhotoWidh = document.getElementById("TeamPhoto1").getBoundingClientRect().width;
-
-//d3.select("#TeamPhoto1")
-//	.style("margin-left",function()
-//	{
-//		var MarginLeftValue = (ContentPartWidth - TeamPhotoWidh)/2;
-//		return MarginLeftValue + "px";
-//	})
 
 d3.selectAll(".Icons")
 	.on("mouseover",function()
@@ -129,7 +106,7 @@ d3.selectAll(".Icons")
 //Vertical center Funcation part for Bottom Icons and CopyRight Statement
 var BottomCopyRightPartHeight = document.getElementById("BottomCopyRightPart").getBoundingClientRect().height;
 var CopyRightFontSize = d3.select(".CopyRight").style("font-size");
-var CopyRightFontSizeValue = CopyRightFontSize.substring(0,(CopyRightFontSize.length-2));
+var CopyRightFontSizeValue = parseFloat(ValuewithPxStrtoNumValue(CopyRightFontSize));
 var Icons2Heigh = document.getElementById("FacebookIcon").getBoundingClientRect().height;
 
 d3.select('#CopyRight')
