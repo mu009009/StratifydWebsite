@@ -1,0 +1,100 @@
+.ContentBox{
+	width: 40%;
+	margin-left: 30%;
+	height: inherit;
+}
+.NormalBox{
+	width: 60%;
+	margin-left: 20%;
+	height: inherit;
+}
+.FullSizeBoxWithStableHeight{
+	width: 100%;
+	height: inherit;
+	height: 750px;
+}
+.LeftBox{
+	width: 100%;
+	margin-left: 0;
+	height: inherit;
+}
+.ContentTextInfo{
+	font-family: "Gotham Rounded";
+	font-size: 1.5em;
+}
+.TextBox{
+	width: 40%;
+	margin-left: 30%;
+	height: inherit;
+}
+.ContentText-Center{
+	text-align: center;
+}
+.ContentText-Left{
+	text-align: left;
+}
+.ContentImage{
+	margin-top: 2%;
+	clear: both;
+	margin: auto;
+	display: block;
+}
+.ContentVideo{
+	position: relative;
+	margin-top: 2%;
+	width: 60%;
+	height: 650px;
+	margin-left: 20%;
+	background-color: white;
+}
+.BigSubBox{
+	margin-top: 0px;
+	width: 70%;
+	margin-left: 15%;
+	height: auto;
+	background: rgb(246,246,248);
+	position: relative;
+}
+.InsideSmallBox{
+	width: 33.3%;
+	height: inherit;
+	float: left;
+	overflow: hidden;
+	background-color: transparent
+}
+.HalfCutBox{
+	width: 50%;
+	height: inherit;
+	float: left;
+}
+.HalfHeight{
+	height: 50%;
+}
+.OneThirdHeight{
+	height: 33.33333%
+}
+.WholeBackgroundBox{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background: rgb(255,255,255);
+	border-bottom: rgb(216,216,216);
+	border-bottom-style: dotted;
+	border-bottom-width: thin;	
+}
+.ItroPartBox{
+	width: 60%;
+	height: inherit;
+	position: relative;
+	margin-left: 20%;
+}
+.PopoutText{
+	font-family: "Gotham Rounded";
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;	
+	color: rgb(158,158,158);
+/*	margin-top: 5%;*/
+	margin-top: 15%;
+	opacity: 0;
+}
