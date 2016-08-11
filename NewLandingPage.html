@@ -6,346 +6,456 @@
     <title></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	
 	<link href="CSS/Global.css" rel="stylesheet"/>
 	<link href="CSS/NewLandingPage.css" rel="stylesheet"/>
 	<link href="CSS/Buttons.css" rel="stylesheet"/>
-	<link href="CSS/CanvasBox.css" rel="stylesheet"/>
-
-	
+	<link href="CSS/CanvasBox.css" rel="stylesheet"/>	
 </head>
 
 <!--Maincotainer the whole page-->	
-<body>
-	<div class = "TitleTools" id = "TitleTools">
-		<div class = "TitleRows" id = "TitleRows">
-			<img src="Resource/Icons/FaceBook/facebookIcon.png" class="Icons" id = "FacebookIcon" alt="FaceBook">
-			</img>
-			<img src="Resource/Icons/Linkedin/Linkedin.png" class="Icons" id = "LinkedinIcon" alt="Linkedin">
-			</img>
-			<img src="Resource/Icons/Twitter/TwitterIcon.png" class="Icons" id = "TwitterIcon" alt="Twitter">
-			</img>
-			<img src="Resource/Icons/YouTube/YoutubeIcon.png" class="Icons" id = "YoutubeIcon" alt="Youtube">
-			</img>	
-			<img src="Resource/Icons/GooglePlus/GooglePlusIcon.png" class="Icons" id = "GooglePlusIcon" alt="GooglePlus">
-			</img>		
-			<img src="Resource/Icons/Tumblr/TumblrIcon.png" class="Icons" id = "TumblrIcon" alt="Tumblr">
-			</img>
-			<img src="Resource/Icons/Online/onlineIcon.png" class="Icons" id = "OnlineIcon" alt="Online">
-			</img>
+<div class="jumbotron" id="TitleBar">
+<!--
+	<div class="row" >
+		<div class="col-sm-1">
+		</div>		
+    	<div class="col-sm-2" id="CompanIconPart">
+			<img src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple.png" class="CompanyIcon" id="CompanyIcon" alt="Stratifyd">
+			</img>			
+		</div>
+		<div class="col-sm-2">
+			<span class = "ButtonText ButtonTextLeft" id = "Product">PRODUCT</span>
+		</div>
+		<div class="col-sm-2">
+			<span class = "ButtonText ButtonTextLeft" id = "Solution">SOLUTION</span>
+		</div>
+		<div class="col-sm-2">
+			<span class = "ButtonText ButtonTextRight" id = "Blog">BLOG</span>	
+		</div>
+		<div class="col-sm-2">
+			<span class = "ButtonText ButtonTextRight" id = "Contactus">CONTACT US</span>
+		</div>	
+		<div class="col-sm-2">
+			<span class = "ButtonText ButtonTextRight" id = "Login">LOGIN</span>	
 		</div>
 	</div>
+-->
+<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">Switch</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <img class="navbar-brand" src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple.png"></img>
+   </div>
+   <div class="collapse navbar-collapse" id="NavButtonPart">
+      <ul class="nav navbar-nav" id="NavbarDetailPart">
+         <li class="active NavBarButtons"><a href="#">PRODUCT</a></li>
+         <li class="active NavBarButtons"><a href="#">SOLUTION</a></li>
+         <li class="active NavBarButtons"><a href="#">ABOUT US</a></li>
+         <li class="active NavBarButtons"><a href="#">CONTACT US</a></li>
+         <li class="active NavBarButtons"><a href="#">BLOG</a></li>
+         <li class="active NavBarButtons"><a href="#">LOGIN</a></li>		  
+      </ul>
+   </div>
+</nav>
 	
-	<div class = "TitleButtons" id = "TitleButtons">
-		<div class = "TitleButtonGroupPart" id = "ProductSolutionPart">
-			<p class = "ButtonText ButtonTextLeft" id = "AboutUs">ABOUT US</p>
-<!--			<svg class = ""></svg>-->
-			<p class = "ButtonText ButtonTextLeft" id = "Product">PRODUCT</p>
-			<p class = "ButtonText ButtonTextLeft" id = "Solution">SOLUTION</p>
+	<div class="row">
+		<div class="col-sm-2">
 		</div>
-		<div class = "CompanyIconPart" id = "CompanyIconPart">
-			<img src="Resource/Icons/Stratifyd/Stratifyd-Logo-Final.png" class="CompanyIcon" id="CompanyIcon" alt="Stratifyd">
-			</img>
+		<div class="col-sm-8">
+			<h1 class="Introduce IntroTitle" id="MainAttarctText">The fastest path from data to revenue
+			<h1>
 		</div>
-		<div class = "TitleButtonGroupPart" id = "BlogContactPart">
-			<p class = "ButtonText ButtonTextRight" id = "Login">LOGIN</p>
-			<p class = "ButtonText ButtonTextRight" id = "Contactus">CONTACT US</p>
-			<p class = "ButtonText ButtonTextRight" id = "Blog">BLOG</p>
+	</div>
+			
+	<div class="row">
+		<div class="col-sm-4">
+		</div>		
+		<div class="col-sm-4">
+			<h3 class="Introduce IntroCotent" id="SignalsText">
+				Signals is an enterprise Business Analysitc platform using augmented intelligence to enable a seamless transition from analysis to action.
+			</h3>
 		</div>		
 	</div>
-	
-	<div class = "BigSubBox" id = "Introducing">
-		<img src="Resource/LandingPageImages/placeit2-2.jpg" class="IntroduceBackground" id="IntroduceBackground" alt="IntroduceImage">
-		</img>
-		<span class="Introduce IntroTitle" id="IntroduceTitle">Introducing Signals</span>
-		<span class="Introduce IntroCotent" id="IntroduceCotent">The fastest path from data to revenue</span>
-		<span class="btn btn-info" id = "FirstLearnMore">Learn More</span>
-		<span class="btn btn-info" id = "FirstWatchVideo">Watch Video</span>
-	</div>
+			
+	<div class="row">
+		<div class="col-sm-12" id = "TitleButtonPart">
+			<span class="btn btn-info" id="FirstTry">Free Try</span>
+		</div>			
+	</div>			
+</div>
 
-	<div class="WholeBackgroundBox" id = "MainJumpWholeBox">
-		<div class="SubContentBox" id="RegestWhy">
-			<div class = "MainContentJumpBox" id = "MainContentJumpBox1">
-				<p class = "ContentTextInfo ContentText-Center" id = "TryAdText">Every one can be data scientist
-				</p>
-				<span class="btn btnBlack" id = "MainContentJumpButton1">Try Now
-				</span>
-			</div>
-			<div class = "MainContentJumpBox" id = "MainContentJumpBox2">
-				<p class = "ContentTextInfo ContentText-Center" id = "ViewAdText">Value asset for our customers</p>
-				<span class="btn btnBlack" id = "MainContentJumpButton2">View Story
-				</span>
-			</div>
-		</div>		
-	</div>
-
-	
-	<div class = "ContentPart" id = "ContentPart">
-		<h1 class = "ContentTile" id="WhatIsSign">What is Signals</h1>
-		<div class = "ContentBox TextBox" id="SignalCotentBox">
-			<span class="ContentTextInfo ContentText-Center" id="SignalsText">
-				Signals is an enterprise Business Intelligence platform using augmented intelligence to enable a seamless transition from analysis to action.
+<!--<div class="jumbotron" id="PageContent">-->
+<!--
+	<div class="row">
+		<div class = "col-sm-6" id = "MainContentJumpBox1">
+			<h5 class = "ContentTextInfo ContentText-Center" id = "TryAdText">Every one can be data scientist
+			</h5>
+			<span class="btn btnBlack" id = "MainContentJumpButton1">Try Now
 			</span>
 		</div>
-		
-		<div class = "SubContentBox" id = "BubbleBottonGroupBox">
-			<div class = "InsideSmallBox" id = "BubbleIconBox1">
-<!--
-				<svg class = "svg" id = "PathSvg1">
-					<path class = "BackgroundPath" id = "BackgroundPath1" d="M0,100 L500, 100">
-					</path>
-				</svg>
+		<div class = "col-sm-6" id = "MainContentJumpBox2">
+			<h5 class = "ContentTextInfo ContentText-Center" id = "ViewAdText">Value asset for our customers
+			</h5>
+			<span class="btn btnBlack" id = "MainContentJumpButton2">View Story
+			</span>
+		</div>
+	</div>
 -->
+<div class = "cotainers" id = "BubbleProcessDetailCotainer">
+	<div class="row">
+		<div class = "col-sm-12 text-center" id = "FirstSubTitle">
+			<h2 id = "SecondRowTitle">Business Analystic Platform</h2>
+		</div>
+	</div>
+	<div class = "row" id = "ProcessDetailContent">
+		<div class = "col-sm-12">	
+			<div class = "SubContentBox" id = "BubbleBottonGroupBox">
+			<div class = "InsideSmallBox" id = "BubbleIconBox1">
 				<img src="Resource/Icons/CircleButton/EnterData.png" class="img-circle BubblePart" id = "CircleBubble1">
 				</img>
-				<p class="IconTitleS CirclePart" id = "IntegrateTitle">Integrate</p>
+				<h4 class="IconTitleS CirclePart" id = "IntegrateTitle">Integrate</h4>
 			</div>
 			<div class = "InsideSmallBox" id = "BubbleIconBox2">
-<!--
-				<svg class = "svg" id = "PathSvg2">
-				<path class = "BackgroundPath" id = "BackgroundPath2" d="M0,100 L500, 100">
-				</path>
-				</svg>
--->
 				<img src="Resource/Icons/CircleButton/AnalysisData.png" class="img-circle BubblePart" id = "CircleBubble2">
 				</img>					
-				<p class="IconTitleS CirclePart" id = "ProcessTitle">Process</p>				
+				<h4 class="IconTitleS CirclePart" id = "ProcessTitle">Process</h4>				
 			</div>
 			<div class = "InsideSmallBox" id = "BubbleIconBox3">
-<!--
-				<svg class = "svg" id = "PathSvg3">					
-				<path class = "BackgroundPath" id = "BackgroundPath3" d="M0,100 L500, 100">
-				</path>				
-				</svg>
--->
 				<img src="Resource/Icons/CircleButton/Result.png" class="img-circle BubblePart" id = "CircleBubble3">
 				</img>					
-				<p class="IconTitleS CirclePart" id = "VisualizationTitle">Visualization
-				</p>					
+				<h4 class="IconTitleS CirclePart" id = "VisualizationTitle">Visualization
+				</h4>					
+			</div>
 			</div>
 		</div>
+	</div>
+</div>
+<!--</div>-->
+
+<div class="cotainers" id="HowSignalsWorksDetail">
+	<div class="row" id="HowSignalsWorksDetailCotnetRow">
 		
-		<div class = "BigSubBox ContinueChangeBox" id = "ContinueChangeBox1">
-			<div class = "HalfCutBox HalfBoxText" id = "ImageWithTextPart11">
-				<p class = "ContentTextInfo ContentText-Left" id = "IntergrateText">Easy to upload unstructured data with simple clicks.
-				</p>
-				<p class = "ContentTextInfo ContentText-Left" id = "TypesDataIns">Types of Data:
-				</p>
-				<div class = "SmallInstroIconBox" id = "SmallInsIconBox1">
-					<img src="Resource/LandingPageImages/SignalImage/typedata.png" class = "FullSizeImage" id = "SignalImage1">
-					</img>
+		<div class = "col-sm-12 ContinueChangeBox" id = "ContinueChangeBox1">
+			<div class = "col-sm-6" id = "ImageWithTextPart11">
+				<div class = "row">
+					<h4 class = "ContentTextInfo ContentText-Left" id = "IntergrateText">Easy to upload unstructured data with simple clicks.
+					</h4>
+					<h4 class = "ContentTextInfo ContentText-Left" id = "TypesDataIns">Types of Data:
+					</h4>
 				</div>
-				<p class = "SignalsIntroText" id = "SignalText1">Social Media
-				</p>
-				<p class = "SignalsIntroText" id = "SignalText2">Internal Data
-				</p>
-				<p class = "SignalsIntroText" id = "SignalText3">Call Center
-				</p>
-				<p class = "SignalsIntroText" id = "SignalText4">Surveys
-				</p>
-				<p class = "SignalsIntroText" id = "SignalText5">Emails
-				</p>			
-				<span class="btn btnBlack" id = "TrySignals1">Try Signals</span>
+				
+				<div class = "row" id = "SmallInsIconBox1">
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/callcenter.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText1">Call Center
+						</h5>					
+					</div>
+				
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/csv-data.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText2">CSV
+						</h5>					
+					</div>
+			
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/email-data.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText3">Email
+						</h5>				
+					</div>
+		
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/excel-data.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText4">EXE
+						</h5>		
+					</div>
+	
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/Interna-ldata.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText5">Internal Data
+						</h5>
+					</div>
+
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/socialmedia.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText6">Social Media
+						</h5>
+					</div>
+
+					<div class = "col-sm-3 text-center">
+						<img src="Resource/LandingPageImages/SignalImage/survey-data.png" class = "FullSizeImage" id = "SignalImage1">
+						</img>
+						<h5 class = "SignalsIntroText" id = "SignalText7">Surveys
+						</h5>
+					</div>
+				</div>
+				
+				<div class = "row">
+					<span class="btn btnBlack" id = "TrySignals1">Try Signals</span>
+				</div> 
+
 			</div>
-			<div class = "HalfCutBox HalfBoxImage" id = "ImageWithTextPart12">
-				<img src = "Resource/LandingPageImages/InstroductionImages/popup1.png" class = "FullCoverContentImage" id = "IntegrateImage">
+		
+			<div class = "col-sm-6" id = "ImageWithTextPart12">
+				<img src = "Resource/LandingPageImages/InstroductionImages/signals-data-connectors-white.jpg" class = "FullCoverContentImage" id = "IntegrateImage">
 				</img>
 			</div>
 		</div>
 		
-		<div class = "BigSubBox ContinueChangeBox" id = "ContinueChangeBox2">
-			<div class = "HalfCutBox HalfBoxText" id = "ImageWithTextPart21">
+		<div class = "col-sm-12 ContinueChangeBox" id = "ContinueChangeBox2">
+			<div class = "col-sm-6" id = "ImageWithTextPart21">
 				<p class = "ContentTextInfo ContentText-Left" id = "ProcessText">Process large volume of data in a short period of time.
 				</p>
 				<span class="btn btnBlack" id = "TrySignals2">Try Signals</span>
 			</div>
-			<div class = "HalfCutBox HalfBoxImage" id = "ImageWithTextPart22">
-				<img src = "Resource/LandingPageImages/InstroductionImages/popup2.png" class = "FullCoverContentImage" id = "ProcessImage">
+			<div class = "col-sm-6" id = "ImageWithTextPart22">
+				<img src = "Resource/LandingPageImages/InstroductionImages/signals-data-filter-white.jpg" class = "FullCoverContentImage" id = "ProcessImage">
 				</img>
 			</div>			
 		</div>
 		
-		<div class = "BigSubBox ContinueChangeBox" id = "ContinueChangeBox3">
-			<div class = "HalfCutBox HalfBoxText" id = "ImageWithTextPart31">
+		<div class = "col-sm-12 ContinueChangeBox" id = "ContinueChangeBox3">
+			<div class = "col-sm-6" id = "ImageWithTextPart31">
 				<p class = "ContentTextInfo ContentText-Left" id = "VisulizeText">Interact with visual analytics and generate actionalbe insights.
 				</p>
 				<div class = "SmallInstroIconBox" id = "SmallInsIconBox3">
 				</div>
 				<span class="btn btnBlack" id = "TrySignals3">Try Signals</span>
 			</div>
-			<div class = "HalfCutBox HalfBoxImage" id = "ImageWithTextPart32">
-				<img src = "Resource/LandingPageImages/InstroductionImages/popup3.png" class = "FullCoverContentImage" id = "VisulizationImage">
+			<div class = "col-sm-6" id = "ImageWithTextPart32">
+				<img src = "Resource/LandingPageImages/InstroductionImages/signals-wedget-white.jpg" class = "FullCoverContentImage" id = "VisulizationImage">
 				</img>				
 			</div>			
 		</div>
+	</div>
+</div>
+
+<div class = "cotainers" id = "ProcessDetailCotainer">
+	<div class="row">
+		<div class = "col-sm-12 text-center" id = "LinkButtonPartText1">
+			<h2 class="ContentTile" id="ASolutionYN">A solution for all your needs</h2>
+		</div>
+	</div>
+	
+	<div class="row NormalSize">
 		
-	</div>
-	
-	<div class = "LinkTitlePart" id = "LinkButtonPart">
-		<h1 class="ContentTile" id="ASolutionYN">A solution for all your needs</h1>
-		<h1 class="SubContentTile" id="ByRole">By Role</h1>
-	</div>
-	
-	<div class = "LinkButtonPart" id = "LinkButtonPart1">
-		<div class = "LinkButtonCotainBox" id = "LinkButtonCotainBox1">
-			<div class = "LinkIconBox" id = "LinkIconBox11">
-				<img src="Resource/Icons/BottomLinkIcons/User.png" class="img-circle BottomIcons" id="ExecutiveIcon">
-				</img>
-				<p class = "IconTitleS" id = "ExecutiveTitle">Executives</p>
-			</div>
-			<div class = "LinkIconBox" id = "LinkIconBox12">
-				<img src="Resource/Icons/BottomLinkIcons/Executive.png" class="img-circle BottomIcons" id="BusinessIntIcon">
-				</img>
-				<p class = "IconTitleS" id = "BussinessIntTitle">Business Intelligence</p>
-			</div>
-			<div class = "LinkIconBox" id = "LinkIconBox13">
-				<img src="Resource/Icons/BottomLinkIcons/Marketing.png" class="img-circle BottomIcons" id="MarketingIcon">
-				</img>
-				<p class = "IconTitleS" id = "MarketingTitle">Marketing</p>
-			</div>
-			<div class = "LinkIconBox" id = "LinkIconBox14">
-				<img src="Resource/Icons/BottomLinkIcons/customer-experience.png" class="img-circle BottomIcons" id="CustomerExIcon">
-				</img>
-				<p class = "IconTitleS" id = "CustomerEXTitle">Customer Experience</p>
-			</div>	
-		</div>
-	</div>
-	
-	<div class = "LinkButtonPart" id = "LinkButtonPart2">
-		<div class = "LinkButtonCotainBox" id = "LinkButtonCotainBox1">
-			<div class = "LinkIconBox" id = "LinkIconBox21">
-				<img src="Resource/Icons/BottomLinkIcons/Retail.png" class="img-circle BottomIcons" id="RetailIcon">
-				</img>
-				<p class = "IconTitleS" id = "RetailTitle">Retail</p>
-			</div>
-			<div class = "LinkIconBox" id = "LinkIconBox22">
-			    <img src="Resource/Icons/BottomLinkIcons/Utilities.png" class="img-circle BottomIcons" id="UtilitiesIcon">
-				</img>
-				<p class = "IconTitleS" id = "UtilitiesTitle">Utilities</p>
-			</div>
-			<div class = "LinkIconBox" id = "LinkIconBox23">
-				<img src="Resource/Icons/BottomLinkIcons/Hospitality.png" class="img-circle BottomIcons" id="HospitalityIcon">
-				</img>
-				<p class = "IconTitleS" id = "HospitalityTitle">Hospitality</p>				
-			</div>
-			<div class = "LinkIconBox" id = "LinkIconBox24">
-				<img src="Resource/Icons/BottomLinkIcons/Finaicial.png" class="img-circle BottomIcons" id="FinancialIcon">
-				</img>
-				<p class = "IconTitleS" id = "FinancialTitle">Financial</p>
-			</div>				
-		</div>
-	</div>
-	
-	<div class = "AdvertisementPart" id = "AdvertisementPart">
-		<div class = "AdvertisementBox" id = "AdvertisementBox">
-			<div class = "ThirdTitleBar" id = "AdTitleBar">
-				<h1 class = "ThirdTitle" id = "AdTitle">Trusted by Our Customers
-				</h1>
-			</div>
-			<div class = "HalfThirdBar" id = "Ad2ndTitle1">
-				<h1 class = "ThirdTitle" id = "AdsubTitle1">10X
-				</h1>
-				<p class = "ThirdContent" id = "AdContent1">Faster internal communication and decision making
-				</p>
-			</div>
-			<div class = "HalfThirdBar" id = "Ad2ndTitle2">
-				<h1 class = "ThirdTitle" id = "AdsubTitle2">90%
-				</h1>
-				<p class = "ThirdContent" id = "AdContent2">Reduction in competitors and market research
-				</p>				
-			</div>
-			<div class = "PlayImagePart" id = "AdImageShow">
-				<div class = "AdImageBox" id = "AdImageBox1">
-					<img class = "AdImageShow" id = "Ad1" src="Resource/Icons/Advertisement/Icons/lenovo@2x.png" alt = "Lenovo">
-					</img>
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox2">
-					<img class = "AdImageShow" id = "Ad2" src="Resource/Icons/Advertisement/Icons/erdc@2x.png" alt = "Erdc">
-					</img>
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox3">
-					<img class = "AdImageShow" id = "Ad3" src="Resource/Icons/Advertisement/Icons/fh%20Fultno.png" alt = "Fultno">
-					</img>
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox4">
-					<img class = "AdImageShow" id = "Ad4" src="Resource/Icons/Advertisement/Icons/Masco.png" alt = "Masco">
-					</img>
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox5">
-					<img class = "AdImageShow" id = "Ad5" src="Resource/Icons/Advertisement/Icons/usscom@2x.png" alt = "Usscom">
-					</img>					
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox6">
-					<img class = "AdImageShow" id = "Ad6" src="Resource/Icons/Advertisement/Icons/ally@2x.png" alt = "Ally">
-					</img>
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox7">
-					<img class = "AdImageShow" id = "Ad7" src="Resource/Icons/Advertisement/Icons/shadowdata.jpg" alt = "Shadowdata">
-					</img>
-				</div>
-				<div class = "AdImageBox" id = "AdImageBox8">
-					<img class = "AdImageShow" id = "Ad8" src="Resource/Icons/Advertisement/Icons/Tinypluse.png" alt = "Tinypluse">
-					</img>
-				</div>	
-			</div>
-		</div>
-	</div>
-	
-	<div class = "BottomLinkPart" id = "BottomLinkPart">
-		<div class = "BottomLinkBox" id = "BottomLinkBox">
-			<div class = "BottomLinkContentBox" id = "BottomLinkContentBox1">
-				<h1 class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</h1>
-				<p class="SmallButtonTextLeft" id = "HIWText">How It Works</p>
-				<p class="SmallButtonTextLeft" id = "ETUText">Easy to Use</p>
-				<p class="SmallButtonTextLeft" id = "INVisText">Intuitive Visualization</p>
-				<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
-				<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
-			</div>
-			<div class = "BottomLinkContentBox" id = "BottomLinkContentBox2">
-				<h1 class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</h1>
-				<p class="SmallButtonTextLeft" id = "BIext">Business Intelligence</p>
-				<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
-				<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
-				<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
-				<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
-				<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
-				<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
-				<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
-			</div>
-			<div class = "BottomLinkContentBox" id = "BottomLinkContentBox3">
-				<h1 class = "BottomLinkTitle" id = "BottomResources">RESOURCES</h1>
-				<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
-			</div>
-			<div class = "BottomLinkContentBox" id = "BottomLinkContentBox4">
-				<h1 class = "BottomLinkTitle" id = "BottomCompany">COMPANY</h1>
-				<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
-				<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
-				<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
-				<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
-			</div>			
-		</div>
-	</div>
-	
-	<div class = "BottomCopyRightPart" id = "BottomCopyRightPart">
-		<div class = "CopyRightBox" id = "CopyRightBox1">
-			<p class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</p>
-		</div>
-		<div class = "CopyRightBox" id = "CopyRightBox2">
-			<img src="Resource/Icons/FaceBook/facebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
-			</img>
-			<img src="Resource/Icons/Linkedin/LinkedinBottomIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
-			</img>
-			<img src="Resource/Icons/Twitter/TwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
-			</img>
-			<img src="Resource/Icons/YouTube/YoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
-			</img>	
-			<img src="Resource/Icons/GooglePlus/GooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
-			</img>		
-			<img src="Resource/Icons/Tumblr/TumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
-			</img>
+		<div class = "col-sm-2" id = "LinkButtonPart1">
 		</div>		
+			
+		<div class = "col-sm-2 CenterandBoder" id = "LinkButtonCotainBox11">
+			<img src="Resource/Icons/BottomLinkIcons/Executive.png" class="img BottomIcons" id="ExecutiveIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "ExecutiveTitle">Executives</h5>
+		</div>
+			
+		<div class = "col-sm-2 CenterandBoder" id = "LinkButtonCotainBox12">
+			<img src="Resource/Icons/BottomLinkIcons/User.png" class="img BottomIcons" id="BusinessIntIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "BussinessIntTitle">Business Analystic</h5>
+		</div>	
+
+		<div class = "col-sm-2 CenterandBoder" id = "LinkButtonCotainBox13">
+			<img src="Resource/Icons/BottomLinkIcons/Marketing.png" class="img BottomIcons" id="MarketingIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "MarketingTitle">Marketing</h5>
+		</div>
+				
+		<div class = "col-sm-2 CenterandBoder" id = "LinkButtonCotainBox14">
+			<img src="Resource/Icons/BottomLinkIcons/customer-experience.png" class="img BottomIcons" id="CustomerExIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "CustomerEXTitle">Customer Experience</h5>
+		</div>
+
 	</div>
 
+	<div class="row NormalSize">
+		
+		<div class = "col-sm-2" id = "LinkButtonPart2">
+		</div>
+		
+		<div class = "col-sm-2 CenterandBoder2" id = "LinkButtonCotainBox21">
+			<img src="Resource/Icons/BottomLinkIcons/Retail.png" class="img BottomIcons" id="RetailIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "RetailTitle">Retail</h5>
+		</div>
+
+		<div class = "col-sm-2  CenterandBoder2" id = "LinkButtonCotainBox22">
+			<img src="Resource/Icons/BottomLinkIcons/Utilities.png" class="img BottomIcons" id="UtilitiesIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "UtilitiesTitle">Utilities</h5>
+		</div>
+
+		<div class = "col-sm-2  CenterandBoder2" id = "LinkButtonCotainBox23">
+			<img src="Resource/Icons/BottomLinkIcons/Hospitality.png" class="img BottomIcons" id="HospitalityIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "HospitalityTitle">Hospitality</h5>		
+		</div>
+
+		<div class = "col-sm-2 CenterandBoder2" id = "LinkButtonCotainBox24">
+			<img src="Resource/Icons/BottomLinkIcons/Finaicial.png" class="img BottomIcons" id="FinancialIcon">
+			</img>
+			<h5 class = "IconTitleS" id = "FinancialTitle">Financial</h5>
+		</div>
+	</div>
+</div>
+
+<div class = "cotainers" id = "CompanyCotainers">
+	<div class="row" id="CompanyIconPartRow1">
+		
+		<div class="col-sm-1">
+		</div>
+		
+		<div class = "col-sm-2" id = "AdImageBox1">
+			<img class = "AdImageShow" id = "Ad1" src="Resource/Icons/Advertisement/Icons/lenovo.png" alt = "Lenovo">
+			</img>
+		</div>
+		
+		<div class = "col-sm-2" id = "AdImageBox2">
+			<img class = "AdImageShow" id = "Ad2" src="Resource/Icons/Advertisement/Icons/us%20army%20erdc.png" alt = "Erdc">
+			</img>
+		</div>
+
+		<div class = "col-sm-2" id = "AdImageBox3">
+			<img class = "AdImageShow" id = "Ad3" src="Resource/Icons/Advertisement/Icons/fultonHogan.png" alt = "Fultno">
+			</img>
+		</div>
+
+		<div class = "col-sm-2" id = "AdImageBox4">
+			<img class = "AdImageShow" id = "Ad4" src="Resource/Icons/Advertisement/Icons/Masco.png" alt = "Masco">
+			</img>
+		</div>
+
+		<div class = "col-sm-2" id = "AdImageBox5">
+			<img class = "AdImageShow" id = "Ad5" src="Resource/Icons/Advertisement/Icons/ussocom.png" alt = "Usscom">
+			</img>					
+		</div>
+	</div>
+
+	<div class="row" id="CompanyIconPartRow2">
+		
+		<div class="col-sm-1">
+		</div>
+		
+		<div class = "col-sm-2" id = "AdImageBox6">
+			<img class = "AdImageShow" id = "Ad6" src="Resource/Icons/Advertisement/Icons/ally.png" alt = "Ally">
+			</img>
+		</div>
+
+		<div class = "col-sm-2" id = "AdImageBox7">
+			<img class = "AdImageShow" id = "Ad7" src="Resource/Icons/Advertisement/Icons/shadowdata.png" alt = "Shadowdata">
+			</img>
+		</div>
+
+		<div class = "col-sm-2" id = "AdImageBox8">
+			<img class = "AdImageShow" id = "Ad8" src="Resource/Icons/Advertisement/Icons/Tinypulse.png" alt = "Tinypluse">
+			</img>
+		</div>
+
+		<div class="col-sm-2" id = "AdImageBox9">
+			<img class = "AdImageShow" id = "Ad9" src="Resource/Icons/Advertisement/Icons/Erwin%20Penland.png" alt = "Erwin">
+			</img>
+		</div>
+
+		<div class="col-sm-2" id = "AdImageBox10">
+			<img class = "AdImageShow" id = "Ad10" src="Resource/Icons/Advertisement/Icons/lowe's.png" alt = "Lowes">
+			</img>
+		</div>
+
+	</div>
+</div>
+
+<div class = "cotainers" id = "BottomLinkPart">
+	<div class = "row" id = "BottomLinkBox">
+		<div class="col-sm-2">
+		</div>
+		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox1">
+			<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
+			<p class="SmallButtonTextLeft" id = "HIWText">How It Works</p>
+			<p class="SmallButtonTextLeft" id = "ETUText">Easy to Use</p>
+			<p class="SmallButtonTextLeft" id = "INVisText">Intuitive Visualization</p>
+			<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
+			<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
+		</div>
+		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox2">
+			<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
+			<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
+			<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
+			<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
+			<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
+			<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
+			<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
+			<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
+			<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
+		</div>
+		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox3">
+			<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
+			<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
+		</div>
+		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox4">
+			<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
+			<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
+			<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
+			<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
+			<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
+		</div>			
+	</div>
+</div>
+
+<div class = "cotainers" id = "CopyRightPart">
+	<div class = "row" id = "BottomCopyRightPart">
+		
+		<div class="col-sm-2">
+		</div>
+		
+		<div class = "col-sm-4 text-left" id = "CopyRightBox1">
+			<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
+		</div>
+		
+		<div class = "col-sm-6 text-right" id = "CopyRightBox2">
+			<div class = "col-sm-2">
+			</div>
+			
+			<div class = "col-sm-1" id = "ConnectIconB1">
+				<img src="Resource/Icons/FaceBook/facebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+				</img>
+			</div>
+
+			<div class = "col-sm-1" id = "ConnectIconB2">
+				<img src="Resource/Icons/Linkedin/LinkedinBottomIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+				</img>
+			</div>
+
+			<div class = "col-sm-1" id = "ConnectIconB3">
+				<img src="Resource/Icons/Twitter/TwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+				</img>	
+			</div>
+	
+			<div class = "col-sm-1" id = "ConnectIconB4">
+				<img src="Resource/Icons/YouTube/YoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+				</img>
+			</div>
+	
+			<div class = "col-sm-1" id = "ConnectIconB5">
+				<img src="Resource/Icons/GooglePlus/GooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+				</img>						
+			</div>
+	
+			<div class = "col-sm-1" id = "ConnectIconB6">
+				<img src="Resource/Icons/Tumblr/TumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+				</img>				
+			</div>
+		</div>		
+	</div>	
+</div>
 	
 <!-- Resource or Library Scripts -->
 
@@ -360,6 +470,7 @@
 <!-- Control Scripts-->
 <script src="Script/TransForm.js"></script>
 <script src="Script/GlobalControl.js"></script>
+<script src="Script/FontSizeControl.js"></script>
 <script src="Script/MouseAction.js"></script>
 <script src="Script/NewLandingPage.js"></script>
 <script src="Script/WindowResize.js"></script>
