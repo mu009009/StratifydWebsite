@@ -1,28 +1,26 @@
 .btn
 {
 	font-family: "Gotham Rounded";
-	font-size: 1em;
+	font-size: 16px;
+	border-radius: 30px;
 	cursor: pointer;
+	text-align: center;
+	width: 180px;
+	height: 50px;
+	padding-top: 15px;	
 }
 .btnBlack
 {
+	margin-top: 8%;
 	border-color: rgb(56,56,57);
 	background-color: transparent;
 	color: rgb(81,81,82);	
-	width: 6%;
-	height: 50px;
-	padding-top: 12px;
-	padding-bottom: 12px;	
 }
 .btn-info
 {
-	border-color: rgb(0,161,175);
-	background-color: rgb(255,255,255);
-	color: rgb(0,161,175);
-	width: 6%;
-	height: 50px;
-	padding-top: 12px;
-	padding-bottom: 12px;	
+	border-color: rgb(80,167,224);
+	background-color: rgb(80,167,224);
+	color: rgb(255,255,255);
 }
 #AboutUs{
 	margin-left: 0px;
@@ -30,15 +28,8 @@
 #Login{
 	margin-right: 0px;
 }
-#CopyRightBox1{
-	margin-left: 20%;
-}
-#CopyRightBox2{
-	margin-right: 20%;
-}
 .img-circle{
-	width: 20%;
-	margin-left: 40%;
+	width: 90px;
 	cursor: pointer;
 	background-color: white;
 	border-color: rgb(227,227,227);

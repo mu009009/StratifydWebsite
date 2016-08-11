@@ -4,8 +4,8 @@
 	height: inherit;
 }
 .NormalBox{
-	width: 60%;
-	margin-left: 20%;
+	width: 70%;
+	margin-left: 15%;
 	height: inherit;
 }
 .FullSizeBoxWithStableHeight{
@@ -20,7 +20,8 @@
 }
 .ContentTextInfo{
 	font-family: "Gotham Rounded";
-	font-size: 1.5em;
+	font-style: normal;
+	font-weight: lighter;
 }
 .TextBox{
 	width: 40%;
@@ -59,7 +60,7 @@
 	width: 33.3%;
 	height: inherit;
 	float: left;
-	overflow: hidden;
+	overflow: visible;
 	background-color: transparent
 }
 .HalfCutBox{

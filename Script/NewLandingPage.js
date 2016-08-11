@@ -35,24 +35,24 @@ d3.select("#FirstWatchVideo")
 	})
 
 //Try Now and Watch Introduction Part
-VerticalCenterTry();
-
-function VerticalCenterTry()
-{
-	var TextHeightSt = d3.select("#TryAdText").style("font-size");
-	var TextHeightSizeNumber = parseInt(ValuewithPxStrtoNumValue(TextHeightSt));
-	var ButtonHeight = document.getElementById("MainContentJumpButton1").getBoundingClientRect().height
-	var BoxHeight = document.getElementById("MainContentJumpBox1").getBoundingClientRect().height;
-
-	d3.selectAll('.MainContentJumpBox')
-	.style("padding-top",function()
-	{
-		var PaddingValue = (BoxHeight - TextHeightSizeNumber - ButtonHeight)/2;
-		return PaddingValue + "px";
-	})
-
-
-}
+//VerticalCenterTry();
+//
+//function VerticalCenterTry()
+//{
+//	var TextHeightSt = d3.select("#TryAdText").style("font-size");
+//	var TextHeightSizeNumber = parseInt(ValuewithPxStrtoNumValue(TextHeightSt));
+//	var ButtonHeight = document.getElementById("MainContentJumpButton1").getBoundingClientRect().height
+//	var BoxHeight = document.getElementById("MainContentJumpBox1").getBoundingClientRect().height;
+//
+//	d3.selectAll('.MainContentJumpBox')
+//	.style("padding-top",function()
+//	{
+//		var PaddingValue = (BoxHeight - TextHeightSizeNumber - ButtonHeight)/2;
+//		return PaddingValue + "px";
+//	})
+//
+//
+//}
 
 d3.select('#MainContentJumpButton1')
 	.on("click",function()
@@ -70,7 +70,7 @@ function VerticalCenterBubble(){
 	d3.selectAll(".BubblePart")
 	.style("margin-top",function()
 	{
-		var MarginTopValue = (CircleButtonBoxHeight - CircleButtonHeight)/2
+		var MarginTopValue = (CircleButtonBoxHeight - 1.5*CircleButtonHeight)/2
 		return MarginTopValue + "px";
 	})
 }
@@ -80,51 +80,54 @@ var BottomIconsWidth = document.getElementById("ExecutiveIcon").getBoundingClien
 var BottomMargineLeftStr = d3.select("#ExecutiveIcon").style("margin-left");
 var BottomMargineLeftValue = parseFloat(ValuewithPxStrtoNumValue(BottomMargineLeftStr));
 
-d3.selectAll('.BottomIcons')
+d3.selectAll('.CenterandBoder')
 .on("mouseover",function()
 {
 	d3.select(this)
 	.transition()
 	.duration(ShorDurationTime)
-	.style("width",BottomIconsWidth*1.5+"px")
-	.style("margin-left",function()
-	{
-		var marginLeftNum = BottomMargineLeftValue - (BottomIconsWidth*0.5/2);
-		return marginLeftNum + "px";
-	})
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"0,161,175"+")";
+		var Color = "rgb"+"("+"231,231,231"+")";
 		return Color;
 	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"0,161,175"+")";
-		return Color;
-	});	
 })
 .on("mouseout",function()
 {
 	d3.select(this)
 	.transition()
 	.duration(ShorDurationTime)
-	.style("width",BottomIconsWidth+"px")
-	.style("margin-left",function()
-	{
-		var marginLeftNum = BottomMargineLeftValue;
-		return marginLeftNum + "px";
-	})
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"255,255,255"+")";
-		return Color;
-	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"227,227,227"+")";
+		var Color = "rgb"+"("+"246,246,248"+")";
 		return Color;
 	})	
 })
+
+d3.selectAll('.CenterandBoder2')
+.on("mouseover",function()
+{
+	d3.select(this)
+	.transition()
+	.duration(ShorDurationTime)
+	.style("background-color",function()
+	{
+		var Color = "rgb"+"("+"231,231,231"+")";
+		return Color;
+	})
+})
+.on("mouseout",function()
+{
+	d3.select(this)
+	.transition()
+	.duration(ShorDurationTime)
+	.style("background-color",function()
+	{
+		var Color = "rgb"+"("+"246,246,248"+")";
+		return Color;
+	})	
+})
+
 
 //Circle Buttons Size Transition
 var BubbleButton = document.getElementById("CircleBubble1").getBoundingClientRect().width;
@@ -133,35 +136,15 @@ var BubbleBoxWidth = document.getElementById("BubbleIconBox1").getBoundingClient
 d3.selectAll('.BubblePart')
 .on("mouseover",function()
 {
-	d3.selectAll('.BubblePart')
-	.transition()
-	.duration(ShorDurationTime)
-	.style("width",BubbleButton+"px")
-	.style("margin-left",function()
-	{
-		var marginLeftNum = (BubbleBoxWidth - BubbleButton)/2;
-		return marginLeftNum + "px";
-	})
-	.style("background-color",function()
-	{
-		var Color = "rgb"+"("+"255,255,255"+")";
-		return Color;
-	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"227,227,227"+")";
-		return Color;
-	});
-	
 	d3.select(this)
 	.transition()
 	.duration(ShorDurationTime)
-	.style("width",BubbleButton*1.5+"px")
-	.style("margin-left",function()
-	{
-		var marginLeftNum = (BubbleBoxWidth - (BubbleButton*1.5))/2;
-		return marginLeftNum + "px";
-	})
+//	.style("width",BubbleButton*1.5+"px")
+//	.style("margin-left",function()
+//	{
+//		var marginLeftNum = (BubbleBoxWidth - (BubbleButton*1.5))/2;
+//		return marginLeftNum + "px";
+//	})
 	.style("background-color",function()
 	{
 		var Color = "rgb"+"("+"0,161,175"+")";
@@ -173,19 +156,14 @@ d3.selectAll('.BubblePart')
 		return Color;
 	})
 	
-	TforCircleShowOnly = -9999;
+//	TforCircleShowOnly = -9999;
 })
 .on("mouseout",function()
 {
 	d3.select(this)
 	.transition()
 	.duration(ShorDurationTime)
-	.style("width",BubbleButton+"px")
-	.style("margin-left",function()
-	{
-		var marginLeftNum = (BubbleBoxWidth - BubbleButton)/2;
-		return marginLeftNum + "px";
-	})
+//	.style("width",BubbleButton+"px")
 	.style("background-color",function()
 	{
 		var Color = "rgb"+"("+"255,255,255"+")";
@@ -197,57 +175,78 @@ d3.selectAll('.BubblePart')
 		return Color;
 	})
 	
-	TforCircleShowOnly = -1;
+//	TforCircleShowOnly = -1;
 })
 .on("click",function()
 {
 	var ClickObject = d3.select(this);
 	var ClickID = ClickObject[0][0].id;
+	console.log(ClickID);
 	switch (ClickID)
 	{
 		case "CircleBubble1":
 			
+		d3.selectAll(".ContinueChangeBox")	
+		.style("position","absolute");
+			
+		d3.select("#ContinueChangeBox1")
+		.style("position","relative");	
+			
 		d3.selectAll(".ContinueChangeBox")
 		.transition()
-		.duration(LongDurationTime)
+		.duration(ShorDurationTime)
 		.style("opacity",0)
-		.style("z-index",1);
+		.style("z-index",-1);
 			
 		d3.select("#ContinueChangeBox1")
 		.transition()
-		.duration(LongDurationTime)
+		.duration(ShorDurationTime)
 		.style('opacity',1)
 		.style("z-index",3);
 		
 		break;
 			
 		case "CircleBubble2":
-		
+			
+		d3.selectAll(".ContinueChangeBox")	
+		.style("position","absolute");
+			
+		d3.select("#ContinueChangeBox2")
+		.style("position","relative");	
+			
 		d3.selectAll(".ContinueChangeBox")
 		.transition()
-		.duration(LongDurationTime)
+		.duration(ShorDurationTime)
 		.style("opacity",0)
-		.style("z-index",1);
+		.style("z-index",-1)
 			
 		d3.select("#ContinueChangeBox2")
 		.transition()
-		.duration(LongDurationTime)
+		.duration(ShorDurationTime)
 		.style('opacity',1)
 		.style("z-index",3);
+		
+
 		
 		break;
 			
 		case "CircleBubble3":
 			
+		d3.selectAll(".ContinueChangeBox")	
+		.style("position","absolute");
+			
+		d3.select("#ContinueChangeBox3")
+		.style("position","relative");				
+			
 		d3.selectAll(".ContinueChangeBox")
 		.transition()
-		.duration(LongDurationTime)
+		.duration(ShorDurationTime)
 		.style("opacity",0)
-		.style("z-index",1);
+		.style("z-index",-1);
 			
 		d3.select("#ContinueChangeBox3")
 		.transition()
-		.duration(LongDurationTime)
+		.duration(ShorDurationTime)
 		.style('opacity',1)
 		.style("z-index",3);
 		
@@ -351,125 +350,125 @@ d3.select("#FirstWatchVideo")
 		window.location.href="http://www.stratifyd.com/about-us/";
 	})
 
-// GetTime Loop for Ad Part;
-var T = 0;
-var TimeValue ;
-var LoopChangeTime = 3000;
-var AdImageBoxNumber = 8;
-var StableMarginLeft = 10;
-var DirectionJudge = 0;
-
-//Get Time Loop for CircleButton Part;
-var TforCircleShowOnly = 0;
-
-RecordtheTime();
-function RecordtheTime(){
-	if(T==AdImageBoxNumber)
-	{
-		DirectionJudge = 1;
-	}
-	else if(T==0)
-	{
-		DirectionJudge = 0;
-	}
-	
-	if(DirectionJudge==0)
-	{
-		d3.select(("#AdImageBox"+T))
-		.transition()
-		.duration(MiddleDurationTime)
-		.style("margin-left",function()
-		{
-			var LeftMoveDistance = 0;
-			LeftMoveDistance = -((document.getElementById("AdImageBox1").getBoundingClientRect().width) + StableMarginLeft)
-			console.log(LeftMoveDistance);
-			return LeftMoveDistance + "px";
-		})
-		T = T + 1;			
-	}
-	else
-	{
-		T = T-1;
-		d3.select(("#AdImageBox"+T))
-		.transition()
-		.duration(MiddleDurationTime)
-		.style("margin-left",function()
-		{
-			var LeftMoveDistance = 0;
-			console.log(LeftMoveDistance);
-			return LeftMoveDistance + StableMarginLeft + "px";
-		})
-			
-	}
-	
-	if(TforCircleShowOnly>3)
-	{
-		TforCircleShowOnly = 1;
-	}
-	
-	if(TforCircleShowOnly > 0)
-	{
-		console.log(d3.select('.BubblePart')[0][0]);
-		if(d3.select('.BubblePart')[0][0]!=null)
-		{		
-			d3.selectAll('.BubblePart')
-			.transition()
-			.duration(ShorDurationTime)
-			.style("width",BubbleButton+"px")
-			.style("margin-left",function()
-			{
-				var marginLeftNum = (BubbleBoxWidth - BubbleButton)/2;
-				return marginLeftNum + "px";
-			})
-			.style("background-color",function()
-			{
-				var Color = "rgb"+"("+"255,255,255"+")";
-				return Color;
-			})
-			.style("border-color",function()
-			{
-				var Color = "rgb"+"("+"227,227,227"+")";
-				return Color;
-			});
-
-			d3.select("#"+"CircleBubble"+TforCircleShowOnly)
-			.transition()
-			.duration(ShorDurationTime)
-			.style("width",BubbleButton*1.5+"px")
-			.style("margin-left",function()
-			{
-				var marginLeftNum = (BubbleBoxWidth - (BubbleButton*1.5))/2;
-				return marginLeftNum + "px";
-			})
-			.style("background-color",function()
-			{
-				var Color = "rgb"+"("+"0,161,175"+")";
-				return Color;
-			})
-			.style("border-color",function()
-			{
-				var Color = "rgb"+"("+"0,161,175"+")";
-				return Color;
-			})
-
-			d3.selectAll(".ContinueChangeBox")
-			.transition()
-			.duration(LongDurationTime)
-			.style("opacity",0)
-			.style("z-index",1);
-
-			d3.select("#ContinueChangeBox"+TforCircleShowOnly)
-			.transition()
-			.duration(LongDurationTime)
-			.style('opacity',1)
-			.style("z-index",3);
-		}
-	}
-	
-	TforCircleShowOnly = TforCircleShowOnly + 1;
-
-	TimeValue = setTimeout("RecordtheTime()",LoopChangeTime);
-}
+//// GetTime Loop for Ad Part;
+//var T = 0;
+//var TimeValue ;
+//var LoopChangeTime = 3000;
+//var AdImageBoxNumber = 8;
+//var StableMarginLeft = 10;
+//var DirectionJudge = 0;
+//
+////Get Time Loop for CircleButton Part;
+//var TforCircleShowOnly = 0;
+//
+//RecordtheTime();
+//function RecordtheTime(){
+//	if(T==AdImageBoxNumber)
+//	{
+//		DirectionJudge = 1;
+//	}
+//	else if(T==0)
+//	{
+//		DirectionJudge = 0;
+//	}
+//	
+//	if(DirectionJudge==0)
+//	{
+//		d3.select(("#AdImageBox"+T))
+//		.transition()
+//		.duration(MiddleDurationTime)
+//		.style("margin-left",function()
+//		{
+//			var LeftMoveDistance = 0;
+//			LeftMoveDistance = -((document.getElementById("AdImageBox1").getBoundingClientRect().width) + StableMarginLeft)
+//			console.log(LeftMoveDistance);
+//			return LeftMoveDistance + "px";
+//		})
+//		T = T + 1;			
+//	}
+//	else
+//	{
+//		T = T-1;
+//		d3.select(("#AdImageBox"+T))
+//		.transition()
+//		.duration(MiddleDurationTime)
+//		.style("margin-left",function()
+//		{
+//			var LeftMoveDistance = 0;
+//			console.log(LeftMoveDistance);
+//			return LeftMoveDistance + StableMarginLeft + "px";
+//		})
+//			
+//	}
+//	
+//	if(TforCircleShowOnly>3)
+//	{
+//		TforCircleShowOnly = 1;
+//	}
+//	
+//	if(TforCircleShowOnly > 0)
+//	{
+//		console.log(d3.select('.BubblePart')[0][0]);
+//		if(d3.select('.BubblePart')[0][0]!=null)
+//		{		
+//			d3.selectAll('.BubblePart')
+//			.transition()
+//			.duration(ShorDurationTime)
+//			.style("width",BubbleButton+"px")
+//			.style("margin-left",function()
+//			{
+//				var marginLeftNum = (BubbleBoxWidth - BubbleButton)/2;
+//				return marginLeftNum + "px";
+//			})
+//			.style("background-color",function()
+//			{
+//				var Color = "rgb"+"("+"255,255,255"+")";
+//				return Color;
+//			})
+//			.style("border-color",function()
+//			{
+//				var Color = "rgb"+"("+"227,227,227"+")";
+//				return Color;
+//			});
+//
+//			d3.select("#"+"CircleBubble"+TforCircleShowOnly)
+//			.transition()
+//			.duration(ShorDurationTime)
+//			.style("width",BubbleButton*1.5+"px")
+//			.style("margin-left",function()
+//			{
+//				var marginLeftNum = (BubbleBoxWidth - (BubbleButton*1.5))/2;
+//				return marginLeftNum + "px";
+//			})
+//			.style("background-color",function()
+//			{
+//				var Color = "rgb"+"("+"0,161,175"+")";
+//				return Color;
+//			})
+//			.style("border-color",function()
+//			{
+//				var Color = "rgb"+"("+"0,161,175"+")";
+//				return Color;
+//			})
+//
+//			d3.selectAll(".ContinueChangeBox")
+//			.transition()
+//			.duration(LongDurationTime)
+//			.style("opacity",0)
+//			.style("z-index",1);
+//
+//			d3.select("#ContinueChangeBox"+TforCircleShowOnly)
+//			.transition()
+//			.duration(LongDurationTime)
+//			.style('opacity',1)
+//			.style("z-index",3);
+//		}
+//	}
+//	
+//	TforCircleShowOnly = TforCircleShowOnly + 1;
+//
+//	TimeValue = setTimeout("RecordtheTime()",LoopChangeTime);
+//}
 
 
 
