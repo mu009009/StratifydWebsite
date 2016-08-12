@@ -2,7 +2,7 @@
 {
 	font-family: "Gotham Rounded";
 	font-size: 16px;
-	border-radius: 30px;
+	border-radius: 5%;
 	cursor: pointer;
 	text-align: center;
 	width: 180px;
@@ -29,7 +29,7 @@
 	margin-right: 0px;
 }
 .img-circle{
-	width: 90px;
+	width: 120px;
 	cursor: pointer;
 	background-color: white;
 	border-color: rgb(227,227,227);
