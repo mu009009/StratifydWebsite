@@ -56,13 +56,13 @@ body{
 	margin-bottom: 0px;
 	padding-bottom: 2%;
 	width: auto;
-	background: rgb(0,27,48);
+	background: rgb(0,0,0);
 	position: relative;
 	color: white;
 }
 #BottomLinkPart{
 	width: 100%;
-	background: rgb(0,27,48);
+	background: rgb(0,0,0);
 	position: relative;
 	color: white;
 	margin-bottom: 0px;
@@ -96,12 +96,11 @@ body{
 	font-size: 1em;
 }
 .Icons2{
-	width: 100%;
+	width: 80%;
 	background-color: white;
-	float: right;
+	float: left;
 	position: relative;
 	top: 0;
-	margin-top: 5.5px;
+	margin-top: 20px;
 	margin-bottom: auto;
-	margin-left: 20px;
 }
