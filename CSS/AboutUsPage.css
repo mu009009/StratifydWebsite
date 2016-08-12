@@ -105,6 +105,7 @@
 }
 .AboutUsVideo{
 	width: 100%;
+	height: 
 }
 .CenterandBoder2{
 	text-align: center;
@@ -144,7 +145,20 @@
 }
 #StroyTextPart2{
 }
+.FontStyle{
+	font-family: "Gotham Rounded";
+	font-weight: 400;
+}
+.Photos{
+	width: 200px;
+	border-style: hidden;
+/*	margin-left: 8.333333%;*/
+}
 #StoryRow{
+	margin-top: 1%;
+	padding-bottom: 2%;
+}
+#PhotoRow{
 	margin-top: 1%;
 	padding-bottom: 2%;
 }
