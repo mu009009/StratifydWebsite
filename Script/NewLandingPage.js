@@ -91,6 +91,15 @@ d3.selectAll('.CenterandBoder')
 		var Color = "rgb"+"("+"231,231,231"+")";
 		return Color;
 	})
+	
+	var SelectKey = d3.select(this)[0][0].id;
+	var KeyFr = SelectKey.charAt(SelectKey.length-2);
+	var KeySec = SelectKey.charAt(SelectKey.length-1);
+	
+	d3.select("#LinkCotainMainView"+KeyFr+KeySec)
+	.transition()
+	.duration(ShorDurationTime)	
+	.style("margin-top",-200+"px");
 })
 .on("mouseout",function()
 {
@@ -101,7 +110,16 @@ d3.selectAll('.CenterandBoder')
 	{
 		var Color = "rgb"+"("+"246,246,248"+")";
 		return Color;
-	})	
+	})
+	
+	var SelectKey = d3.select(this)[0][0].id;
+	var KeyFr = SelectKey.charAt(SelectKey.length-2);
+	var KeySec = SelectKey.charAt(SelectKey.length-1);
+	
+	d3.select("#LinkCotainMainView"+KeyFr+KeySec)
+	.transition()
+	.duration(ShorDurationTime)	
+	.style("margin-top",0+"px");	
 })
 
 d3.selectAll('.CenterandBoder2')
@@ -115,6 +133,16 @@ d3.selectAll('.CenterandBoder2')
 		var Color = "rgb"+"("+"231,231,231"+")";
 		return Color;
 	})
+	
+	var SelectKey = d3.select(this)[0][0].id;
+	var KeyFr = SelectKey.charAt(SelectKey.length-2);
+	var KeySec = SelectKey.charAt(SelectKey.length-1);
+	
+	d3.select("#LinkCotainMainView"+KeyFr+KeySec)
+	.transition()
+	.duration(ShorDurationTime)	
+	.style("margin-top",-200+"px");
+	
 })
 .on("mouseout",function()
 {
@@ -125,7 +153,16 @@ d3.selectAll('.CenterandBoder2')
 	{
 		var Color = "rgb"+"("+"246,246,248"+")";
 		return Color;
-	})	
+	})
+	
+	var SelectKey = d3.select(this)[0][0].id;
+	var KeyFr = SelectKey.charAt(SelectKey.length-2);
+	var KeySec = SelectKey.charAt(SelectKey.length-1);
+	
+	d3.select("#LinkCotainMainView"+KeyFr+KeySec)
+	.transition()
+	.duration(ShorDurationTime)	
+	.style("margin-top",0+"px");		
 })
 
 
