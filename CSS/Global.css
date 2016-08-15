@@ -60,6 +60,15 @@ body{
 	min-height: 250px;
 	height: auto;
 }
+#CopyRightBox1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: "Arial";
+}
+#CopyRightBox2{
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
 #CopyRightPart{
 	margin-top:0px;
 	margin-bottom: 0px;
@@ -99,7 +108,7 @@ body{
 	text-align: left;
 	position: relative;
 	font-size: 1.2em;
-	font-weight: 600;
+	font-weight: 300;
 	color: white;
 	padding-bottom: 15%;
 }
@@ -108,7 +117,7 @@ body{
 	font-family: "Arial";
 	text-align: left;
 	font-weight: 100;
-	color: rgb(255,255,255);
+	color: #535353;
 	position: relative;
 	margin-top: 22px;
 	cursor: pointer;

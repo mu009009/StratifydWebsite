@@ -75,7 +75,7 @@ d3.selectAll(".SmallButtonTextLeft")
 		d3.select(this)
 		.transition()
 		.duration(ShorDurationTime)
-		.style('color',"rgb"+'('+"255,255,255"+')')
+		.style('color',"#535353"/*"rgb"+'('+"255,255,255"+')'*/)
 	})
 
 //Bottom Contact Way Part
