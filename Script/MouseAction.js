@@ -68,14 +68,31 @@ d3.selectAll(".SmallButtonTextLeft")
 		d3.select(this)
 		.transition()
 		.duration(ShorDurationTime)
-		.style('color',"rgb"+'('+"255,255,255"+')')
+		.style('color',"rgb"+'('+"72,168,222"+')')
 	})
 	.on("mouseout",function()
 	{
 		d3.select(this)
 		.transition()
 		.duration(ShorDurationTime)
-		.style('color',"rgb"+'('+"72,168,222"+')')
+		.style('color',"rgb"+'('+"255,255,255"+')')
+	})
+
+//Bottom Contact Way Part
+d3.selectAll(".Icons2")
+	.on("mouseover",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style("background-color","rgb" + "(" + "255,255,255" + ")");
+	})
+	.on("mouseout",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style("background-color","rgb" + "(" + "5,124,217" + ")");		
 	})
 
 

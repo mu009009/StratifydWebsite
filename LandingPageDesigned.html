@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<link href="CSS/Global.css" rel="stylesheet"/>
 	<link href="CSS/Buttons.css" rel="stylesheet"/>
@@ -14,54 +14,35 @@
 <body>
 <!--Maincotainer the whole page-->	
 <div class="jumbotron" id="TitleBar">
-<!--
-	<div class="row" >
-		<div class="col-sm-1">
-		</div>		
-    	<div class="col-sm-2" id="CompanIconPart">
-			<img src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple.png" class="CompanyIcon" id="CompanyIcon" alt="Stratifyd">
-			</img>			
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextLeft" id = "Product">PRODUCT</span>
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextLeft" id = "Solution">SOLUTION</span>
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextRight" id = "Blog">BLOG</span>	
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextRight" id = "Contactus">CONTACT US</span>
-		</div>	
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextRight" id = "Login">LOGIN</span>	
-		</div>
-	</div>
--->
 <nav class="navbar navbar-default" role="navigation" id="NavBarPart">
-   <div class="navbar-header">
+   <div class="navbar-header" id="CompanyTitelPartImportent">
       <button type="button" class="navbar-toggle" data-toggle="collapse" 
          data-target="#example-navbar-collapse">
          <span class="sr-only">Switch</span>
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>			  
       </button>
-      <a class="navbar-brand" id="CompanyIconTitleText">Stratifyd</a>
+      <a class="navbar-brand" id="CompanyIconTitleText" href="#">Stratifyd</a>
    </div>
-   <div class="collapse navbar-collapse" id="NavButtonPart">
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
       <ul class="nav navbar-nav" id="NavbarDetailPart">
          <li class="active NavBarButtons"><a href="#">PRODUCT</a></li>
          <li class="active NavBarButtons"><a href="#">SOLUTION</a></li>
-         <li class="active NavBarButtons"><a href="#">ABOUT US</a></li>
          <li class="active NavBarButtons"><a href="#">BLOG</a></li>
-		 <li class="active "><a href="#"></a></li>
-		 <li class="active "><a href="#"></a></li>
-		 <li class="active "><a href="#"></a></li>
-		 <li class="active "><a href="#"></a></li>		  
-		 <li class="active NavBarButtons" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>
-		 <li class="active NavBarButtons" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 
+         <li class="dropdown">
+			 <a href="#" class="dropdown-toggle NavBarButtons" data-toggle="dropdown"id="DraopDownMenu1">
+				 ABOUT US<b class="caret"></b>
+			 </a>
+			 <ul class="dropdown-menu NavBarButtons">
+				 <li><a href="#">Contact Us</a>
+				 </li>
+				 <li><a href="#">Our Team</a>
+				 </li>
+			 </ul>
+		  </li>		  	  
+		 <li class="active NavBarButtons col-xs-6 col-sm-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>
+		 <li class="active NavBarButtons col-xs-6 col-sm-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 
       </ul>
    </div>
 </nav>
@@ -96,10 +77,11 @@
 	
 	<div class="row">
 		<div class = "col-sm-12 text-center" id = "FirstSubTitle">
-			<h1 id = "SecondRowTitle">Business Analystic Platform</h1>
+			<h1 class = "SecondRowTitle">Business Analystic Platform</h1>
 		</div>
 	</div>
 	
+<!--
 	<div class = "row" id = "ProcessDetailContent">
 		<div class = "col-xs-12 col-sm-12 text-center">
 			
@@ -107,7 +89,7 @@
 				
 				<div class="col-xs-12 col-sm-12">
 					
-						<img src="Resource/Icons/CircleButton/EnterData.png" class="img-circle BubblePart" id = "CircleBubble1">
+						<img src="Resource/LandingPageImages/Integrate.png" class="img BubblePart" id = "CircleBubble1">
 						</img>
 						<h4 class="IconTitleS CirclePart" id = "IntegrateTitle">Integrate</h4>
 				
@@ -139,7 +121,7 @@
 				
 				<div class="col-xs-12 col-sm-12">
 					
-						<img src="Resource/Icons/CircleButton/AnalysisData.png" class="img-circle BubblePart" id = "CircleBubble2">
+						<img src="Resource/LandingPageImages/Process.png" class="img BubblePart" id = "CircleBubble2">
 						</img>					
 						<h4 class="IconTitleS CirclePart" id = "ProcessTitle">Process</h4>				
 				
@@ -162,7 +144,7 @@
 				
 				<div class="col-xs-12 col-sm-12">
 					
-						<img src="Resource/Icons/CircleButton/Result.png" class="img-circle BubblePart" id = "CircleBubble3">
+						<img src="Resource/LandingPageImages/Visulization.png" class="img BubblePart" id = "CircleBubble3">
 						</img>					
 						<h4 class="IconTitleS CirclePart" id = "VisualizationTitle">Visualization
 						</h4>					
@@ -185,6 +167,108 @@
 		
 		</div>
 	</div>
+-->
+	
+	<div class = "row" id = "ProcessDetailContent">
+		<div class = "col-xs-12 col-sm-12 text-center">
+			
+			<div class = "col-xs-12 col-sm-12 ProcessDetailSignalBox2" id="DetailColum1">
+				
+				<div class="col-xs-12 col-sm-3">
+					
+						<img src="Resource/LandingPageImages/Integrate.png" class="img BubblePart BigSize" id = "CircleBubble1">
+						</img>
+				
+				</div>
+			
+<!--
+				<div class="col-xs-12 col-sm-2 ProcessDetailTextIntro">
+				</div>	
+-->
+
+				<div class="col-xs-12 col-sm-7 ProcessDetailTextIntro2 text-left">
+					
+					<h3 class="IconTitleS ThirdTitle" id = "IntegrateTitle">Integrate</h3>
+					
+					<h4 class="ProcessDetailText" id="IntegrateDetailText1">
+						Easy to upload unstructured data with simple clicks. Types of Data:
+					</h4>
+					
+					<h4 class="ProcessDetailText" id="IntegrateDetailText2">
+						Call Center CSV Email EXE Internal Data Social Media Surveys
+					</h4>
+					
+					<h4 class="ProcessDetailIntroText text-left" id="IntegrateDetailIntroText1">
+						Data Market
+					</h4>
+					
+					<h4 class="ProcessDetailIntroText text-left" id="IntegrateDetailIntroText2">
+						You can find a lot of external data from Signals Data Market. With growing number of web-crawiers, Signals help you collect data from various popular website services.
+					</h4>
+					
+					<img class="ProcessDetailIntroImage" id="IntegrateDetailIntroImage1" src="Resource/LandingPageImages/IntegrateImage.png"></img>
+					
+				</div>			
+
+			
+			</div>
+		
+			<div class = "col-xs-12 col-sm-12 ProcessDetailSignalBox2" id="DetailColum2">
+				
+				<div class="col-xs-12 col-sm-12">
+					
+					<div class="col-xs-12 col-sm-2">
+					</div>
+
+					<div class="col-xs-12 col-sm-7 ProcessDetailTextIntro2 text-right">
+
+						<h3 class="IconTitleS ThirdTitle" id = "ProcessTitle">Process</h3>
+
+						<h4 class="ProcessDetailText" id="ProcessDetailText1">
+							Process large volume of data in a short period of time.
+						</h4>					
+
+
+					</div>
+					
+					<div class="col-xs-12 col-sm-3">
+
+							<img src="Resource/LandingPageImages/Process.png" class="img BubblePart BigSize" id = "CircleBubble2">
+							</img>
+
+					</div>
+					
+				</div>		
+
+			</div>
+	
+			<div class = "col-xs-12 col-sm-12 ProcessDetailSignalBox2" id="DetailColum3">
+				
+				<div class="col-xs-12 col-sm-12">
+					
+					<div class="col-xs-12 col-sm-3">
+
+							<img src="Resource/LandingPageImages/Visulization.png" class="img BubblePart BigSize" id = "CircleBubble3">
+							</img>
+
+					</div>
+
+					<div class="col-xs-12 col-sm-7 ProcessDetailTextIntro2 text-left">
+
+						<h3 class="IconTitleS ThirdTitle" id = "VisualizationTitle">Visualization</h3>
+
+						<h4 class="ProcessDetailText" id="VisualizationText1">
+							Interact with visual analytics and generate actionalbe insights.
+						</h4>					
+						
+					</div>			
+				
+				</div>
+	
+			</div>			
+		
+		</div>
+	</div>	
 	
 </div>
 <!--</div>-->
@@ -192,21 +276,21 @@
 <div class = "cotainers" id = "ProcessDetailCotainer">
 	<div class="row">
 		<div class = "col-sm-12 text-center" id = "LinkButtonPartText1">
-			<h2 class="ContentTile" id="ASolutionYN">A solution for all your needs</h2>
+			<h2 class="SecondRowTitle" id="ASolutionYNTitle">A solution for all your needs</h2>
 		</div>
 	</div>
 	
-	<div class="row NormalSize">
+	<div class="row NormalSize" id="FirstLinkButtonRow">
 		
 		<div class = "col-xs-12 col-sm-2" id = "LinkButtonPart1">
 		</div>		
 			
-		<div class = "col-xs-6 col-sm-2 CenterandBoder" id = "LinkButtonCotainBox11">
+		<div class = "col-xs-5 col-sm-2 CenterandBoder" id = "LinkButtonCotainBox11">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView11">
-				<img src="Resource/Icons/BottomLinkIcons/Executive.png" class="img BottomIcons" id="ExecutiveIcon">
+				<img src="Resource/Icons/BottomLinkIcons/NewExcutivesIcon.png" class="img BottomIcons" id="ExecutiveIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "ExecutiveTitle">Executives</h5>
+				<h5 class = "IconTitleS WhiteText" id = "ExecutiveTitle">Executives</h5>
 			</div>
 		
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText11">
@@ -225,12 +309,12 @@
 	
 		</div>
 			
-		<div class = "col-xs-6 col-sm-2 CenterandBoder LeftBoder" id = "LinkButtonCotainBox12">
+		<div class = "col-xs-5 col-sm-2 CenterandBoder" id = "LinkButtonCotainBox12">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView12">
-				<img src="Resource/Icons/BottomLinkIcons/User.png" class="img BottomIcons" id="BusinessIntIcon">
+				<img src="Resource/Icons/BottomLinkIcons/NewBusinessAnaIcon.png" class="img BottomIcons" id="BusinessIntIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "BussinessIntTitle">Business Analystic</h5>				
+				<h5 class = "IconTitleS WhiteText" id = "BussinessIntTitle">Business Analystic</h5>				
 			</div>
 
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText12">
@@ -247,14 +331,14 @@
 				</p>
 			</div>
 
-		</div>	
+		</div>
 
-		<div class = "col-xs-6 col-sm-2 CenterandBoder" id = "LinkButtonCotainBox13">
+		<div class = "col-xs-5 col-sm-2 CenterandBoder" id = "LinkButtonCotainBox13">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView13">
-				<img src="Resource/Icons/BottomLinkIcons/Marketing.png" class="img BottomIcons" id="MarketingIcon">
+				<img src="Resource/Icons/BottomLinkIcons/Marketing_white.png" class="img BottomIcons" id="MarketingIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "MarketingTitle">Marketing</h5>				
+				<h5 class = "IconTitleS WhiteText" id = "MarketingTitle">Marketing</h5>				
 			</div>
 
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText13">
@@ -273,12 +357,12 @@
 
 		</div>
 				
-		<div class = "col-xs-6 col-sm-2 CenterandBoder LeftBoder" id = "LinkButtonCotainBox14">
+		<div class = "col-xs-5 col-sm-2 CenterandBoder" id = "LinkButtonCotainBox14">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView14">
-				<img src="Resource/Icons/BottomLinkIcons/customer-experience.png" class="img BottomIcons" id="CustomerExIcon">
+				<img src="Resource/Icons/BottomLinkIcons/NewCustomerIcon.png" class="img BottomIcons" id="CustomerExIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "CustomerEXTitle">Customer Experience</h5>
+				<h5 class = "IconTitleS WhiteText" id = "CustomerEXTitle">Customer Experience</h5>
 			</div>
 
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText14">
@@ -300,17 +384,17 @@
 
 	</div>
 
-	<div class="row NormalSize">
+	<div class="row NormalSize" id="SecondLinkButtonRow">
 		
 		<div class = "col-xs-12 col-sm-2" id = "LinkButtonPart2">
 		</div>
 		
-		<div class = "col-xs-6 col-sm-2 CenterandBoder2" id = "LinkButtonCotainBox21">
+		<div class = "col-xs-5 col-sm-2 CenterandBoder2" id = "LinkButtonCotainBox21">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView21">
-				<img src="Resource/Icons/BottomLinkIcons/Retail.png" class="img BottomIcons" id="RetailIcon">
+				<img src="Resource/Icons/BottomLinkIcons/NewRetailIcon.png" class="img BottomIcons" id="RetailIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "RetailTitle">Retail</h5>				
+				<h5 class = "IconTitleS WhiteText" id = "RetailTitle">Retail</h5>				
 			</div>
 		
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText21">
@@ -330,12 +414,12 @@
 
 		</div>
 
-		<div class = "col-xs-6 col-sm-2  CenterandBoder2 LeftBoder" id = "LinkButtonCotainBox22">
+		<div class = "col-xs-5 col-sm-2  CenterandBoder2" id = "LinkButtonCotainBox22">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView22">
-				<img src="Resource/Icons/BottomLinkIcons/Utilities.png" class="img BottomIcons" id="UtilitiesIcon">
+				<img src="Resource/Icons/BottomLinkIcons/NewUtilitiesIcon.png" class="img BottomIcons" id="UtilitiesIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "UtilitiesTitle">Utilities</h5>				
+				<h5 class = "IconTitleS WhiteText" id = "UtilitiesTitle">Utilities</h5>				
 			</div>
 
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText22">
@@ -355,11 +439,11 @@
 
 		</div>
 
-		<div class = "col-xs-6 col-sm-2  CenterandBoder2" id = "LinkButtonCotainBox23">
+		<div class = "col-xs-5 col-sm-2  CenterandBoder2" id = "LinkButtonCotainBox23">
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView23">
-				<img src="Resource/Icons/BottomLinkIcons/Hospitality.png" class="img BottomIcons" id="HospitalityIcon">
+				<img src="Resource/Icons/BottomLinkIcons/Hospitality_white.png" class="img BottomIcons" id="HospitalityIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "HospitalityTitle">Hospitality</h5>					
+				<h5 class = "IconTitleS WhiteText" id = "HospitalityTitle">Hospitality</h5>					
 			</div>
 
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText23">
@@ -379,12 +463,12 @@
 	
 		</div>
 
-		<div class = "col-xs-6 col-sm-2 CenterandBoder2 LeftBoder" id = "LinkButtonCotainBox24">
+		<div class = "col-xs-5 col-sm-2 CenterandBoder2" id = "LinkButtonCotainBox24">
 			
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView24">
-				<img src="Resource/Icons/BottomLinkIcons/Finaicial.png" class="img BottomIcons" id="FinancialIcon">
+				<img src="Resource/Icons/BottomLinkIcons/Finaicial_white.png" class="img BottomIcons" id="FinancialIcon">
 				</img>
-				<h5 class = "IconTitleS" id = "FinancialTitle">Financial</h5>				
+				<h5 class = "IconTitleS WhiteText" id = "FinancialTitle">Financial</h5>				
 			</div>
 
 			<div class = 'col-sm-12 SolutionBox' id = "LinkCotainText24">
@@ -471,15 +555,11 @@
 		</div>
 
 	</div>
-
-	<div class="row CoustomerIconPart" id="CompanyIconPartRow2">
-		
-	</div>
 </div>
 
 <div class = "cotainers" id = "TextSayingPart">
 	<div class = "row" id = "SayingPart">
-		<h2 class="ContentTile text-center" id="SayingTitle">See What People Are Saying About Stratifyd</h2>
+		<h2 class="text-center" id="SayingTitle">See What People Are Saying About Stratifyd</h2>
 	</div>
 	
 	<div class = "row" id = "SayingTextPart">
@@ -614,32 +694,32 @@
 			</div>
 			
 			<div class = "col-xs-2 col-sm-1 BottomIconLink" id = "ConnectIconB1">
-				<img src="Resource/Icons/FaceBook/facebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+				<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
 				</img>
 			</div>
 
 			<div class = "col-xs-2 col-sm-1 BottomIconLink" id = "ConnectIconB2">
-				<img src="Resource/Icons/Linkedin/LinkedinBottomIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+				<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
 				</img>
 			</div>
 
 			<div class = "col-xs-2 col-sm-1 BottomIconLink" id = "ConnectIconB3">
-				<img src="Resource/Icons/Twitter/TwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+				<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
 				</img>	
 			</div>
 	
 			<div class = "col-xs-2 col-sm-1 BottomIconLink" id = "ConnectIconB4">
-				<img src="Resource/Icons/YouTube/YoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+				<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
 				</img>
 			</div>
 	
 			<div class = "col-xs-2 col-sm-1 BottomIconLink" id = "ConnectIconB5">
-				<img src="Resource/Icons/GooglePlus/GooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+				<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
 				</img>						
 			</div>
 	
 			<div class = "col-xs-2 col-sm-1 BottomIconLink" id = "ConnectIconB6">
-				<img src="Resource/Icons/Tumblr/TumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+				<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
 				</img>				
 			</div>
 		</div>
@@ -656,6 +736,7 @@
 <script src="lib/d3/d3.js"></script>
 <script src="lib/d3/d3.min.js"></script>
 <script src="lib/queue/queue.min.js"></script>
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	
 <!-- Control Scripts-->
 <script src="Script/TransForm.js"></script>
