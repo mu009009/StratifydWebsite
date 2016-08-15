@@ -301,4 +301,40 @@ d3.select("#BlogIext")
 		window.location.href="http://blog.stratifyd.com/";
 	})
 
+//TitleStrtifyd
+d3.select('#CompanyIconTitleText')
+.on("click",function(){
+	window.location.reload();
+})
+
+d3.select('#navProduct')
+.on("click",function(){
+	window.location.href="http://www.tasteanalytics.com/product-page/";
+})
+
+d3.select('#navSolution')
+.on("click",function(){
+	window.location.href="SolutionPage.html";
+})
+
+d3.select('#navBlog')
+.on("click",function(){
+	window.location.href="http://blog.stratifyd.com/";
+})
+
+d3.select('#navContactUs')
+.on('click',function(){
+	window.location.href="ContactUs.html";
+})
+
+d3.select('#navOurTeam')
+.on('click',function(){
+	window.location.href="AboutUsPage.html";
+})
+d3.select('#NavBarLoginButton')
+.on('click',function(){
+	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
+})
+
+
 //Auton Scroll

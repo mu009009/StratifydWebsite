@@ -327,28 +327,28 @@ d3.select("#CustomerexperienceLearnMore")
 		window.location.href="http://blog.stratifyd.com/2016/02/09/data-analytics-on-chat-sessions-alan-fitzpatrick/";
 	})
 
-d3.select("#CustomerexperienceLearnMore")
+d3.select("#RetailLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/03/16/customer-insights-for-a-competitive-edge/";
+		window.location.href="http://blog.stratifyd.com/2016/02/24/shall-i-sell-on-walmart-or-amazon/";
 	})
 
-d3.select("#BusinessIntIcon")
+d3.select("#UtilitiesLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/16/bringing-data-silos-together/";
+		window.location.href="http://blog.stratifyd.com/2016/04/20/smarter-cities-through-smart-analytics/";
 	})
 
-d3.select("#MarketingIcon")
+d3.select("#HospitalityLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/19/painting-the-competition-picture/";
+		window.location.href="http://blog.stratifyd.com/2016/03/29/restaurants-leverage-data-for-customer-insights/";
 	})
 
-d3.select("#CustomerExIcon")
+d3.select("#FinancialLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/09/data-analytics-on-chat-sessions-alan-fitzpatrick/";
+		window.location.href="http://blog.stratifyd.com/2016/02/25/engaging-your-app-users/";
 	})
 
 
@@ -477,6 +477,10 @@ d3.select('#FirstTry')
 		.style('background-color',"rgb"+'('+"255,255,255"+')')
 		.style('border-color',"rgb"+'('+"255,255,255"+')')
 		.style('color',"rgb"+'('+"58,56,227"+')')
+	})
+	.on("click",function()
+	{
+		window.location.href = "https://signals.stratifyd.com/login.html#sign-in";
 	})
 
 

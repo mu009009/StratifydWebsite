@@ -226,7 +226,8 @@
 	border-left-color: black;
 }
 .ProcessDetailSignalBox{
-	height: 634px;
+/*	height: 634px;*/
+	height: auto;
 /*	margin-bottom: 10%;*/
 }
 .ProcessDetailSignalBox2{
@@ -373,6 +374,18 @@
 	padding-left: 5%;
 	padding-right: 5%;
 }
+#IntegrateTitleCenter{
+	text-align: center;
+	cursor: default;
+}
+#ProcessTitleCenter{
+	text-align: center;
+	cursor: default;
+}
+#VisualizationTitleCenter{
+	text-align: center;
+	cursor: default;
+}
 #IntegrateTitle{
 	text-align: left;
 }
@@ -411,11 +424,19 @@
 	margin-left: 0px;
 	margin-right: 0px;
 }
+#CompanyIconPartTitleRow1{
+	padding-top: 0;
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+}
 #CompanyIconPartRow1{
 	padding-top: 0;
 	width: 70%;
 	margin-left: 15%;
 	text-align: center;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 #CompanyIconPartRow2{
 	padding-top: 0;
@@ -423,6 +444,8 @@
 	margin-left: 15%;
 	margin-bottom: 118px;
 	text-align: center;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 #CompanyCotainers{
