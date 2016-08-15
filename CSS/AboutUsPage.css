@@ -9,34 +9,16 @@
 .col-sm-1{
 	text-align: center;
 }
-#NavBarPart{
-	background-color: transparent;
-	border-color: transparent;
-	text-align: center;
-}
-.NavBarButtons{
-	font-family: "Gotham Rounded";
-	font-weight: bold;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: transparent;
-	border-color: transparent;
-	color: rgb(235,235,235)
-}
 #SecondRowTitle{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: bold;
 	margin-top: 1.5%;
 }
-#MainAttarctText{
-	color: white;
-	margin-top: 12%;
-	font-weight: normal;
-}
 #SignalsText{
-	margin-top: 2%;
-	color: rgb(240,250,255);
+	margin-top: 0px;
+	color: rgb(125,128,148);
 	font-weight: lighter;
+	text-align: right;
 }
 #TitleButtonPart{
 	text-align: center;
@@ -53,7 +35,7 @@
 }
 .Introduce{
 	text-align: center;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	color: white;
 }
 .IntroTitle{
@@ -66,11 +48,11 @@
 #SayingTitle{
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: 500;
 }
 #ASolutionYN{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: 500;
 }
 #MainContentJumpBox1{
@@ -124,12 +106,12 @@
 	z-index: 2;
 }
 .ContentText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	margin-top: 1%;
 	padding-bottom: 2%;
 }
 .AboutUsContentText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	line-height: 160%;
 	margin-top: 0px;
 	padding-left: 10%;
@@ -146,7 +128,7 @@
 #StroyTextPart2{
 }
 .FontStyle{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: 400;
 }
 .Photos{
@@ -155,8 +137,8 @@
 /*	margin-left: 8.333333%;*/
 }
 #StoryRow{
-	margin-top: 1%;
-	padding-bottom: 2%;
+	margin-top: 30px;
+	padding-bottom: 60px;
 }
 #PhotoRow{
 	margin-top: 1%;
@@ -164,13 +146,14 @@
 }
 #TitleBar{
 	background-color: transparent;
-	background: url(../Resource/AboutUsImages/team-pic.jpg);
+	background: url(../Resource/AboutUsImages/AboutUsBackground.jpg);
 	background-size: cover;
 	background-size-height: 100%;
 	height: auto;
 	margin-bottom: 0px;
 	text-align: center;
-	padding-bottom: 18%;
+	padding-bottom: 92px;
+	padding-top: 0px;
 }
 #OurStoryImage{
 	width: 100%;
@@ -211,16 +194,16 @@
 .SayingTitle{
 	margin-top: 1%;
 	padding-left: 0;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 }
 .SayingText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 	color: rgb(156,156,156)
 }
 .MissionText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 	color: black;
 }
@@ -298,23 +281,26 @@
 	height: auto;
 	position: relative;
 }
-.ContinueChangeBox{
-	margin-top: 1%;
+#AboutUsTitleTextBar{
+	margin-top: 0px;
 }
-
-#ContinueChangeBox1{
-	position: relative;
-	opacity: 1;
-	z-index: 3;
+#backgroundColorRow{
+	background-color: rgba(255,255,255,0.31);
+/*	opacity: 0.31;*/
+	margin-top: 326px;
+	padding-bottom: 26px;
 }
-#ContinueChangeBox2{
-	position: absolute;
-	opacity: 0;
-	z-index: -1;
-	
+#MainAttarctText{
+	color: black;
+	font-weight: bold;
+	text-align: right;
 }
-#ContinueChangeBox3{
-	position: absolute;
-	opacity: 0;
-	z-index: -1;
+@media screen and (max-width: 992px) {
+	#MainAttarctText{
+		text-align: center;
+	}
+	#SignalsText{
+		text-align: center;
+		color: white;
+	}	
 }

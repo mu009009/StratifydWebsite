@@ -133,6 +133,111 @@ body{
 	margin-bottom: auto;
 	cursor: pointer;
 }
+#StratifydLogoText{
+	margin-left: 35px;
+}
+#CompanyIconTitleText{
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+	cursor: pointer;
+}
+#NavBarPart{
+/*	padding-left: 17%;*/
+/*	padding-right: 17%;*/
+	background-color: white;
+	border-color: transparent;
+	text-align: center;
+	height: 56px;
+	border-radius: 0%;
+}
+.NavBarButtons{
+	font-family: "Arial";
+	color: rgb(159,158,163);
+	font-size: 14px;
+	font-weight: 600;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: white;
+	border-color: transparent;
+	color: rgb(159,158,163);	
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 6px;
+}
+#CompanyTitelPartImportent{
+/*	margin-left: 5%;*/
+	margin-right: 5%;
+}
+#NavbarDetailPart{
+/*	margin-left: 32%;*/
+	background-color: white;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 5px;
+	float: right;
+}
+#NavBarLoginButton{
+	margin-top: 9.875px;
+	font-size: 16.5px;
+	width: 104px;
+	height: 34px;
+	border-radius: 5%;
+	border-color: rgb(211,210,214);
+	color: rgb(103,101,181);
+	font-weight: 500;
+	padding-top: 4.125px;
+	padding-bottom: 4.125px;
+}
+#NavBarSignUpButton{
+	margin-top: 9.875px;
+	margin-left: 10px;
+	font-size: 16.5px;
+	width: 104px;
+	height: 34px;
+	border-radius: 5%;
+	border-color: rgb(56,56,158);
+	color: rgb(255,255,255);
+	font-weight: 500;
+	padding-top: 4.125px;
+	padding-bottom: 4.125px;
+	background-color: rgb(56,56,158);
+}
+#NavBarLoginPart{
+/*	margin-left: 5%;*/
+/*	float: right;*/
+	text-align: -webkit-center;
+}
+#DraopDownMenu1{
+	color: rgb(159,158,163);
+}
+#NavBarSignUpPart{
+	text-align: -webkit-center;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+#NavTitleCompanyIcon{
+	width: 10%;
+}
+#NavTitleCompanyIcon{
+	width: 30px;
+	position: absolute;
+	margin-top: -10px;
+}
+.SecondRowTitle{
+	font-family: "Arial";
+	font-weight: bold;
+	margin-top: 94px;
+	font-size: 3em;
+	margin-bottom: 128px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.TopMargin{
+	margin-top: 2%;
+}
 @media screen and (max-width: 768px) {
 	#NavbarDetailPart{
 		width: 100%;
