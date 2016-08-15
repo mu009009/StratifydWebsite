@@ -57,7 +57,8 @@ body{
 	margin-left: 12.5%;
 }
 .StableHeight{
-	height: 250px;
+	min-height: 250px;
+	height: auto;
 }
 #CopyRightPart{
 	margin-top:0px;

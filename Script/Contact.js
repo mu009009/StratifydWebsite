@@ -11,7 +11,7 @@ d3.selectAll(".dropdownOption")
 	console.log(d3.select(this));
 	var ThistextValue = d3.select(this)[0][0].innerHTML;
 	d3.select("#dropdownMenu1").attr("value", ThistextValue);
-	d3.select("#dropdownMenu1").attr("innerHTML",ThistextValue+"<span class=" + "'caret' id='dropdownSpancaret1'"+">"+"</span>"+')');
+	d3.select("#dropdownMenu1")[0][0].attr("innerHTML",ThistextValue+"<span class=" + "'caret' id='dropdownSpancaret1'"+">"+"</span>"+')');
 	console.log(d3.select('#dropdownMenu1')[0][0].innerHTML);
 })
 
@@ -47,4 +47,5 @@ d3.select('#SendMessageBtn')
 				
 				}
 		}
+	
 })
