@@ -336,5 +336,13 @@ d3.select('#NavBarLoginButton')
 	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
 })
 
+//Play Video
+d3.selectAll(".ContentVideo")
+.on("click",function()
+	{
+		d3.select(this).loop = true;
+		d3.select(this).play();
+	})
+
 
 //Auton Scroll

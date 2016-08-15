@@ -97,14 +97,6 @@ d3.selectAll('.CenterandBoder2')
 	.style("margin-top",0+"px");		
 })
 
-//Play Video
-d3.selectAll(".ContentVideo")
-.on("click",function()
-	{
-		d3.select(this).loop = true;
-		d3.select(this).play();
-	})
-
 //Signals Related Buttons click function
 d3.select('#TrySignals1')
 .on('click',function()

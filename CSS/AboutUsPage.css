@@ -13,6 +13,7 @@
 	font-family: "Arial";
 	font-weight: bold;
 	margin-top: 1.5%;
+	font-size: 3.5em;
 }
 #SignalsText{
 	margin-top: 0px;
@@ -113,11 +114,16 @@
 .AboutUsContentText{
 	font-family: "Arial";
 	line-height: 160%;
-	margin-top: 0px;
-	padding-left: 10%;
-	padding-right: 15%;
+	margin-top: 40px;
+	padding-left: 30px;
+	padding-right: 45px;
 	color: rgb(165,165,165);
 }
+.StoryTitleRow{
+	padding-left: 30px;
+	padding-right: 45px;
+}
+
 #LinkButtonPartText1{
 	padding-top: 1%;
 	padding-bottom: 3%;
@@ -141,8 +147,8 @@
 	padding-bottom: 60px;
 }
 #PhotoRow{
-	margin-top: 1%;
-	padding-bottom: 2%;
+	margin-top: 72px;
+	padding-bottom: 256px;
 }
 #TitleBar{
 	background-color: transparent;
@@ -205,7 +211,9 @@
 .MissionText{
 	font-family: "Arial";
 	font-weight: lighter;
-	color: black;
+	color: rgb(165,165,165);;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 #TextSayingPart{
 	padding-top: 1%;
@@ -220,16 +228,16 @@
 	margin-top: 8%;
 }
 #BubbleProcessDetailCotainer{
-	background-color: rgb(248,248,251);
+	background-color: rgb(255,255,255);
 }
 #BubbleProcessDetailCotainer2{
-	background-color: rgb(208,208,219);
+	background-color: rgb(255,255,255);
 }
 #ProcessDetailCotainer{
 	background-color: rgb(150,152,173);
 }
 #CompanyIconPartRow1{
-	padding-top: 3%;
+	padding-top: 0;
 	width: 70%;
 	margin-left: 15%;
 	margin-bottom: 2%;
@@ -295,12 +303,30 @@
 	font-weight: bold;
 	text-align: right;
 }
+.ContentVideo{
+	width: 560px;
+	height: 315px;
+}
 @media screen and (max-width: 992px) {
+	.AboutUsContentText{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 	#MainAttarctText{
 		text-align: center;
 	}
 	#SignalsText{
 		text-align: center;
 		color: white;
-	}	
+	}
+	#SecondRowTitle{
+		text-align: center;
+	}
+	#OurStoryText{
+		text-align: center;
+	}
+	.ContentVideo{
+		width: 100%;
+		height: auto;
+	}
 }
