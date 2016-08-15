@@ -23,7 +23,11 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>			  
       </button>
-      <a class="navbar-brand" id="CompanyIconTitleText" href="#">Stratifyd</a>
+      <a class="navbar-brand" id="CompanyIconTitleText" href="#">
+		  <img class="img" src="Resource/Icons/Stratifyd/newlogonowords-Transparent.png" id="NavTitleCompanyIcon">
+		  </img> 
+		  <span class="NavTitleName" id="StratifydLogoText">Stratifyd</span> 
+	   </a>	
    </div>
    <div class="collapse navbar-collapse" id="example-navbar-collapse">
       <ul class="nav navbar-nav" id="NavbarDetailPart">
@@ -32,13 +36,13 @@
          <li class="active NavBarButtons" id="navBlog"><a href="#">BLOG</a></li>
          <li class="dropdown">
 			 <a href="#" class="dropdown-toggle NavBarButtons" data-toggle="dropdown"id="DraopDownMenu1">
-				 ABOUT US<b class="caret"></b>
+				 ABOUT<b class="caret"></b>
 			 </a>
 			 <ul class="dropdown-menu NavBarButtons">
+				 <li><a href="#" id="navOurTeam">About Us</a>
+				 </li>
 				 <li><a href="#" id="navContactUs">Contact Us</a>
-				 </li>
-				 <li><a href="#" id="navOurTeam">Our Team</a>
-				 </li>
+				 </li>				 
 			 </ul>
 		  </li>		  	  
 		 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>
@@ -68,7 +72,7 @@
 			
 	<div class="row">
 		<div class="col-xs-12" id = "TitleButtonPart">
-			<span class="btn btn-info" id="FirstTry">Free Try</span>
+			<span class="btn btn-info" id="FirstTry">Try it free for 14 days!</span>
 		</div>			
 	</div>			
 </div>
@@ -183,22 +187,15 @@
 
 				<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-left" id="DetailColum1">
 					
-					<h3 class="IconTitleS ThirdTitle" id = "IntegrateTitle">Integrate</h3>
+					<h3 class="IconTitleS ThirdTitle" id = "IntegrateTitle">Easy Data Ingestion</h3>
 					
 					<h4 class="ProcessDetailText" id="IntegrateDetailText1">
-						Easy to upload unstructured data with simple clicks. Types of Data:
-					</h4>
-					
-					<h4 class="ProcessDetailText" id="IntegrateDetailText2">
-						Call Center CSV Email EXE Internal Data Social Media Surveys
-					</h4>
-					
-					<h4 class="ProcessDetailIntroText text-left" id="IntegrateDetailIntroText1">
-						Data Market
+							Getting data into Signals is easy. Connect to your existing, internal data repositories, or use one of our out-of-the-box data connectors to query and collect publicly available data.
+							Drag and drop excel files from your computer.
 					</h4>
 					
 					<h4 class="ProcessDetailIntroText text-left" id="IntegrateDetailIntroText2">
-						You can find a lot of external data from Signals Data Market. With growing number of web-crawiers, Signals help you collect data from various popular website services.
+						Data connectors include Salesforce, Twitter, Facebook, Google Play Store, iOS app Store and many more. The list is always growing!
 					</h4>
 					
 				</div>			
@@ -212,22 +209,31 @@
 					
 					<div class="col-xs-12 col-sm-12 col-md-2">
 					</div>
-
-					<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-right" id="DetailColum2">
-
-						<h3 class="IconTitleS ThirdTitle" id = "ProcessTitle">Process</h3>
-
-						<h4 class="ProcessDetailText" id="ProcessDetailText1">
-							Process large volume of data in a short period of time.
-						</h4>					
-
-
-					</div>
 					
-					<div class="col-xs-12 col-sm-12 col-md-3" id="DetailColum2">
+					<div class="col-xs-12 col-sm-12 col-md-3" id="DetailColum2ImageBox">
 
 							<img src="Resource/LandingPageImages/BlueProcessIcon.png" class="img BubblePart BigSize" id = "CircleBubble2">
 							</img>
+
+					</div>
+				
+					<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-right" id="DetailColum2">
+
+						<h3 class="IconTitleS ThirdTitle" id = "ProcessTitle">Automated Analytics</h3>
+
+						<h4 class="ProcessDetailText" id="ProcessDetailText1">
+								Signals' deep machine learning engine will automatically identify reevant themes in your data without any pre programing required.
+						</h4>
+						
+						<h4 class="ProcessDetailText" id="ProcessDetailText1">
+								Let Signals’ Deep Machine Learning engine do the heavy lifting by detecting relevant themes in the data, no training required.
+						</h4>
+						
+<!--
+						<h4 class="ProcessDetailIntroText" id="ProcessDetailIntroText2">
+							Data connectors include Salesforce, Twitter, Facebook, Google Play Store, iOS app Store and many more. The list is always growing!
+						</h4>
+-->
 
 					</div>
 					
@@ -248,11 +254,15 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-left" id="DetailColum3">
 
-						<h3 class="IconTitleS ThirdTitle" id = "VisualizationTitle">Visualization</h3>
+						<h3 class="IconTitleS ThirdTitle" id = "VisualizationTitle"> Effective Visualization and Interaction</h3>
 
 						<h4 class="ProcessDetailText" id="VisualizationText1">
-							Interact with visual analytics and generate actionalbe insights.
-						</h4>					
+							Interact with your results, from a holistic or highly granular view. Create a dashboard or do a deep-dive analysis.
+						</h4>
+						
+						<h4 class="ProcessDetailIntroText" id="VisualizationDetailIntroText2">
+							No need for a data scientist.
+						</h4>
 						
 					</div>			
 				
@@ -630,15 +640,15 @@
 				
 -->
 			
-			<div class="col-sm-12 col-md-4" id = "TextContent1">
-				<div class = "col-sm-12 StableHeight TextCotent">
+			<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent1">
+				<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
 					<h4 class="SayingText" id="SayingText1">
 						With Stratifyd as our partner, Ally has greater insights on the user experience,
 						and made chat analytics part of our regular operational process.
 					</h4>
 				</div>
 				
-				<div class="col-sm-12 TitleRule" id = "GuysTitle1">
+				<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle1">
 					<h4>Ashley Hunsucker,Sr. Director</h4>
 					<h4>Product & Marketing Analytics</h4>
 				</div>
@@ -654,9 +664,9 @@
 				
 			</div>
 			
-			<div class="col-sm-12 col-md-4" id = "TextContent2">
+			<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent2">
 				
-				<div class = "col-sm-12 StableHeight TextCotent">
+				<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
 					<h4 class="SayingText" id="SayingText2">
 						We leverage Stratifyd theme detection and no longer need to manually
 						build out taxonomies to listen to our customers. This tremendously
@@ -664,7 +674,7 @@
 					</h4>					
 				</div>
 				
-				<div class="col-sm-12 TitleRule" id = "GuysTitle2">
+				<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle2">
 					<h4>Harshad Varia,</h4>
 					<h4>Customer Experience Sr. Manager</h4>
 				</div>
@@ -680,9 +690,9 @@
 			
 			</div>
 			
-			<div class="col-sm-12 col-md-4" id = "TextContent3">
+			<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent3">
 				
-				<div class = "col-sm-12 StableHeight TextCotent">
+				<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
 					<h4 class="SayingText" id="SayingText3">
 						Stratifyd is a terrific partner to Erwin Penland. Not only is the Signals platform
 						ideal for providing customer insights, but the platform is fast, easy to use, and
@@ -690,7 +700,7 @@
 					</h4>						
 				</div>
 				
-				<div class="col-sm-12 TitleRule" id = "GuysTitle3">
+				<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle3">
 					<h4>Roger Beasley, </h4>
 					<h4>Chief Strategy Officer</h4>
 				</div>
