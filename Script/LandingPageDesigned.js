@@ -73,7 +73,7 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"231,231,231"+")";
+		var Color = "rgb"+"("+"255,255,255"+")";
 		return Color;
 	})
 	
@@ -93,7 +93,7 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"142,146,228"+")";
+		var Color = "rgb"+"("+"98,101,252"+")";
 		return Color;
 	})
 	
@@ -115,7 +115,7 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"231,231,231"+")";
+		var Color = "rgb"+"("+"255,255,255"+")";
 		return Color;
 	})
 	
@@ -136,7 +136,7 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"142,146,228"+")";
+		var Color = "rgb"+"("+"98,101,252"+")";
 		return Color;
 	})
 	
