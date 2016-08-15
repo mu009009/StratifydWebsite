@@ -93,7 +93,7 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"246,246,248"+")";
+		var Color = "rgb"+"("+"142,146,228"+")";
 		return Color;
 	})
 	
@@ -136,7 +136,7 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"246,246,248"+")";
+		var Color = "rgb"+"("+"142,146,228"+")";
 		return Color;
 	})
 	
@@ -165,16 +165,11 @@ d3.selectAll('.BubblePart')
 //		var marginLeftNum = (BubbleBoxWidth - (BubbleButton*1.5))/2;
 //		return marginLeftNum + "px";
 //	})
-	.style("background-color",function()
-	{
-		var Color = "rgb"+"("+"0,161,175"+")";
-		return Color;
-	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"0,161,175"+")";
-		return Color;
-	})
+//	.style("color",function()
+//	{
+//		var Color = "rgb"+"("+"0,161,175"+")";
+//		return Color;
+//	})
 	
 //	TforCircleShowOnly = -9999;
 })
@@ -184,16 +179,16 @@ d3.selectAll('.BubblePart')
 	.transition()
 	.duration(ShorDurationTime)
 //	.style("width",BubbleButton+"px")
-	.style("background-color",function()
-	{
-		var Color = "rgb"+"("+"255,255,255"+")";
-		return Color;
-	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"227,227,227"+")";
-		return Color;
-	})
+//	.style("background-color",function()
+//	{
+//		var Color = "rgb"+"("+"255,255,255"+")";
+//		return Color;
+//	})
+//	.style("border-color",function()
+//	{
+//		var Color = "rgb"+"("+"227,227,227"+")";
+//		return Color;
+//	})
 	
 //	TforCircleShowOnly = -1;
 })

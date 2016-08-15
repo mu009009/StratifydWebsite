@@ -10,24 +10,35 @@
 	text-align: center;
 }
 #NavBarPart{
-	padding-left: 17%;
+/*	padding-left: 17%;*/
 /*	padding-right: 17%;*/
 	background-color: white;
 	border-color: transparent;
 	text-align: center;
+	height: 56px;
 }
 .NavBarButtons{
-	font-family: "Gotham Rounded";
-	font-size: 16.5px;
+	font-family: "Arial";
+	color: rgb(159,158,163);
+	font-size: 14px;
+	font-weight: 600;
+}
+#CompanyTitelPartImportent{
+	margin-left: 12%;
+	margin-right: 30%;
 }
 #NavbarDetailPart{
-	margin-left: 32%;
+/*	margin-left: 32%;*/
+	background-color: white;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 5px;
 }
 #NavBarLoginButton{
 	margin-top: 9.875px;
 	font-size: 16.5px;
-	width: 93px;
-	height: 33px;
+	width: 104px;
+	height: 34px;
 	border-radius: 5%;
 	border-color: rgb(211,210,214);
 	color: rgb(103,101,181);
@@ -39,8 +50,8 @@
 	margin-top: 9.875px;
 	margin-left: 10px;
 	font-size: 16.5px;
-	width: 93px;
-	height: 33px;
+	width: 104px;
+	height: 34px;
 	border-radius: 5%;
 	border-color: rgb(56,56,158);
 	color: rgb(255,255,255);
@@ -52,48 +63,57 @@
 #NavBarLoginPart{
 /*	margin-left: 5%;*/
 /*	float: right;*/
+	text-align: -webkit-right;		
+}
+#DraopDownMenu1{
+	color: rgb(159,158,163);
 }
 #NavBarSignUpPart{
-	float: right;
+/*	float: right;*/
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: white;
 	border-color: transparent;
-	color: rgb(159,158,163);
-	font-size: 14px;
-	font-weight: 600;
+	color: rgb(159,158,163);	
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-right: 6px;
+}
+.navbar{
+	margin-bottom: 0px;
 }
 #CompanyIconTitleText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: bold;
 	font-size: 24px;
 	color: black;
 	cursor: pointer;
 }
-#SecondRowTitle{
-	font-family: "Gotham Rounded";
+.SecondRowTitle{
+	font-family: "Arial";
 	font-weight: bold;
-	margin-top: 6%;
-	font-size: 2em;
-	margin-bottom: 3%;
+	margin-top: 94px;
+	font-size: 3em;
+	margin-bottom: 128px;
 }
 #MainAttarctText{
 	color: white;
-	margin-top: 12%;
+	margin-top: 206px;
 	font-weight: 600;
+	margin-bottom: 0px;
+	font-size: 4.5em;
 }
 #SignalsText{
-	margin-top: 2%;
+	margin-top: 66px;
 	color: rgb(240,250,255);
 	font-weight: lighter;
 	line-height: 150%;
 	font-size: 1.5em;
+	margin-bottom: 0px;
 }
 #TitleButtonPart{
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 68px;
 }
 #CompanIconPart{
 	height: auto;
@@ -106,7 +126,7 @@
 }
 .Introduce{
 	text-align: center;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	color: white;
 }
 .IntroTitle{
@@ -117,14 +137,14 @@
 	height: 200px;
 }
 #SayingTitle{
-	margin-top: 2%;
-	margin-bottom: 2%;
-	font-family: "Gotham Rounded";
-	font-weight: 500;
-	font-size: 1.5em;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	font-family: "Arial";
+	font-weight: 600;
+	font-size: 2.5em;
 }
 #ASolutionYN{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: 500;
 	font-size: 2em;
 }
@@ -145,7 +165,7 @@
 }
 .CenterandBoder{
 	text-align: center;
-	border-bottom-color: black;
+	border-bottom-color: transparent;
 	border-right-color: transparent;
 	border-top-color: transparent;
 	border-left-color: transparent;
@@ -157,6 +177,13 @@
 	height: 200px;
 	overflow: hidden;
 	z-index: 1;
+	background-color: #8e92e4;
+	border-radius: 2%;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-family: "Arial";
+	margin-top: 5px;
+	margin-bottom: 5px;	
 }
 .CenterandBoder2{
 	text-align: center;
@@ -173,16 +200,25 @@
 	height: 200px;
 	overflow: hidden;	
 	z-index: 2;
+	background-color: #8e92e4;
+	border-radius: 2%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Arial";
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .LeftBoder{
 	border-left-color: black;
 }
 .ProcessDetailSignalBox{
-	margin-top: 10%;
-	height: 450px;
-	margin-bottom: 10%;
+	height: 634px;
+/*	margin-bottom: 10%;*/
 }
-
+.ProcessDetailSignalBox2{
+	height: auto;
+	margin-bottom: 240px;
+}
 #DetailColum2{
 	border-left-color: rgb(223,223,223);
 	border-right-color: rgb(223,223,223);
@@ -191,47 +227,50 @@
 	border-bottom-color: transparent;
 	border-width: 0.5px;
 }
+#DetailColum3{
+	margin-bottom: 0px;
+}
 #ProcessDetailContent{
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	padding-bottom: 5%;
+	padding-bottom: 104px;
 }
 #LinkButtonPartText1{
-	padding-top: 1%;
-	padding-bottom: 3%;
+	padding-top: 88px;
+	padding-bottom: 70px;
 }
 #LinkButtonCotainBox24{
 	border-right-color: transparent;
 }
 #TitleBar{
 	background-color: transparent;
-	background: url(../Resource/LandingPageImages/placeit2-1.png);
-	background-size: cover;
-	background-size-height: 100%;
-	height: auto;
+	background: url(../Resource/LandingPageImages/LandingPageTopBackgroundTest.jpg);
 	margin-bottom: 0px;
 	text-align: center;
-	padding-bottom: 18%;
+	padding-bottom: 172px;
 	padding-top: 0px;
+	height: auto;
 }
-#BottomLinkBox{
-	padding-left: 5%;
-	padding-right: 5%;
-}
+
 .NameOh{
 	margin-top:0px;
 }
 .TitleRule{
 	margin-bottom: 0px;
 	margin-top: 15px;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-size: 1.2em;
+	color: rgb(172,172,172);
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .NamePartRule{
-	color: rgb(246,246,248);
+	color: rgb(0,0,0);
 	margin-top: 10px;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-size: 1.2em;	
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .AdImageShow{
 	width: 100%;
@@ -252,57 +291,88 @@
 	margin-left: 6.25%;
 }
 .TextCotent{
-	padding-top: 5%;
-	padding-bottom: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: rgb(246,246,248);
 	border-radius: 2%;
 }
 .SayingTitle{
 	margin-top: 1%;
 	padding-left: 0;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 }
 .SayingText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 	color: rgb(156,156,156)
 }
 .ProcessDetailTextIntro{
 	margin-top: 8%;
 }
+.ProcessDetailTextIntro2{
+	
+}
+.ProcessDetailIntroImage{
+	width: 100%;
+}
 .ProcessDetailText{
-	line-height: 150%;
+	font-family: "Arial";
+	font-weight: lighter;
+	font-size: 1.3em;
+	line-height: 30px;
 	color: rgb(55,54,226);
 }
+.ProcessDetailIntroText{
+	font-family: "Arial";
+	font-weight: lighter;
+	font-size: 1em;
+	color: rgb(172,172,172);
+	line-height: 24px;
+}
 .CoustomerIconPart{
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-.CustomerTitle{
-/*	margin-top: 5%;*/
-	font-family: "Gotham Rounded";
-	font-weight: 600;
-	color: black;
-	margin-bottom: 50px;
-	font-size: 1.5em;
-}
-#BottomCopyRightPart{
-	padding-top: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 5%;
+}
+.CustomerTitle{
+	margin-top: 126px;
+	font-family: "Arial";
+	font-weight: 600;
+	color: black;
+	margin-bottom: 90px;
+	font-size: 2.5em;
+}
+.BigSize{
+	margin-top: 40px;
+	height: 198px;
+	margin-bottom: 40px;
+}
+.WhiteText{
+	color: white;
+}
+#ASolutionYNTitle{
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#IntegrateTitle{
+	text-align: left;
+}
+#ProcessTitle{
+	text-align: right;
+}
+#VisualizationTitle{
+	text-align: left;
 }
 #TextBox{
 	padding-left: 6.25%;
 	padding-right: 6.25%;
 }
 #TextSayingPart{
-	padding-top: 1%;
-	background-color: rgb(150,152,173);
-	padding-bottom: 5%;
+	background-color: rgb(255,255,255);
+	padding-bottom: 194px;
 }
 #LinkButtonCotainBox14{
 	border-right-color: transparent;
@@ -315,14 +385,17 @@
 	background-color: rgb(255,255,255);
 }
 #ProcessDetailCotainer{
-	background-color: rgb(150,152,173);
+/*	background-color: rgb(255,255,255);*/
 	padding-bottom: 10%;
+	background: url(../Resource/LandingPageImages/SolutionPartBackground.jpg);
+	background-size: cover;
+
 }
 #CompanyIconPartRow1{
-	padding-top: 3%;
+	padding-top: 0;
 	width: 70%;
 	margin-left: 15%;
-	margin-bottom: 2%;
+	margin-bottom: 118px;
 	text-align: center;
 }
 #CompanyIconPartRow2{
@@ -336,6 +409,7 @@
 #CopyRightBox1{
 	margin-top: 15px;
 	margin-bottom: 15px;
+	font-family: "Arial";
 }
 #CopyRightBox2{
 	margin-top: 15px;
@@ -352,12 +426,11 @@
 	margin-top: 20px;
 }
 #FirstTry{
-	margin-top: 20px;
 	font-size: 24px;
 	font-weight: bold;
 	padding-top: 11.5px;
-	height: 59.21px;
-	width: 250px;
+	height: 60px;
+	width: 272px;
 	border-radius: 3%;
 	color: rgb(58,56,227);
 	background-color: white;
