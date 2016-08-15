@@ -174,6 +174,11 @@
 .BottomIcons{
 	width: 90px;
 }
+.CenterandBoderBox{
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: transparent;
+}
 .CenterandBoder{
 	text-align: center;
 	border-bottom-color: transparent;
@@ -190,11 +195,10 @@
 	z-index: 1;
 	background-color: #8e92e4;
 	border-radius: 2%;
-	margin-right: 5px;
-	margin-left: 5px;
 	font-family: "Arial";
 	margin-top: 5px;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
+	padding-top: 30px;
 }
 .CenterandBoder2{
 	text-align: center;
@@ -213,11 +217,10 @@
 	z-index: 2;
 	background-color: #8e92e4;
 	border-radius: 2%;
-	margin-left: 5px;
-	margin-right: 5px;
 	font-family: "Arial";
 	margin-top: 5px;
 	margin-bottom: 5px;
+	padding-top: 30px;
 }
 .LeftBoder{
 	border-left-color: black;
@@ -357,7 +360,7 @@
 }
 .BigSize{
 	margin-top: 40px;
-	height: 198px;
+	height: auto;
 	margin-bottom: 40px;
 }
 .WhiteText{
@@ -404,6 +407,10 @@
 	background-size: cover;
 
 }
+#ProcessDetailTextIntro2{
+	margin-left: 0px;
+	margin-right: 0px;
+}
 #CompanyIconPartRow1{
 	padding-top: 0;
 	width: 70%;
@@ -416,15 +423,6 @@
 	margin-left: 15%;
 	margin-bottom: 118px;
 	text-align: center;
-}
-#CopyRightBox1{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-family: "Arial";
-}
-#CopyRightBox2{
-	margin-top: 15px;
-	margin-bottom: 15px;	
 }
 
 #CompanyCotainers{
@@ -460,6 +458,18 @@
 	width: 60%;
 	margin-left: 20%;
 	height: 500px;
+}
+#DetailColum1{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#DetailColum2{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#DetailColum3{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .FullCoverContentImage{
 	width: 100%;
@@ -502,5 +512,8 @@
 	#NavbarDetailPart{
 		width: 100%;
 		margin-left: 0px;
+	}
+	.ProcessDetailSignalBox2{
+		margin-bottom: 40px;
 	}
 }
