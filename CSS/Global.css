@@ -96,7 +96,7 @@ body{
 	padding-right: 5%;
 }
 .BlueLinkText{
-	color: rgb(34,135,202)
+	color: rgb(55,54,226)
 }
 .BottomLinkContentBox{
 	width: 25%;
@@ -132,4 +132,10 @@ body{
 	margin-top: 20px;
 	margin-bottom: auto;
 	cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+	#NavbarDetailPart{
+		width: 100%;
+		margin-left: 0px;
+	}
 }

@@ -152,6 +152,7 @@
 	font-size: 2.5em;
 	padding-left: 5%;
 	padding-right: 5%;
+	color: white;
 	
 }
 #ASolutionYN{
@@ -193,7 +194,7 @@
 	height: 200px;
 	overflow: hidden;
 	z-index: 1;
-	background-color: #8e92e4;
+	background-color: rgb(98,101,252);
 	border-radius: 2%;
 	font-family: "Arial";
 	margin-top: 5px;
@@ -215,7 +216,7 @@
 	height: 200px;
 	overflow: hidden;	
 	z-index: 2;
-	background-color: #8e92e4;
+	background-color: rgb(98,101,252);
 	border-radius: 2%;
 	font-family: "Arial";
 	margin-top: 5px;
@@ -275,12 +276,12 @@
 	margin-top: 15px;
 	font-family: "Arial";
 	font-size: 1.2em;
-	color: rgb(172,172,172);
+	color: rgb(255,255,255);
 	padding-left: 20px;
 	padding-right: 20px;
 }
 .NamePartRule{
-	color: rgb(0,0,0);
+	color: rgb(255,255,255);
 	margin-top: 10px;
 	font-family: "Arial";
 	font-size: 1.2em;	
@@ -367,8 +368,34 @@
 .WhiteText{
 	color: white;
 }
-#ASolutionYNTitle{
+.SayingTextWhite{
+	font-family: "Arial";
+	font-weight: 300;
+	text-align: center;
 	color: white;
+	font-size: 1.2em;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.SayingTitleWhite{
+	font-family: "Arial";
+	font-weight: 300;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 84px;
+}
+.ButtonIconLittleMarginleft{
+	margin-left: 5px;
+	margin-bottom: 72px;
+}
+#ErwinWhiteTitleText{
+	margin-bottom: 0px;
+}
+#ASolutionYNTitle{
+	color: black;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-left: 5%;
@@ -388,12 +415,15 @@
 }
 #IntegrateTitle{
 	text-align: left;
+	cursor: default;
 }
 #ProcessTitle{
 	text-align: right;
+	cursor: default;
 }
 #VisualizationTitle{
 	text-align: left;
+	cursor: default;
 }
 #TextBox{
 	padding-left: 6.25%;
@@ -402,6 +432,8 @@
 #TextSayingPart{
 	background-color: rgb(255,255,255);
 	padding-bottom: 194px;
+	background: url(../Resource/LandingPageImages/CustomerSayingBackground.png);
+	background-size: cover;
 }
 #LinkButtonCotainBox14{
 	border-right-color: transparent;
@@ -414,9 +446,9 @@
 	background-color: rgb(255,255,255);
 }
 #ProcessDetailCotainer{
-/*	background-color: rgb(255,255,255);*/
+	background-color: rgb(255,255,255);
 	padding-bottom: 10%;
-	background: url(../Resource/LandingPageImages/SolutionPartBackground.jpg);
+/*	background: url(../Resource/LandingPageImages/SolutionPartBackground.jpg);*/
 	background-size: cover;
 
 }
@@ -531,10 +563,6 @@
 	}
 	#MainAttarctText{
 		margin-top: 320px;
-	}
-	#NavbarDetailPart{
-		width: 100%;
-		margin-left: 0px;
 	}
 	.ProcessDetailSignalBox2{
 		margin-bottom: 40px;
