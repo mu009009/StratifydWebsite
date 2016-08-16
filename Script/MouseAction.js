@@ -231,49 +231,55 @@ d3.select("#ComDataText")
 d3.select("#BIext")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465569127358-0bff86aa-846b";
+		window.location.href="../Resource/PDFResource/Case Study - BI.pdf";
 	})
 
 d3.select("#ExcuText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465569127469-ed2189fe-e679";
+		window.location.href="../Resource/PDFResource/Case Study - Executive.pdf";
 	})
 
 d3.select("#MarketText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465570106735-fd86a6b5-8112";
+		window.location.href="../Resource/PDFResource/Case Study - Marketing.pdf";
 	})
 
 d3.select("#CustomerEXText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465570122963-b046f844-a6b7";
+		window.location.href="../Resource/PDFResource/Case Study - Consumer Products.pdf";
 	})
 
 d3.select("#RetailText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465572646633-765b2856-5cb6";
+		window.location.href="../Resource/PDFResource/Case Study - Retail.pdf";
 	})
 d3.select("#UtilitiesText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465572647477-b998783e-9183";
+		window.location.href="../Resource/PDFResource/Case Study - Utilities.pdf";
 	})
 
 d3.select("#HospitalityText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465572648366-bfdb60c7-8301";
+		window.location.href="../Resource/PDFResource/Case Study - Hospitality for website.pdf";
+	})
+
+d3.select("#FinSerText")
+	.on("click",function()
+	{
+		window.location.href="../Resource/PDFResource/Case Study - Financial Services.pdf";
 	})
 
 //Company
 d3.select("#OurTeamText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/our-team/";
+		window.location.href="AboutUsPage.html";
 	})
 	
 d3.select("#JOppText")
@@ -304,12 +310,12 @@ d3.select("#BlogIext")
 //TitleStrtifyd
 d3.select('#CompanyIconTitleText')
 .on("click",function(){
-	window.location.reload();
+	window.location.href="LandingPageDesigned.html";
 })
 
 d3.select('#navProduct')
 .on("click",function(){
-	window.location.href="http://www.tasteanalytics.com/product-page/";
+	window.location.href="Product.html";
 })
 
 d3.select('#navSolution')
@@ -335,6 +341,99 @@ d3.select('#NavBarLoginButton')
 .on('click',function(){
 	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
 })
+
+//New Nav Bar Button Change
+//Log in Button
+d3.select('#NavBarLoginButton')
+	.on('mouseover',function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)		
+		.style('background-color',function()
+		{
+			var Color = "rgb" + "(" + "211,210,214" + ")";
+			return Color;
+		})
+		.style('border-color',function()
+		{
+			var Color = "rgb" + "(" + "211,210,214" + ")";
+			return Color;
+		})
+		.style('color',function()
+		{
+			var Color = "rgb" + "(" + "255,255,255" + ")";
+			return Color;
+		})
+		
+	})
+	.on('mouseout',function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',function()
+		{
+			var Color = "rgb" + "(" + "255,255,255" + ")";
+			return Color;
+		})
+		.style('border-color',function()
+		{
+			var Color = "rgb" + "(" + "211,210,214" + ")";
+			return Color;
+		})		
+		.style('color',function()
+		{
+			var Color = "rgb" + "(" + "103,101,181" + ")";
+			return Color;
+		})			
+	})
+
+//Sign Up Button
+d3.select('#NavBarSignUpButton')
+	.on('mouseover',function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)		
+		.style('background-color',function()
+		{
+			var Color = "rgb" + "(" + "80,167,224" + ")";
+			return Color;
+		})
+		.style('border-color',function()
+		{
+			var Color = "rgb" + "(" + "80,167,224" + ")";
+			return Color;
+		})
+		.style('color',function()
+		{
+			var Color = "rgb" + "(" + "255,255,255" + ")";
+			return Color;
+		})
+		
+	})
+	.on('mouseout',function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',function()
+		{
+			var Color = "rgb" + "(" + "56,56,158" + ")";
+			return Color;
+		})
+		.style('border-color',function()
+		{
+			var Color = "rgb" + "(" + "56,56,158" + ")";
+			return Color;
+		})		
+		.style('color',function()
+		{
+			var Color = "rgb" + "(" + "255,255,255" + ")";
+			return Color;
+		})			
+	})
 
 //Play Video
 d3.selectAll(".ContentVideo")

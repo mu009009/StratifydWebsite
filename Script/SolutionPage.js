@@ -76,11 +76,11 @@ d3.selectAll('.CenterandBoder')
 		var Color = "rgb"+"("+"246,246,248"+")";
 		return Color;
 	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"246,246,248"+")";
-		return Color;
-	})	
+//	.style("border-color",function()
+//	{
+//		var Color = "rgb"+"("+"246,246,248"+")";
+//		return Color;
+//	})	
 	
 	var SelectKey = d3.select(this)[0][0].id;
 	var KeyFr = SelectKey.charAt(SelectKey.length-2);
@@ -98,14 +98,14 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"220,238,250"+")";
+		var Color = "rgb"+"("+"98,101,252"+")";
 		return Color;
 	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"220,238,250"+")";
-		return
-	})
+//	.style("border-color",function()
+//	{
+//		var Color = "rgb"+"("+"98,101,252"+")";
+//		return
+//	})
 	
 	var SelectKey = d3.select(this)[0][0].id;
 	var KeyFr = SelectKey.charAt(SelectKey.length-2);
@@ -125,14 +125,14 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"246,246,248"+")";
+		var Color = "rgb"+"("+"255,255,255"+")";
 		return Color;
 	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"246,246,248"+")";
-		return Color;
-	})		
+//	.style("border-color",function()
+//	{
+//		var Color = "rgb"+"("+"255,255,255"+")";
+//		return Color;
+//	})		
 	
 	var SelectKey = d3.select(this)[0][0].id;
 	var KeyFr = SelectKey.charAt(SelectKey.length-2);
@@ -151,14 +151,14 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"220,238,250"+")";
+		var Color = "rgb"+"("+"98,101,252"+")";
 		return Color;
 	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"220,238,250"+")";
-		return
-	})
+//	.style("border-color",function()
+//	{
+//		var Color = "rgb"+"("+"98,101,252"+")";
+//		return
+//	})
 	
 	var SelectKey = d3.select(this)[0][0].id;
 	var KeyFr = SelectKey.charAt(SelectKey.length-2);
@@ -168,132 +168,6 @@ d3.selectAll('.CenterandBoder2')
 	.transition()
 	.duration(ShorDurationTime)	
 	.style("margin-top",0+"px");		
-})
-
-
-//Circle Buttons Size Transition
-var BubbleButton = document.getElementById("CircleBubble1").getBoundingClientRect().width;
-var BubbleBoxWidth = document.getElementById("BubbleIconBox1").getBoundingClientRect().width;
-
-d3.selectAll('.BubblePart')
-.on("mouseover",function()
-{
-	d3.select(this)
-	.transition()
-	.duration(ShorDurationTime)
-//	.style("width",BubbleButton*1.5+"px")
-//	.style("margin-left",function()
-//	{
-//		var marginLeftNum = (BubbleBoxWidth - (BubbleButton*1.5))/2;
-//		return marginLeftNum + "px";
-//	})
-	.style("background-color",function()
-	{
-		var Color = "rgb"+"("+"0,161,175"+")";
-		return Color;
-	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"0,161,175"+")";
-		return Color;
-	})
-	
-//	TforCircleShowOnly = -9999;
-})
-.on("mouseout",function()
-{
-	d3.select(this)
-	.transition()
-	.duration(ShorDurationTime)
-//	.style("width",BubbleButton+"px")
-	.style("background-color",function()
-	{
-		var Color = "rgb"+"("+"255,255,255"+")";
-		return Color;
-	})
-	.style("border-color",function()
-	{
-		var Color = "rgb"+"("+"227,227,227"+")";
-		return Color;
-	})
-	
-//	TforCircleShowOnly = -1;
-})
-.on("click",function()
-{
-	var ClickObject = d3.select(this);
-	var ClickID = ClickObject[0][0].id;
-	console.log(ClickID);
-	switch (ClickID)
-	{
-		case "CircleBubble1":
-			
-		d3.selectAll(".ContinueChangeBox")	
-		.style("position","absolute");
-			
-		d3.select("#ContinueChangeBox1")
-		.style("position","relative");	
-			
-		d3.selectAll(".ContinueChangeBox")
-		.transition()
-		.duration(ShorDurationTime)
-		.style("opacity",0)
-		.style("z-index",-1);
-			
-		d3.select("#ContinueChangeBox1")
-		.transition()
-		.duration(ShorDurationTime)
-		.style('opacity',1)
-		.style("z-index",3);
-		
-		break;
-			
-		case "CircleBubble2":
-			
-		d3.selectAll(".ContinueChangeBox")	
-		.style("position","absolute");
-			
-		d3.select("#ContinueChangeBox2")
-		.style("position","relative");	
-			
-		d3.selectAll(".ContinueChangeBox")
-		.transition()
-		.duration(ShorDurationTime)
-		.style("opacity",0)
-		.style("z-index",-1)
-			
-		d3.select("#ContinueChangeBox2")
-		.transition()
-		.duration(ShorDurationTime)
-		.style('opacity',1)
-		.style("z-index",3);
-		
-
-		
-		break;
-			
-		case "CircleBubble3":
-			
-		d3.selectAll(".ContinueChangeBox")	
-		.style("position","absolute");
-			
-		d3.select("#ContinueChangeBox3")
-		.style("position","relative");				
-			
-		d3.selectAll(".ContinueChangeBox")
-		.transition()
-		.duration(ShorDurationTime)
-		.style("opacity",0)
-		.style("z-index",-1);
-			
-		d3.select("#ContinueChangeBox3")
-		.transition()
-		.duration(ShorDurationTime)
-		.style('opacity',1)
-		.style("z-index",3);
-		
-		break;	
-	}
 })
 
 //Play Video
@@ -323,59 +197,53 @@ d3.select('#TrySignals3')
 	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
 })
 
-d3.select("#FinSerText")
-	.on("click",function()
-	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465572649316-c4a0c801-a7f5";
-	})
-
 //Bottom Link Part buttons First Part 4 buttons
-d3.select("#ExecutiveTitle")
+d3.select("#ExecutiveLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/03/16/customer-insights-for-a-competitive-edge/";
+		window.location.href="../Resource/PDFResource/Case Study - Executive.pdf";
 	})
 
-d3.select("#BussinessIntTitle")
+d3.select("#BusinessIntLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/16/bringing-data-silos-together/";
+		window.location.href="../Resource/PDFResource/Case Study - BI.pdf";
 	})
 
-d3.select("#MarketingTitle")
+d3.select("#MarketingLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/19/painting-the-competition-picture/";
+		window.location.href="../Resource/PDFResource/Case Study - Marketing.pdf";
 	})
 
-d3.select("#CustomerEXTitle")
+d3.select("#CustomerexperienceLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/09/data-analytics-on-chat-sessions-alan-fitzpatrick/";
+		window.location.href="../Resource/PDFResource/Case Study - Consumer Products.pdf";
 	})
 
-d3.select("#ExecutiveIcon")
+d3.select("#RetailLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/03/16/customer-insights-for-a-competitive-edge/";
+		window.location.href="../Resource/PDFResource/Case Study - Retail.pdf";
 	})
 
-d3.select("#BusinessIntIcon")
+d3.select("#UtilitiesLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/16/bringing-data-silos-together/";
+		window.location.href="../Resource/PDFResource/Case Study - Utilities.pdf";
 	})
 
-d3.select("#MarketingIcon")
+d3.select("#HospitalityLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/19/painting-the-competition-picture/";
+		window.location.href="../Resource/PDFResource/Case Study - Hospitality for website.pdf";
 	})
 
-d3.select("#CustomerExIcon")
+d3.select("#FinancialLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/09/data-analytics-on-chat-sessions-alan-fitzpatrick/";
+		window.location.href="../Resource/PDFResource/Case Study - Financial Services.pdf";
 	})
 
 
