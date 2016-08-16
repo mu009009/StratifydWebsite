@@ -201,49 +201,49 @@ d3.select('#TrySignals3')
 d3.select("#ExecutiveLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Executive.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Executive.pdf";
 	})
 
 d3.select("#BusinessIntLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - BI.pdf";
+		window.location.href="Resource/PDFResource/Case Study - BI.pdf";
 	})
 
 d3.select("#MarketingLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Marketing.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Marketing.pdf";
 	})
 
 d3.select("#CustomerexperienceLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Consumer Products.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Consumer Products.pdf";
 	})
 
 d3.select("#RetailLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Retail.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Retail.pdf";
 	})
 
 d3.select("#UtilitiesLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Utilities.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Utilities.pdf";
 	})
 
 d3.select("#HospitalityLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Hospitality for website.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Hospitality for website.pdf";
 	})
 
 d3.select("#FinancialLearnMore")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Financial Services.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Financial Services.pdf";
 	})
 
 

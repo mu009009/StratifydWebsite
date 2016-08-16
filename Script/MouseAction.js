@@ -231,48 +231,48 @@ d3.select("#ComDataText")
 d3.select("#BIext")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - BI.pdf";
+		window.location.href="Resource/PDFResource/Case Study - BI.pdf";
 	})
 
 d3.select("#ExcuText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Executive.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Executive.pdf";
 	})
 
 d3.select("#MarketText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Marketing.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Marketing.pdf";
 	})
 
 d3.select("#CustomerEXText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Consumer Products.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Consumer Products.pdf";
 	})
 
 d3.select("#RetailText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Retail.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Retail.pdf";
 	})
 d3.select("#UtilitiesText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Utilities.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Utilities.pdf";
 	})
 
 d3.select("#HospitalityText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Hospitality for website.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Hospitality for website.pdf";
 	})
 
 d3.select("#FinSerText")
 	.on("click",function()
 	{
-		window.location.href="../Resource/PDFResource/Case Study - Financial Services.pdf";
+		window.location.href="Resource/PDFResource/Case Study - Financial Services.pdf";
 	})
 
 //Company
