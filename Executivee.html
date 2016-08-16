@@ -7,13 +7,15 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<link href="CSS/Global.css" rel="stylesheet"/>
+	<link href="CSS/SolutionPage.css" rel="stylesheet">
 	<link href="CSS/Buttons.css" rel="stylesheet"/>
-	<link href="CSS/CanvasBox.css" rel="stylesheet"/>		
-	<link href="CSS/AboutUsPage.css" rel="stylesheet"/>
+	<link href="CSS/CanvasBox.css" rel="stylesheet"/>
+	
 </head>
 <body>
 <!--Maincotainer the whole page-->	
 <div class="jumbotron" id="TitleBar">
+
 <nav class="navbar navbar-default" role="navigation" id="NavBarPart">
    <div class="navbar-header" id="CompanyTitelPartImportent">
       <button type="button" class="navbar-toggle" data-toggle="collapse" 
@@ -50,31 +52,8 @@
       </ul>
    </div>
 </nav>
-	
-	<div class="row" id="backgroundColorRow">
-
-		<div class="row">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-			</div>
-			<div class="col-xs-8 col-sm-8 col-md-10 col-lg-10">
-				<h1 class="Introduce IntroTitle" id="MainAttarctText">We Are the Best
-				<h1>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-			</div>		
-			<div class="col-xs-8 col-sm-8 col-md-10 col-lg-10" id="AboutUsTitleTextBar">
-				<h3 class="Introduce IntroCotent" id="SignalsText">
-					Stratifyd is always your best choice.
-				</h3>
-			</div>		
-		</div>
-			
-	</div>			
 </div>
-
+	
 <!--<div class="jumbotron" id="PageContent">-->
 <!--
 	<div class="row">
@@ -92,98 +71,18 @@
 		</div>
 	</div>
 -->
-		
-<div class = "cotainers" id = "BubbleProcessDetailCotainer">
-	<div class="row">
-		<div class = "col-xs-12 col-sm-12 col-md-12 text-center" id = "FirstSubTitle">
-			<div class="row" id="StoryRow">
-				<div class="col-xs-12 col-sm-12 col-md-2">
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4" id = "StroyTextPart2">
-					<img src="Resource/AboutUsImages/ProbolyNewStratifydIcon.png" class="OurStoryImage" id = "OurStoryImage"></img>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4" id = "StroyTextPart">
-					<h2 class="text-center StoryTitleRow SecondRowTitle" id = "OurStoryTitle">Our Story</h2>
-					<h4 class = "AboutUsContentText text-left" id = "OurStoryText">
-						Stratifyd, based in Charlotte, N.C., develops tightly integrated data analysis and visualization solutions that create actionable business insights from heterogeneous unstructured data. 
-						The company’s solutions are used in a variety of applications across marketing, customer support, product development, and other key business disciplines.
-					</h4>					
-				</div>			
-			</div>
-		</div>
-	</div>
-</div>
-		
-<div class = "cotainers" id = "BubbleProcessDetailCotainer2">
-	<div class="row">
-		<div class="col-xs-12 col-sm-2 col-md-2">
-		</div>
-		<div class = "col-xs-12 col-sm-8 col-md-8 text-left" id = "2ndSubTitle">
-			<div class="row" id="StoryRow">
-				<div class="col-xs-12 col-sm-12 col-md-12" id = "StroyTextPart">
-					<h2 class = "text-center SecondRowTitle" id = "OurMissionTitle">Our Mission</h2>					
-					<h4 class = "MissionText text-center" id = "OurMissionText">
-						is to allow users to quickly visualize key patterns and behaviors so they can better anticipate and refine strategies in real-time.
-					</h4>					
-				</div>
-			</div>			
-			
-		</div>
-	</div>
-</div>		
-<!--</div>-->
 
-<div class = "cotainers" id = "CompanyCotainers">
-	<div class="row" id="CompanyIconPartRow1">
-<!--
-		<div class="col-sm-2">
-		</div>
--->
-		<div class="col-xs-12 col-sm-12 col-md-6">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/HN9cymBfaqA" frameborder="0" allowfullscreen class="ContentVideo" id="AboutUsPageVideo1"></iframe>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/5zypvzArd3A" frameborder="0" allowfullscreen class="ContentVideo" id="AboutUsPageVideo2"></iframe>
-		</div>			
-	</div>
-
-</div>
-	
 <div class = "cotainers" id = "BubbleProcessDetailCotainer2">
-	<div class="row">
-		<div class = "col-sm-12 text-center" id = "FirstSubTitle">
-			<h2 class = "SecondRowTitle" id="ExcutiveTeamTitle">Executive Team</h2>
+
+	<div class="row pdfBrowser" id="ExcutivePdfDetails">
+		
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<iframe class="PdfInfoStyle" src="Resource/PDFResource/Case%20Study%20-%20Executive.pdf" style="border: 0; width : 100%;">
+			</iframe>
 		</div>
+		
 	</div>
-	<div class="row" id="PhotoRow">
-		<div class="col-sm-12 col-md-2">
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-2 text-center FontStyle">
-			<img class = "img-circle Photos" src="Resource/AboutUsImages/2O2A1280-200x200.jpg" id = "Photo1">
-			</img>
-			<h4>Derek Wang Ph.D</h4>
-			<h4>CEO&Founder</h4>
-		</div>
 	
-		<div class="col-xs-12 col-sm-6 col-md-2 text-center FontStyle">
-			<img class = "img-circle Photos" src="Resource/AboutUsImages/2O2A1255-200x200.jpg" id = "Photo2">
-			</img>
-			<h4>Thomas Kraft</h4>
-			<h4>Vp of Engineer</h4>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-2 text-center FontStyle">
-			<img class = "img-circle Photos" src="Resource/AboutUsImages/AAEAAQAAAAAAAAceAAAAJGIyNDViODM5LTA3NzYtNDcwNS05ZTgyLTAwMWQ5MzdjNzAzMg-200x200.jpg" id = "Photo3">
-			</img>
-			<h4>Brad Fleeman</h4>
-			<h4>Vp Global Sales</h4>	
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-2 text-center FontStyle">
-			<img class = "img-circle Photos" src="Resource/AboutUsImages/2C63E656-C0E9-4993-9DB4-6FFF7D51988B-200x200.jpg" id = "Photo4">
-			</img>
-			<h4>Yu Li Ph.D</h4>
-			<h4>Vp of Data Visualization</h4>
-		</div>
-	</div>	
 </div>
 
 <div class = "cotainers" id = "BottomLinkPart">
@@ -287,7 +186,7 @@
 <script src="Script/GlobalControl.js"></script>
 <script src="Script/FontSizeControl.js"></script>
 <script src="Script/MouseAction.js"></script>
-<script src="Script/AboutUsPage.js"></script>
+<script src="Script/SolutionPage.js"></script>
 <script src="Script/WindowResize.js"></script>
 <script src="lib/css3-mediaqueries-js-master/css3-mediaqueries.js"></script>
 <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>

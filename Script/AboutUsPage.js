@@ -116,12 +116,6 @@ d3.select('#TrySignals3')
 	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
 })
 
-d3.select("#FinSerText")
-	.on("click",function()
-	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465572649316-c4a0c801-a7f5";
-	})
-
 //Bottom Link Part buttons First Part 4 buttons
 d3.select("#ExecutiveTitle")
 	.on("click",function()

@@ -9,11 +9,12 @@
 .col-sm-1{
 	text-align: center;
 }
-#SecondRowTitle{
+.SecondRowTitle{
 	font-family: "Arial";
 	font-weight: bold;
-	margin-top: 1.5%;
+	margin-top: 32px;
 	font-size: 3.5em;
+	margin-bottom: 32px;
 }
 #SignalsText{
 	margin-top: 0px;
@@ -140,6 +141,7 @@
 .Photos{
 	width: 200px;
 	border-style: hidden;
+	margin-bottom: 56px;
 /*	margin-left: 8.333333%;*/
 }
 #StoryRow{
@@ -214,6 +216,7 @@
 	color: rgb(165,165,165);;
 	padding-left: 15px;
 	padding-right: 15px;
+	margin-top: 40px;
 }
 #TextSayingPart{
 	padding-top: 1%;
@@ -319,7 +322,7 @@
 		text-align: center;
 		color: white;
 	}
-	#SecondRowTitle{
+	.SecondRowTitle{
 		text-align: center;
 	}
 	#OurStoryText{

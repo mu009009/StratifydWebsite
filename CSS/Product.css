@@ -1,6 +1,5 @@
 .IntroImage{
 	width: 30%;
-	margin-left: 20%;
 	position: relative;
 }
 .DetailImage{
@@ -18,8 +17,10 @@
 }
 #ProductTryB1{
 	position: relative;
-	width: 15%;
-	margin-top: 2%;
+	width: 272px;
+	height: 60px;
+	margin-top: 45px;
+	border-radius: 3%;
 }
 #ProductDetailBox{
 	margin-top: 4%;
@@ -42,9 +43,35 @@
 	cursor: pointer;
 }
 .ContentProDetailText-Left{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	text-align: left;
 	color: rgb(158,158,158);
 	font-size: 1em;
 	cursor: pointer;
+}
+#TitleBar{
+	padding-top: 0px;
+	padding-bottom: 172px;
+	background-color: white;
+}
+#ProductBackgroundImage{
+	padding-top: 206px;
+}
+#ProductIntroImage{
+	width: 100%;
+}
+#ProductTitleBoxPart{
+	padding-top: 206px;
+	font-family: "Arial";
+}
+#SignalsTitle{
+	font-weight: 600;
+}
+#SignalsIntroText{
+	font-size: 1.5em;
+}
+@media screen and (max-width: 992px) {
+	#ProductTitleBoxPart{
+		padding-top: 45px;
+	}
 }

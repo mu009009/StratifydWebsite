@@ -296,59 +296,53 @@ d3.select('#TrySignals3')
 	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
 })
 
-d3.select("#FinSerText")
-	.on("click",function()
-	{
-		window.location.href="http://www.tasteanalytics.com/solution/#1465572649316-c4a0c801-a7f5";
-	})
-
 //Bottom Link Part buttons First Part 4 buttons
 d3.select("#ExecutiveLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/03/16/customer-insights-for-a-competitive-edge/";
+		window.location.href="Resource/PDFResource/Case Study - Executive.pdf";
 	})
 
 d3.select("#BusinessIntLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/16/bringing-data-silos-together/";
+		window.location.href="Resource/PDFResource/Case Study - BI.pdf";
 	})
 
 d3.select("#MarketingLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/19/painting-the-competition-picture/";
+		window.location.href="Resource/PDFResource/Case Study - Marketing.pdf";
 	})
 
 d3.select("#CustomerexperienceLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/09/data-analytics-on-chat-sessions-alan-fitzpatrick/";
+		window.location.href="Resource/PDFResource/Case Study - Consumer Products.pdf";
 	})
 
 d3.select("#RetailLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/24/shall-i-sell-on-walmart-or-amazon/";
+		window.location.href="Resource/PDFResource/Case Study - Retail.pdf";
 	})
 
 d3.select("#UtilitiesLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/04/20/smarter-cities-through-smart-analytics/";
+		window.location.href="Resource/PDFResource/Case Study - Utilities.pdf";
 	})
 
 d3.select("#HospitalityLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/03/29/restaurants-leverage-data-for-customer-insights/";
+		window.location.href="Resource/PDFResource/Case Study - Hospitality for website.pdf";
 	})
 
 d3.select("#FinancialLearnMore")
 	.on("click",function()
 	{
-		window.location.href="http://blog.stratifyd.com/2016/02/25/engaging-your-app-users/";
+		window.location.href="Resource/PDFResource/Case Study - Financial Services.pdf";
 	})
 
 
@@ -363,99 +357,6 @@ d3.select("#FirstWatchVideo")
 	.on("click",function()
 	{
 		window.location.href="http://www.stratifyd.com/about-us/";
-	})
-
-//New Nav Bar Button Change
-//Log in Button
-d3.select('#NavBarLoginButton')
-	.on('mouseover',function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)		
-		.style('background-color',function()
-		{
-			var Color = "rgb" + "(" + "211,210,214" + ")";
-			return Color;
-		})
-		.style('border-color',function()
-		{
-			var Color = "rgb" + "(" + "211,210,214" + ")";
-			return Color;
-		})
-		.style('color',function()
-		{
-			var Color = "rgb" + "(" + "255,255,255" + ")";
-			return Color;
-		})
-		
-	})
-	.on('mouseout',function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',function()
-		{
-			var Color = "rgb" + "(" + "255,255,255" + ")";
-			return Color;
-		})
-		.style('border-color',function()
-		{
-			var Color = "rgb" + "(" + "211,210,214" + ")";
-			return Color;
-		})		
-		.style('color',function()
-		{
-			var Color = "rgb" + "(" + "103,101,181" + ")";
-			return Color;
-		})			
-	})
-
-//Sign Up Button
-d3.select('#NavBarSignUpButton')
-	.on('mouseover',function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)		
-		.style('background-color',function()
-		{
-			var Color = "rgb" + "(" + "80,167,224" + ")";
-			return Color;
-		})
-		.style('border-color',function()
-		{
-			var Color = "rgb" + "(" + "80,167,224" + ")";
-			return Color;
-		})
-		.style('color',function()
-		{
-			var Color = "rgb" + "(" + "255,255,255" + ")";
-			return Color;
-		})
-		
-	})
-	.on('mouseout',function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',function()
-		{
-			var Color = "rgb" + "(" + "56,56,158" + ")";
-			return Color;
-		})
-		.style('border-color',function()
-		{
-			var Color = "rgb" + "(" + "56,56,158" + ")";
-			return Color;
-		})		
-		.style('color',function()
-		{
-			var Color = "rgb" + "(" + "255,255,255" + ")";
-			return Color;
-		})			
 	})
 
 //First Try Button
@@ -480,7 +381,7 @@ d3.select('#FirstTry')
 	})
 	.on("click",function()
 	{
-		window.location.href = "https://signals.stratifyd.com/login.html#sign-in";
+		window.location.href = "https://signals.stratifyd.com/login.html#new";
 	})
 
 
