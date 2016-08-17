@@ -4,340 +4,352 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+     <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	
 	<link href="CSS/Global.css" rel="stylesheet"/>
+	<link href="CSS/Product.css" rel="stylesheet"/>
 	<link href="CSS/Buttons.css" rel="stylesheet"/>
-	<link href="CSS/CanvasBox.css" rel="stylesheet"/>		
-	<link href="CSS/HowitWorks.css" rel="stylesheet"/>
+	<link href="CSS/CanvasBox.css" rel="stylesheet"/>
+
+	
 </head>
-<body>
+
 <!--Maincotainer the whole page-->	
+<body>
+	
 <div class="jumbotron" id="TitleBar">
-<!--
-	<div class="row" >
-		<div class="col-sm-1">
+	
+	<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
+	   <div class="navbar-header" id="CompanyTitelPartImportent">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" 
+			 data-target="#example-navbar-collapse">
+			 <span class="sr-only">Switch</span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>			  
+		  </button>
+		  <a class="navbar-brand" id="CompanyIconTitleText" href="#">
+			  <img class="img" src="Resource/Icons/Stratifyd/newlogonowords-Transparent.png" id="NavTitleCompanyIcon">
+			  </img> 
+			  <span class="NavTitleName" id="StratifydLogoText">Stratifyd</span> 
+		   </a>	
+	   </div>
+	   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+		  <ul class="nav navbar-nav" id="NavbarDetailPart">
+			 <li class="active NavBarButtons" id="navProduct"><a href="#">PRODUCT</a></li>
+			 <li class="active NavBarButtons" id="navSolution"><a href="#">SOLUTION</a></li>
+			 <li class="active NavBarButtons" id="navBlog"><a href="#">BLOG</a></li>
+			 <li class="dropdown">
+				 <a href="#" class="dropdown-toggle NavBarButtons" data-toggle="dropdown"id="DraopDownMenu1">
+					 ABOUT<b class="caret"></b>
+				 </a>
+				 <ul class="dropdown-menu NavBarButtons">
+					 <li><a href="#" id="navOurTeam">About Us</a>
+					 </li>
+					 <li><a href="#" id="navContactUs">Contact Us</a>
+					 </li>				 
+				 </ul>
+			  </li>		  	  
+			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>
+	<!--		 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
+		  </ul>
+	   </div>
+	</nav>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+		</div>
+		
+		<div class="col=xs-12 col-sm-12 col-md-4 col-lg-4" id="ProductBackgroundImage">
+			<img src="Resource/ProductPageImages/ProductHeader-Screenshots.png" class="IntroImage" id="ProductIntroImage">
+			</img>		
+		</div>
+		
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="ProductTitleBoxPart">
+
+			<div class="ContentBox NormalBox" id="ProductTitlePart">
+					<h1 class = "ContentTile ContentText-Left" id="SignalsTitle">Signals
+					</h1>			
+					<div class = "ContentBox LeftBox" id="SignalIntroTextBox">
+					<h3 class="ContentTextInfo ContentText-Left" id="SignalsIntroText">
+						A powerful augemented intelligence engine for your business.
+					</h3>
+					</div>		
+				<span class="btn btnBlack" id="ProductTryB1">Free Trial</span>
+			</div>			
+	<!--
+				<h3 class="Introduce IntroCotent" id="SignalsText">
+					Signals Provides the opportunity to maximize your potential.
+				</h3>
+	-->
 		</div>		
-    	<div class="col-sm-2" id="CompanIconPart">
-			<img src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple.png" class="CompanyIcon" id="CompanyIcon" alt="Stratifyd">
-			</img>			
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextLeft" id = "Product">PRODUCT</span>
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextLeft" id = "Solution">SOLUTION</span>
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextRight" id = "Blog">BLOG</span>	
-		</div>
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextRight" id = "Contactus">CONTACT US</span>
-		</div>	
-		<div class="col-sm-2">
-			<span class = "ButtonText ButtonTextRight" id = "Login">LOGIN</span>	
-		</div>
 	</div>
--->
-<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
-   <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" 
-         data-target="#example-navbar-collapse">
-         <span class="sr-only">Switch</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-      </button>
-      <img class="navbar-brand" src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple.png"></img>
-   </div>
-   <div class="collapse navbar-collapse" id="NavButtonPart">
-      <ul class="nav navbar-nav" id="NavbarDetailPart">
-         <li class="active NavBarButtons"><a href="#">PRODUCT</a></li>
-         <li class="active NavBarButtons"><a href="#">SOLUTION</a></li>
-         <li class="active NavBarButtons"><a href="#">ABOUT US</a></li>
-         <li class="active NavBarButtons"><a href="#">CONTACT US</a></li>
-         <li class="active NavBarButtons"><a href="#">BLOG</a></li>
-         <li class="active NavBarButtons"><a href="#">LOGIN</a></li>		  
-      </ul>
-   </div>
-</nav>
-						
-</div>
-
-<!--<div class="jumbotron" id="PageContent">-->
-<!--
-	<div class="row">
-		<div class = "col-sm-6" id = "MainContentJumpBox1">
-			<h5 class = "ContentTextInfo ContentText-Center" id = "TryAdText">Every one can be data scientist
-			</h5>
-			<span class="btn btnBlack" id = "MainContentJumpButton1">Try Now
-			</span>
-		</div>
-		<div class = "col-sm-6" id = "MainContentJumpBox2">
-			<h5 class = "ContentTextInfo ContentText-Center" id = "ViewAdText">Value asset for our customers
-			</h5>
-			<span class="btn btnBlack" id = "MainContentJumpButton2">View Story
-			</span>
-		</div>
-	</div>
--->
-<div class = "cotainers" id = "BubbleProcessDetailCotainer">
-	<div class="row">	
 			
-			<div class="row" id="StoryRow">
-				<div class="col-sm-3">
+	<div class="row">
+		<div class="col-sm-4">
+		</div>			
+	</div>
+			
+	<div class="row">
+		<div class="col-sm-12 text-center" id = "TitleButtonPart">
+<!--			<span class="btn btn-warning" id="FirstTry">View Demo</span>-->
+		</div>			
+	</div>			
+</div>
+
+	<div class="ContentBox NormalBox" id="ProductContent">
+		<div class = "row">
+			
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ThirdRankPageSubTitle">
+				<h2>How it Works</h2>
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox11">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/1471401956_35_machine_learning.svg"></img>
 				</div>
-				<div class="col-sm-1 text-right" id = "StroyTextPart2">
-					<img src="Resource/ProductPageImages/DetailPartIcon/100x100_Brain.png" class="OurStoryImage" id = "OurStoryImage"></img>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Deep computing intelligence
+					</h3>
+					
 				</div>
-				<div class = "col-sm-8 text-center" id = "FirstSubTitle">
-									
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-8 text-left">
-							<h2 id = "SecondRowTitle">Signals</h2>
-						</div>
-					</div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
 					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-8 text-left">
-							<h3 id = "SecondRowTitleLighter">How it Works</h3>
-						</div>
-					</div>					
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-					</div>
+					<h4 class="ThirdRankPageContentText">
+						The Signals analysis engine automatically reads and processes every n-gram (e.g. two meaningful words together) 
+						of every document identifying statistically relevant topics of conversation. Signals makes semantic associations 
+						between each and every text document, grouping similar documents together into categories of conversation. 
+						This is the new and unbiased way to understand customer, employee, and marketplace feedback.
+					</h4>		
 					
 				</div>			
+			
 			</div>
-	
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox12">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/nlp-icon_Black.png"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Advanced natural language processing
+					</h3>
+					
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Signals will process and analyze unstructured text, extract relevant information, and transform it into useful 
+						business intelligence. Specifically, Signals classifies and extracts sentiment, entities, geo location, content 
+						information and temporal indicators, grouping them into meaningful clusters. Signals goes beyond just NLP though – 
+						it also incorporates robust semantic clustering technologies to truly help you learn what your data is trying to tell you.
+					</h4>
+					
+				</div>		
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox13">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/word_cloud_language_Gray_Small.png"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Multi-Lingual sentiment analysis
+					</h3>
+					
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Signals uses proprietary technology that incorporates statistical machine learning, opinion analysis, and statistical analysis 
+						to assess sentiment. Sentiment is calculated on three-levels, per entire document, per Sentence, and per Terms that are extracted 
+						by Signals. Simply put, the platform looks for Part-Of-Speech to segment the sentences and terms, determine which are opinion-critical 
+						(e.g. nouns, descriptors) to build an initial analysis pass.
+					</h4>
+					
+				</div>		
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox14">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/1471401970_bookmark_topic.svg"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Dynamic topic summarization
+					</h3>
+					
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Signals identifies clusters of semantically similar conversation and groups them into categories. Categories are generated automatically 
+						and uniquely for each individual data set. Centered around these opinion-critical elements, the engine further identifies specific words, 
+						phrases, and language constructs that are associated with positive and negative meanings in the topic categories. In addition to words and 
+						phrases, a contextual analysis around the data-driven category is utilized to improve the accuracy of the sentiment and properly reflect its 
+						semantic differences within each category
+					</h4>	
+					
+				</div>					
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox15">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/1471401976_5121_-_Global_Delivery.svg"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Global geographical analysis
+					</h3>
+					
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Geo Hotspots are generated based on the aggregate of all location information. Signals' robust Geo-Analytics engine will automatically perform 
+						Kernal-Density-Estimation over location patches to generate the Heat (the importance of that area relative to the data set) for different sentiment 
+						categories. Signals can get as granular as street level in its geo analysis.
+					</h4>
+					
+				</div>					
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox16">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/1471401983_i858.svg"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Semantic categorization
+					</h3>
+					
+				</div>
+				
+				
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Signals technology reads every word of every document, identifies all possible bi-gram combinations, and uses statistical algorithms to determine 
+						statistically relevant categories of conversation. Categories are displayed in order of statistical relevance with C0 having the strongest semantic 
+						correlation, C1 next, then C2, C3, C4… Categories help you to easily identify the themes topics and emerging issues in each conversation.
+					</h4>
+					
+				</div>
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox17">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/1471401990_087.svg"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Predictive event extraction
+					</h3>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Signals uses proprietary algorithms to identify key trends and patterns in your textual data. Just like finding needle in a haystack, the Signals 
+						platform extracts geo-temporal indicators from all of your textual data to further formulate event views.
+					</h4>		
+					
+				</div>
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 BoxSize" id="ProductDetailHalfBox18">
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img class="ThirdRankImageIcon" src="Resource/ProductPageImages/ThirdRankPages/1471402027_line-chart_2.svg"></img>
+				</div>
+				
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h3 class="ThirdRankPageContentTitle">Complex space-time analysis
+					</h3>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ThirdRankPageContentBoxPart">
+					
+					<h4 class="ThirdRankPageContentText">
+						Timeline shows the temporal distribution within a data set. This is created from meta data that you provide that indicates when the content was 
+						created. Statistical analysis and time-series analysis are applied to the temporal data. Signals engine utilizes time related information to determine the distribution.
+					</h4>
+					
+				</div>
+			
+			</div>			
+
 		</div>
+
 	</div>
-</div>
-		
-<div class = "cotainers" id = "BubbleProcessDetailCotainer2">
-	<div class="row">
-		
-			<div class="row" id="StoryRow">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-4" id = "StroyTextPart2">
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h3 id = "SecondRowTitleLighter">Deep computing intelligence</h3>
-						</div>
-					</div>
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h4 class = "HowitWorksText text-left" id = "OurStoryText">
-								Stratifyd, based in Charlotte, N.C., develops tightly integrated data analysis and visualization solutions that create actionable business insights from heterogeneous unstructured data. 
-								The company’s solutions are used in a variety of applications across marketing, customer support, product development, and other key business disciplines.
-							</h4>
-						</div>
-					</div>
-					
-				</div>
-		
-				<div class = "col-sm-4 text-center" id = "FirstSubTitle">
-									
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h3 id = "SecondRowTitleLighter">Advanced natural language processing</h3>
-						</div>
-					</div>
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h4 class = "HowitWorksText text-left" id = "OurStoryText">
-								Stratifyd, based in Charlotte, N.C., develops tightly integrated data analysis and visualization solutions that create actionable business insights from heterogeneous unstructured data. 
-								The company’s solutions are used in a variety of applications across marketing, customer support, product development, and other key business disciplines.
-							</h4>
-						</div>
-					</div>
-					
-				</div>			
-			</div>
 	
-	</div>
-</div>
-
--->
-<div class = "cotainers" id = "BubbleProcessDetailCotainer">
-	
-	<div class="row">
-		
-			<div class="row" id="StoryRow">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-4" id = "StroyTextPart2">
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h3 id = "SecondRowTitleLighter">Multi-Lingual sentiment analysis</h3>
-						</div>
-					</div>
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h4 class = "HowitWorksText text-left" id = "OurStoryText">
-								Signals uses proprietary technology that incorporates statistical machine learning, opinion analysis, and statistical analysis to assess sentiment. Sentiment is calculated on three-levels,
-								per entire document, per Sentence, and per Terms that are extracted by Signals. Simply put, the platform looks for Part-Of-Speech to segment the sentences and terms, determine which are
-								opinion-critical (e.g. nouns, descriptors) to build an initial analysis pass.
-							</h4>
-						</div>
-					</div>
-					
-				</div>
-		
-				<div class = "col-sm-4 text-center" id = "FirstSubTitle">
-									
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h2 id = "SecondRowTitleLighter">Dynamic topic summarization</h2>
-						</div>
-					</div>
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h4 class = "HowitWorksText text-left" id = "OurStoryText">
-								Signals identifies clusters of semantically similar conversation and groups them into categories. Categories are generated automatically and uniquely for each individual data set. Centered
-								around these opinion-critical elements, the engine further identifies specific words, phrases, and language constructs that are associated with positive and negative meanings in the topic
-								categories. In addition to words and phrases, a contextual analysis around the data-driven category is utilized to improve the accuracy of the sentiment and properly reflect its semantic
-								differences within each category
-							</h4>
-						</div>
-					</div>
-					
-				</div>			
-			</div>
-	</div>
-</div>
-
-<div class = "cotainers" id = "BubbleProcessDetailCotainer2">
-	<div class="row">
-		
-			<div class="row" id="StoryRow">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-4" id = "StroyTextPart2">
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h3 id = "SecondRowTitleLighter">Predictive event extraction</h3>
-						</div>
-					</div>
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h4 class = "HowitWorksText text-left" id = "OurStoryText">
-
-								Signals uses proprietary algorithms to identify key trends and patterns in your textual data. Just like finding needle in a haystack, the Signals platform extracts geo-temporal indicators 
-								from all of your textual data to further formulate event views.
-								
-							</h4>
-						</div>
-					</div>
-					
-				</div>
-		
-				<div class = "col-sm-4 text-center" id = "FirstSubTitle">
-									
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h2 id = "SecondRowTitleLighter">Complex space-time analysis</h2>
-						</div>
-					</div>
-					
-					<div class="row" id="HowWorksRow">
-<!--
-						<div class="col-sm-1">
-						</div>
--->
-						<div class="col-sm-10 text-left">
-							<h4 class = "HowitWorksText text-left" id = "OurStoryText">
-								Timeline shows the temporal distribution within a data set. This is created from meta data that you provide that indicates when the content was created. Statistical analysis and time-
-								series analysis are applied to the temporal data. Signals engine utilizes time related information to determine the distribution.
-							</h4>
-						</div>
-					</div>
-					
-				</div>			
-			</div>		
-	
-	</div>
-</div>
-<!--</div>-->
-
 <div class = "cotainers" id = "BottomLinkPart">
 	<div class = "row" id = "BottomLinkBox">
-		<div class="col-sm-2">
-		</div>
-		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox1">
+		<div class="col-xs-12 col-sm-12 col-md-2">
+		</div>		
+		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox1">
 			<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
-			<p class="SmallButtonTextLeft" id = "HIWText">How It Works</p>
-			<p class="SmallButtonTextLeft" id = "ETUText">Easy to Use</p>
-			<p class="SmallButtonTextLeft" id = "INVisText">Intuitive Visualization</p>
+			<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
+			<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
+			<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
 			<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
 			<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
 		</div>
-		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox2">
+		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox2">
 			<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
 			<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
 			<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
@@ -348,11 +360,11 @@
 			<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
 			<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
 		</div>
-		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox3">
+		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox3">
 			<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
 			<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
 		</div>
-		<div class = "col-sm-2 TopMargin" id = "BottomLinkContentBox4">
+		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox4">
 			<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
 			<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
 			<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
@@ -363,51 +375,54 @@
 </div>
 
 <div class = "cotainers" id = "CopyRightPart">
+	
 	<div class = "row" id = "BottomCopyRightPart">
 		
-		<div class="col-sm-2">
+		<div class="col-xs-12 col-sm-2 col-md-2">
 		</div>
 		
-		<div class = "col-sm-4 text-left" id = "CopyRightBox1">
+		<div class = "col-xs-12 col-sm-4 col-md-4 text-left" id = "CopyRightBox1">
 			<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
 		</div>
 		
-		<div class = "col-sm-6 text-right" id = "CopyRightBox2">
-			<div class = "col-sm-2">
+		<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
+			<div class = "col-xs-12 col-sm-12 col-md-2">
 			</div>
 			
-			<div class = "col-sm-1" id = "ConnectIconB1">
-				<img src="Resource/Icons/FaceBook/facebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
+				<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
 				</img>
 			</div>
 
-			<div class = "col-sm-1" id = "ConnectIconB2">
-				<img src="Resource/Icons/Linkedin/LinkedinBottomIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
+				<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
 				</img>
 			</div>
 
-			<div class = "col-sm-1" id = "ConnectIconB3">
-				<img src="Resource/Icons/Twitter/TwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
+				<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
 				</img>	
 			</div>
 	
-			<div class = "col-sm-1" id = "ConnectIconB4">
-				<img src="Resource/Icons/YouTube/YoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
+				<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
 				</img>
 			</div>
 	
-			<div class = "col-sm-1" id = "ConnectIconB5">
-				<img src="Resource/Icons/GooglePlus/GooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
+				<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
 				</img>						
 			</div>
 	
-			<div class = "col-sm-1" id = "ConnectIconB6">
-				<img src="Resource/Icons/Tumblr/TumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
+				<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
 				</img>				
 			</div>
-		</div>		
+		</div>
+
 	</div>	
 </div>
+
 	
 <!-- Resource or Library Scripts -->
 
@@ -418,13 +433,14 @@
 <script src="lib/d3/d3.js"></script>
 <script src="lib/d3/d3.min.js"></script>
 <script src="lib/queue/queue.min.js"></script>
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	
 <!-- Control Scripts-->
 <script src="Script/TransForm.js"></script>
 <script src="Script/GlobalControl.js"></script>
 <script src="Script/FontSizeControl.js"></script>
+<script src="Script/Product.js"></script>
 <script src="Script/MouseAction.js"></script>
-<script src="Script/Howitworks.js"></script>
 <script src="Script/WindowResize.js"></script>
 <script src="lib/css3-mediaqueries-js-master/css3-mediaqueries.js"></script>
 

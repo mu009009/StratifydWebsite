@@ -1,6 +1,17 @@
 //Detail Image Mouse Over and Click response
-var ProductImageWidth = document.getElementById("DetailImage6").getBoundingClientRect().width;
-var ProductImageBoxWidth = document.getElementById("ProductIconDetail32").getBoundingClientRect().width;
+var ProductImageWidth = null;
+var ProductImageBoxWidth = null
+
+if(document.getElementById("DetailImage6")!=null)
+	{
+		ProductImageWidth = document.getElementById("DetailImage6").getBoundingClientRect().width;
+	}
+
+if(document.getElementById("ProductIconDetail32")!=null)
+	{
+		ProductImageBoxWidth = document.getElementById("ProductIconDetail32").getBoundingClientRect().width;
+	}
+
 
 AnimationandClickResponse("DetailImage");
 AnimationandClickResponse("ContentProDetailText-Left");
@@ -93,3 +104,59 @@ function AnimationandClickResponse(className)
 	})
 }
 
+
+//Product Free Trial
+d3.select('#ProductTryB1')
+.on('click',function(){
+	window.location.href="https://signals.stratifyd.com/login.html#new";
+})
+
+
+//Jobs Opening Selection
+d3.selectAll(".JobsSelectClickable")
+	.on("mouseover",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style("color","rgb"+"("+"72,168,222"+")")
+	})
+	.on("mouseout",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style("color","rgb"+"("+"158,158,158"+")")
+	})
+
+//Media ReadMore Click
+d3.select("#MediaBtn1")
+	.on('click',function()
+	{
+		window.location.href="http://blog.stratifyd.com/2015/11/26/3-companies-that-turn-big-data-into-what-you-need-to-know/";
+	})
+
+d3.select("#MediaBtn2")
+	.on('click',function()
+	{
+		window.location.href="https://www.datanami.com/2016/02/19/discover-actionable-insights-from-unstructured-data/";
+	})
+
+d3.select("#MediaBtn3")
+	.on('click',function()
+	{
+		window.location.href="http://www.marketwired.com/press-release/no-data-scientist-required-with-launch-of-taste-analytics-signals-2070841.htm";
+	})
+
+//Jobs Selection
+d3.select('#DirectlyJobs1')
+	.on("click",function()
+	{
+		window.location.href="Senior_Software_Developer.html";
+	})
+
+d3.select('#DirectlyJobs2')
+	.on("click",function()
+	{
+		window.location.href="Data_Research_Analyst.html";
+	})

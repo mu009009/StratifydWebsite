@@ -12,6 +12,12 @@
 	width: 100%;
 	margin-top: 2%;
 }
+#JionUsJobsSubTitleBox{
+	width: 100%;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 #ProductIntroBox{
 	padding-bottom: 1%;
 }
@@ -27,8 +33,9 @@
 }
 .DetailLessPartCut{
 	width: 30%;
-	height: 100%;
 	float: left;
+	height: 220px;
+	overflow: hidden;
 }
 .DetailLargePartCut{
 	width: 70%;
@@ -49,13 +56,37 @@
 	font-size: 1em;
 	cursor: pointer;
 }
+.BoxSize{
+	min-height: 250px;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.JobContentBox{
+	background-color: white;
+	padding-bottom: 50px;
+	border-radius: 2%;
+}
+#ProductContent{
+	padding-bottom: 96px;
+}
 #TitleBar{
 	padding-top: 0px;
 	padding-bottom: 172px;
 	background-color: white;
 }
+#JoinUsTitleBar{
+	padding-top: 0px;
+	padding-bottom: 70px;
+	background-color: rgb(246,246,248);
+	margin-bottom: 0px;
+}
 #ProductBackgroundImage{
 	padding-top: 206px;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 #ProductIntroImage{
 	width: 100%;
@@ -70,8 +101,129 @@
 #SignalsIntroText{
 	font-size: 1.5em;
 }
+#JoinUsBigTitle{
+	font-weight: 600;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.ThirdRankPageSubTitle{
+	font-family: "Arial";
+	font-size: 2.5m;
+	font-weight: 600;
+	color: black;
+	margin-top: 45px;
+	margin-bottom: 75px;
+}
+.ThirdRankPageContentBoxPart{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.ThirdRankPageContentTitle{
+	font-family: "Arial";
+	font-size:  2em;
+}
+.ThirdRankPageContentText{
+	font-family: "Arial";
+	font-size: 1.2em;
+	color: rgb(158,158,158);
+	padding-right: 60px;
+	margin-top: 20px;
+}
+.ThirdRankImageIcon{
+	
+	width: 130.27px;
+	max-width: 100%;
+	max-height: 130.27px;
+
+}
+.JobsClass{
+	margin-bottom: 20px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: inherit;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+.JobsSelectClickable{
+	cursor: pointer;
+}
+#DirectlyJobs1{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+#DirectlyJobs2{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+#JoinUsTitle{
+	font-family: "Arial";
+	padding-top: 96px;
+}
+#MediaImg1{
+	width: 170px;
+	max-height: 170px;
+}
+#MediaImg2{
+	width: 170px;
+	max-height: 170px;
+}
+#MediaImg3{
+	width: 170px;
+	max-height: 170px;
+}
+#MediaBtn1{
+	margin-top: 5px;
+}
+#MediaBtn2{
+	margin-top: 5px;
+}
+#MediaBtn3{
+	margin-top: 5px;
+}
 @media screen and (max-width: 992px) {
 	#ProductTitleBoxPart{
 		padding-top: 45px;
+	}
+	#ProductIntroImage{
+		width: 80%;
+	}
+	.ThirdRankPageContentText{
+		padding-left: 30px;
+		padding-right: 0px;
+	}
+	.ThirdRankPageContentTitle{
+		padding-left: 30px;
+		padding-right: 0px;
+	}
+	#ProductContent{
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}	
+}
+
+@media screen and (max-width: 768px) {
+	.ThirdRankPageContentText{
+		padding-left: 10px;
+		margin-top: 25px;
+	}
+	.ThirdRankPageContentTitle{
+		padding-left: 10px;
+	}
+	#ProductContent{
+		width: 100%;
+	}
+	.ThirdRankImageIcon{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.ThirdRankPageContentBoxPart
+	{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }

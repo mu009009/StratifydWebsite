@@ -200,31 +200,31 @@ d3.select("#SecondAboutUs")
 d3.select("#HIWText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/how-it-works/";
+		window.location.href="HowitWorks.html";
 	})
 
 d3.select("#ETUText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/easy-to-use/";
+		window.location.href="Easy%20to%20Use.html";
 	})
 
 d3.select("#INVisText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/intuitive-visualization/";
+		window.location.href="IntuitiveVisuaIinterface.html";
 	})
 
 d3.select("#HPAText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/high-powered-analytics/";
+		window.location.href="high-powered-analytics.html";
 	})
 
 d3.select("#ComDataText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/comprehensive-data/";
+		window.location.href="Comprehensive_data_analytics_solution.html";
 	})
 
 //Solution
@@ -285,13 +285,13 @@ d3.select("#OurTeamText")
 d3.select("#JOppText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/job-opportunities/";
+		window.location.href="JoinUs.html";
 	})
 	
 d3.select("#MediaText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/media/";
+		window.location.href="MediaPage.html";
 	})	
 
 d3.select("#ContactText")
