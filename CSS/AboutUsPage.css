@@ -120,9 +120,8 @@
 	font-family: "Arial";
 	line-height: 160%;
 	margin-top: 40px;
-	padding-left: 30px;
-	padding-right: 45px;
 	color: rgb(165,165,165);
+	font-size: 1.3em;
 }
 .StoryTitleRow{
 	padding-left: 30px;
@@ -148,13 +147,16 @@
 	margin-bottom: 56px;
 /*	margin-left: 8.333333%;*/
 }
-#StoryRow{
-	margin-top: 30px;
-	padding-bottom: 60px;
+#StoryRow1{
+	padding-bottom: 48px;
+	padding-top: 152px;
+}
+#StoryRow2{
+	padding-bottom: 66px;
 }
 #PhotoRow{
-	margin-top: 72px;
-	padding-bottom: 256px;
+	margin-top: 98px;
+	padding-bottom: 282px;
 }
 #TitleBar{
 	background-color: transparent;
@@ -170,6 +172,12 @@
 }
 #OurStoryImage{
 	width: 100%;
+	opacity: 0.51;
+}
+.PhotoTextInfo{
+	font-family: "Arial";
+	font-size: 1.2em;
+	color: rgb(116,116,126)
 }
 .NameOh{
 	margin-top:0px;
@@ -219,9 +227,8 @@
 	font-family: "Arial";
 	font-weight: lighter;
 	color: rgb(165,165,165);;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-top: 40px;
+	margin-top: 60px;
+	font-size: 1.3em;
 }
 #TextSayingPart{
 	padding-top: 1%;
@@ -246,9 +253,6 @@
 }
 #CompanyIconPartRow1{
 	padding-top: 0;
-	width: 70%;
-	margin-left: 15%;
-	margin-bottom: 2%;
 	text-align: center;
 }
 #CompanyIconPartRow2{
@@ -259,11 +263,12 @@
 	margin-left: 15%;	
 	text-align: center;
 }
-
+#ExcutiveTeamTitle{
+	margin-top: 0px;
+}
 #CompanyCotainers{
-	background-color: rgb(246,246,248);
-	padding-top: 3%;
-	padding-bottom: 3%;
+	background-color: rgb(255,255,255);
+	padding-bottom: 146px;
 }
 #TitleIntroNewLanding{
 	margin-top: 100px;
@@ -323,8 +328,10 @@
 }
 @media screen and (max-width: 992px) {
 	.AboutUsContentText{
+/*
 		padding-left: 25px;
 		padding-right: 25px;
+*/
 	}
 	#SignalsText{
 		text-align: center;
@@ -332,9 +339,10 @@
 	}
 	.SecondRowTitle{
 		text-align: center;
+		font-size: 2em;
 	}
 	#OurStoryText{
-		text-align: center;
+		text-align: left;
 	}
 	.ContentVideo{
 		width: 100%;
@@ -342,5 +350,8 @@
 	}
 	#MainAttarctText{
 		font-size: 3em;
+	}
+	.MissionText{
+		text-align: left;
 	}
 }
