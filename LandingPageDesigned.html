@@ -13,7 +13,7 @@
 </head>
 <body>
 <!--Maincotainer the whole page-->	
-<div class="jumbotron" id="TitleBar">
+	
 	<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
 	   <div class="navbar-header" id="CompanyTitelPartImportent">
 		  <button type="button" class="navbar-toggle" data-toggle="collapse" 
@@ -42,42 +42,52 @@
 					 <li><a href="#" id="navOurTeam">About Us</a>
 					 </li>
 					 <li><a href="#" id="navContactUs">Contact Us</a>
-					 </li>				 
+					 </li>
 				 </ul>
-			  </li>		  	  
-			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>
-	<!--		 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
+			  </li>
+		 		<li class="active NavBarButtons" id="navLogIN"><a href="#">Log in</a></li>	  
+<!--			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>-->
+<!--		     <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
 		  </ul>
 	   </div>
 	</nav>
 	
-	<div class="row">
-		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+<div class="jumbotron" id="TitleBar">
+	
+	<div class = "container" id = "LandingPageMainTitleContainer">
+		
+		<div class="row">
+<!--
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			</div>
+-->
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1 class="Introduce IntroTitle" id="MainAttarctText">THE FASTEST PATH FROM DATA TO REVENUE
+				<h1>
+			</div>
 		</div>
-		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-			<h1 class="Introduce IntroTitle" id="MainAttarctText">The fastest path from data to revenue
-			<h1>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			</div>		
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+				<h3 class="Introduce IntroCotent" id="SignalsText">
+					Signals is an enterprise Business Analysitc platform using augmented intelligence to enable a seamless transition from analysis to action.
+				</h3>
+			</div>		
 		</div>
-	</div>
-			
-	<div class="row">
-		<div class="col-xs-2 col-sm-2 col-md-4 col-lg-4">
-		</div>		
-		<div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
-			<h3 class="Introduce IntroCotent" id="SignalsText">
-				Signals is an enterprise Business Analysitc platform using augmented intelligence to enable a seamless transition from analysis to action.
-			</h3>
-		</div>		
-	</div>
-			
-	<div class="row">
-		<div class="col-xs-12" id = "TitleButtonPart">
-			<span class="btn btn-info" id="FirstTry">Try it free for 14 days!</span>
+
+		<div class="row">
+			<div class="col-xs-12" id = "TitleButtonPart">
+				<span class="btn btn-info" id="FirstTry">Free Trial</span>
+			</div>			
 		</div>			
-	</div>			
+		
+	</div>
+			
 </div>
 
-<div class = "cotainers" id = "BubbleProcessDetailCotainer">
+<div class = "container" id = "BubbleProcessDetailCotainer">
 	
 	<div class="row">
 		<div class = "col-sm-12 text-center" id = "FirstSubTitle">
@@ -285,20 +295,16 @@
 </div>
 <!--</div>-->
 
-<div class = "cotainers" id = "ProcessDetailCotainer">
+<div class = "container" id = "ProcessDetailCotainer">
 	<div class="row">
 		<div class = "col-xs-12 col-sm-12 col-md-12 text-center" id = "LinkButtonPartText1">
 			<h2 class="SecondRowTitle" id="ASolutionYNTitle">A solution for all your needs</h2>
 		</div>
 	</div>
 	
-	<div class="row NormalSize" id="FirstLinkButtonRow">
-		
-		<div class = "col-xs-12 col-sm-12 col-md-2" id = "LinkButtonPart1">
-		</div>		
-			
-		
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+	<div class="row" id="FirstLinkButtonRow">
+				
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox11">
 
 				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView11">
@@ -324,7 +330,7 @@
 			</div>
 		</div>
 			
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox12">
 
 				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView12">
@@ -350,7 +356,7 @@
 			</div>
 		</div>
 
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox13">
 
 				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView13">
@@ -376,7 +382,7 @@
 			</div>			
 		</div>
 		
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox14">
 
 				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView14">
@@ -405,12 +411,9 @@
 
 	</div>
 
-	<div class="row NormalSize" id="SecondLinkButtonRow">
+	<div class="row" id="SecondLinkButtonRow">
 		
-		<div class = "col-xs-12 col-sm-12 col-md-2" id = "LinkButtonPart2">
-		</div>
-		
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox21">
 
 				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView21">
@@ -438,7 +441,7 @@
 		</div>
 
 
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12  col-md-12 CenterandBoder2" id = "LinkButtonCotainBox22">
 			
 				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView22">
@@ -466,7 +469,7 @@
 		</div>
 
 
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox23">
 				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView23">
 					<img src="Resource/Icons/BottomLinkIcons/NewHospitalityIcon_White.png" class="img BottomIcons" id="HospitalityIcon">
@@ -493,7 +496,7 @@
 		</div>
 
 
-		<div class = "col-xs-12 col-sm-6 col-md-2 CenterandBoderBox">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
 			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox24">
 
 				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView24">
@@ -524,292 +527,303 @@
 	</div>
 </div>
 
-<div class = "cotainers" id = "CompanyCotainers">
+<div class = "containers" id = "CompanyCotainers">
 	
-	<div class="row CoustomerIconPart" id="CompanyIconPartTitleRow1">
-		<div class = "col-xs-12 col-sm-12 col-md-12 text-center">
-			<h3 class = "CustomerTitle" id = "CustomerTitle">Trusted by our customers</h3>
-		</div>
-	</div>
-	
-	<div class="row CoustomerIconPart" id="CompanyIconPartRow1">
-		
-		<div class = "col-xs-12 col-sm-12 col-md-1">
-		</div>
-		
-		<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox1">
-			<img class = "AdImageShow" id = "Ad1" src="Resource/Icons/Advertisement/Icons/lenovo.png" alt = "Lenovo">
-			</img>
-		</div>
-		
-		<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox2">
-			<img class = "AdImageShow" id = "Ad2" src="Resource/Icons/Advertisement/Icons/us%20army%20erdc.png" alt = "Erdc">
-			</img>
+	<div class = "container" id = "CompanyCotainers">
+		<div class="row CoustomerIconPart" id="CompanyIconPartTitleRow1">
+			<div class = "col-xs-12 col-sm-12 col-md-12 text-center">
+				<h3 class = "CustomerTitle" id = "CustomerTitle">Trusted by our customers</h3>
+			</div>
 		</div>
 
-		<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox3">
-			<img class = "AdImageShow" id = "Ad3" src="Resource/Icons/Advertisement/Icons/fultonHogan.png" alt = "Fultno">
-			</img>
+		<div class="row CoustomerIconPart" id="CompanyIconPartRow1">
+
+			<div class = "col-xs-12 col-sm-12 col-md-1">
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox1">
+				<img class = "AdImageShow" id = "Ad1" src="Resource/Icons/Advertisement/Icons/lenovo.png" alt = "Lenovo">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox2">
+				<img class = "AdImageShow" id = "Ad2" src="Resource/Icons/Advertisement/Icons/us%20army%20erdcChange.png" alt = "Erdc">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox3">
+				<img class = "AdImageShow" id = "Ad3" src="Resource/Icons/Advertisement/Icons/fultonHogan.png" alt = "Fultno">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox4">
+				<img class = "AdImageShow" id = "Ad4" src="Resource/Icons/Advertisement/Icons/Masco.png" alt = "Masco">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox5">
+				<img class = "AdImageShow" id = "Ad5" src="Resource/Icons/Advertisement/Icons/ussocom.png" alt = "Usscom">
+				</img>					
+			</div>
+
 		</div>
 
-		<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox4">
-			<img class = "AdImageShow" id = "Ad4" src="Resource/Icons/Advertisement/Icons/Masco.png" alt = "Masco">
-			</img>
+		<div class="row CoustomerIconPart" id="CompanyIconPartRow2">
+
+			<div class="col-xs-12 col-sm-12 col-md-1">
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox6">
+				<img class = "AdImageShow" id = "Ad6" src="Resource/Icons/Advertisement/Icons/ally.png" alt = "Ally">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox7">
+				<img class = "AdImageShow" id = "Ad7" src="Resource/Icons/Advertisement/Icons/shadowdataChange.png" alt = "Shadowdata">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox8">
+				<img class = "AdImageShow" id = "Ad8" src="Resource/Icons/Advertisement/Icons/Tinypulse.png" alt = "Tinypluse">
+				</img>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox9">
+				<img class = "AdImageShow" id = "Ad9" src="Resource/Icons/Advertisement/Icons/Erwin%20Penland.png" alt = "Erwin">
+				</img>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox10">
+				<img class = "AdImageShow" id = "Ad10" src="Resource/Icons/Advertisement/Icons/lowe's.png" alt = "Lowes">
+				</img>
+			</div>
+
 		</div>
-
-		<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox5">
-			<img class = "AdImageShow" id = "Ad5" src="Resource/Icons/Advertisement/Icons/ussocom.png" alt = "Usscom">
-			</img>					
-		</div>
-
-	</div>
-
-	<div class="row CoustomerIconPart" id="CompanyIconPartRow2">
-
-		<div class="col-xs-12 col-sm-12 col-md-1">
-		</div>
-
-		<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox6">
-			<img class = "AdImageShow" id = "Ad6" src="Resource/Icons/Advertisement/Icons/ally.png" alt = "Ally">
-			</img>
-		</div>
-
-		<div class = "col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox7">
-			<img class = "AdImageShow" id = "Ad7" src="Resource/Icons/Advertisement/Icons/shadowdata.png" alt = "Shadowdata">
-			</img>
-		</div>
-
-		<div class = "col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox8">
-			<img class = "AdImageShow" id = "Ad8" src="Resource/Icons/Advertisement/Icons/Tinypulse.png" alt = "Tinypluse">
-			</img>
-		</div>
-
-		<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox9">
-			<img class = "AdImageShow" id = "Ad9" src="Resource/Icons/Advertisement/Icons/Erwin%20Penland.png" alt = "Erwin">
-			</img>
-		</div>
-
-		<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox10">
-			<img class = "AdImageShow" id = "Ad10" src="Resource/Icons/Advertisement/Icons/lowe's.png" alt = "Lowes">
-			</img>
-		</div>
-
 	</div>
 </div>
 
-<div class = "cotainers" id = "TextSayingPart">
-	<div class = "row" id = "SayingPart">
-		<h2 class="text-center" id="SayingTitle">See What People Are Saying About Stratifyd</h2>
-	</div>
+<div class = "containers" id = "TextSayingPart">
 	
-	<div class = "row" id = "SayingTextPart">
-		<div class="NormalSize2" id = "TextBox">
-			
-<!--
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-center" id="AllayWhiteIcon">
-				<img src="Resource/Icons/WhiteIcon/AllySaying_WhiteIcon.png"></img>
-			</div>
-		
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingTextWhite text-center" id="AllayWhiteText">
-				<h4>With Stratifyd as our partner, Ally has greater insights on the user experience,
-					and made chat analytics part of our regular operational process.</h4>
-			</div>
-		
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingTitleWhite text-center" id="AllayWhiteTitleText">
-				<h5>-Ashley Hunsucker,Sr. Director, Product & Marketing Analytics.-</h5>
-			</div>
-		
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-center" id="LenoveWhiteIcon">
-				<img src="Resource/Icons/WhiteIcon/LenoveSaying_WhiteIcon.png"></img>
-			</div>
-	
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingTextWhite text-center" id="LenoveWhiteText">
-				<h4>	We leverage Stratifyd theme detection and no longer need to manually
-						build out taxonomies to listen to our customers. This tremendously
-						reduces our time to gain meaningful insights.</h4>
-			</div>
-		
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingTitleWhite text-center" id="LenoveWhiteTitleText">
-				<h5>-Harshad Varia, Customer Experience Sr. Manager.-</h5>
-			</div>	
-	
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-center" id="ErwinWhiteIcon">
-				<img src="Resource/Icons/WhiteIcon/ErwinSayingIcon_White.png"></img>
-			</div>
+	<div class = "container">
+		<div class = "row" id = "SayingPart">
+			<h2 class="text-center" id="SayingTitle">See What People Are Saying About Stratifyd</h2>
+		</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingTextWhite text-center" id="ErwinWhiteText">
-				<h4>	Stratifyd is a terrific partner to Erwin Penland. Not only is the Signals platform
-						ideal for providing customer insights, but the platform is fast, easy to use, and
-						completely self-service.</h4>
-			</div>
+		<div class = "row" id = "SayingTextPart">
+			<div class="" id = "TextBox">
 
-			<div class="col-xs-12 col-sm-12 col-md-12 SayingTitleWhite text-center" id="ErwinWhiteTitleText">
-				<h5>-Roger Beasley, Chief Strategy Officer.-</h5>
-			</div>		
-				
--->
-			
-			<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent1">
-				<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
-					<h4 class="SayingText" id="SayingText1">
-						With Stratifyd as our partner, Ally has greater insights on the user experience,
-						and made chat analytics part of our regular operational process.
-					</h4>
-				</div>
-				
-				<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle1">
-<!--					<h4>Ashley Hunsucker,</h4>-->
-					<h4>Sr. Director Product & Marketing Analytics</h4>
-				</div>
-				
-<!--
-				<div class="col-sm-12 NamePartRule" id = "GuysName1">
-					<h4 class="NameOh">Ally</h4>
-				</div>
--->
-				<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="AllayWhiteIcon">
+	<!--
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-center" id="AllayWhiteIcon">
 					<img src="Resource/Icons/WhiteIcon/AllySaying_WhiteIcon.png"></img>
 				</div>
-				
-			</div>
-			
-			<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent2">
-				
-				<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
-					<h4 class="SayingText" id="SayingText2">
-						We leverage Stratifyd theme detection and no longer need to manually
-						build out taxonomies to listen to our customers. This tremendously
-						reduces our time to gain meaningful insights.
-					</h4>					
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingTextWhite text-center" id="AllayWhiteText">
+					<h4>With Stratifyd as our partner, Ally has greater insights on the user experience,
+						and made chat analytics part of our regular operational process.</h4>
 				</div>
-				
-				<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle2">
-<!--					<h4>Harshad Varia,</h4>-->
-					<h4>Customer Experience Sr. Manager</h4>
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingTitleWhite text-center" id="AllayWhiteTitleText">
+					<h5>-Ashley Hunsucker,Sr. Director, Product & Marketing Analytics.-</h5>
 				</div>
-				
-<!--
-				<div class="col-sm-12 NamePartRule" id = "GuysName2">
-					<h4 class="NameOh">Lenovo</h4>
-				</div>				
--->
-				<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="LenoveWhiteIcon">
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-center" id="LenoveWhiteIcon">
 					<img src="Resource/Icons/WhiteIcon/LenoveSaying_WhiteIcon.png"></img>
 				</div>
-			
-			</div>
-			
-			<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent3">
-				
-				<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
-					<h4 class="SayingText" id="SayingText3">
-						Stratifyd is a terrific partner to Erwin Penland. Not only is the Signals platform
-						ideal for providing customer insights, but the platform is fast, easy to use, and
-						completely self-service.					
-					</h4>						
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingTextWhite text-center" id="LenoveWhiteText">
+					<h4>	We leverage Stratifyd theme detection and no longer need to manually
+							build out taxonomies to listen to our customers. This tremendously
+							reduces our time to gain meaningful insights.</h4>
 				</div>
-				
-				<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle3">
-<!--					<h4>Roger Beasley, </h4>-->
-					<h4>Chief Strategy Officer</h4>
-				</div>
-				
-				<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="ErwinWhiteIcon">
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingTitleWhite text-center" id="LenoveWhiteTitleText">
+					<h5>-Harshad Varia, Customer Experience Sr. Manager.-</h5>
+				</div>	
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-center" id="ErwinWhiteIcon">
 					<img src="Resource/Icons/WhiteIcon/ErwinSayingIcon_White.png"></img>
-				</div>			
-			
-			</div>
-			
-		</div>
-	</div>
-	
-</div>
+				</div>
 
-<div class = "cotainers" id = "BottomLinkPart">
-	<div class = "row" id = "BottomLinkBox">
-		<div class="col-xs-12 col-sm-12 col-md-2">
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingTextWhite text-center" id="ErwinWhiteText">
+					<h4>	Stratifyd is a terrific partner to Erwin Penland. Not only is the Signals platform
+							ideal for providing customer insights, but the platform is fast, easy to use, and
+							completely self-service.</h4>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12 SayingTitleWhite text-center" id="ErwinWhiteTitleText">
+					<h5>-Roger Beasley, Chief Strategy Officer.-</h5>
+				</div>		
+
+	-->
+
+				<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent1">
+					<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
+						<h4 class="SayingText" id="SayingText1">
+							With Stratifyd as our partner, Ally has greater insights on the user experience,
+							and made chat analytics part of our regular operational process.
+						</h4>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle1">
+	<!--					<h4>Ashley Hunsucker,</h4>-->
+						<h4>Sr. Director Product & Marketing Analytics</h4>
+					</div>
+
+	<!--
+					<div class="col-sm-12 NamePartRule" id = "GuysName1">
+						<h4 class="NameOh">Ally</h4>
+					</div>
+	-->
+					<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="AllayWhiteIcon">
+						<img src="Resource/Icons/WhiteIcon/AllySaying_WhiteIcon.png"></img>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent2">
+
+					<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
+						<h4 class="SayingText" id="SayingText2">
+							We leverage Stratifyd theme detection and no longer need to manually
+							build out taxonomies to listen to our customers. This tremendously
+							reduces our time to gain meaningful insights.
+						</h4>					
+					</div>
+
+					<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle2">
+	<!--					<h4>Harshad Varia,</h4>-->
+						<h4>Customer Experience Sr. Manager</h4>
+					</div>
+
+	<!--
+					<div class="col-sm-12 NamePartRule" id = "GuysName2">
+						<h4 class="NameOh">Lenovo</h4>
+					</div>				
+	-->
+					<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="LenoveWhiteIcon">
+						<img src="Resource/Icons/WhiteIcon/LenoveSaying_WhiteIcon.png"></img>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent3">
+
+					<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
+						<h4 class="SayingText" id="SayingText3">
+							Stratifyd is a terrific partner to Erwin Penland. Not only is the Signals platform
+							ideal for providing customer insights, but the platform is fast, easy to use, and
+							completely self-service.					
+						</h4>						
+					</div>
+
+					<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle3">
+	<!--					<h4>Roger Beasley, </h4>-->
+						<h4>Chief Strategy Officer</h4>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="ErwinWhiteIcon">
+						<img src="Resource/Icons/WhiteIcon/ErwinSayingIcon_White.png"></img>
+					</div>			
+
+				</div>
+
+			</div>
 		</div>		
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox1">
-			<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
-			<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
-			<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
-			<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
-			<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
-			<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
-		</div>
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox2">
-			<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
-			<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
-			<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
-			<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
-			<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
-			<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
-			<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
-			<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
-			<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
-		</div>
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox3">
-			<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
-			<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
-		</div>
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox4">
-			<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
-			<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
-			<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
-			<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
-			<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
-		</div>			
 	</div>
+
 </div>
 
-<div class = "cotainers" id = "CopyRightPart">
-	
-	<div class = "row" id = "BottomCopyRightPart">
-		
-		<div class="col-xs-12 col-sm-2 col-md-2">
-		</div>
-		
-		<div class = "col-xs-12 col-sm-4 col-md-4 text-left" id = "CopyRightBox1">
-			<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
-		</div>
-		
-		<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
-			<div class = "col-xs-12 col-sm-12 col-md-2">
+<div class="containers" id="BottomLinkPart">
+	<div class = "container">
+		<div class = "row" id = "BottomLinkBox">
+	<!--
+			<div class="col-xs-12 col-sm-12 col-md-2">
+			</div>		
+	-->
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox1">
+				<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
+				<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
+				<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
+				<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
+				<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
+				<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
 			</div>
-			
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
-				<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
-				</img>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox2">
+				<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
+				<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
+				<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
+				<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
+				<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
+				<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
+				<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
+				<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
+				<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox3">
+				<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
+				<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox4">
+				<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
+				<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
+				<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
+				<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
+				<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
+			</div>			
+		</div>
+	</div>
+
+</div>
+
+
+<div class="containers" id="CopyRightBackground">
+	<div class = "container" id = "CopyRightPart">
+
+		<div class = "row" id = "BottomCopyRightPart">
+
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-left" id = "CopyRightBox1">
+				<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
 			</div>
 
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
-				<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
-				</img>
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
+				<div class = "col-xs-12 col-sm-12 col-md-3">
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
+					<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
+					<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
+					<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+					</img>	
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
+					<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
+					<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+					</img>						
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
+					<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+					</img>				
+				</div>
 			</div>
 
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
-				<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
-				</img>	
-			</div>
-	
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
-				<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
-				</img>
-			</div>
-	
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
-				<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
-				</img>						
-			</div>
-	
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
-				<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
-				</img>				
-			</div>
-		</div>
-
+		</div>	
 	</div>	
 </div>
+
 	
 <!-- Resource or Library Scripts -->
 

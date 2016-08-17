@@ -18,9 +18,10 @@
 }
 #SignalsText{
 	margin-top: 0px;
-	color: rgb(125,128,148);
+	color: rgb(34,39,52);
 	font-weight: lighter;
-	text-align: right;
+	text-align: center;
+	font-size: 2em;
 }
 #TitleButtonPart{
 	text-align: center;
@@ -34,6 +35,9 @@
 	border-bottom: rgb(115,115,115);
 	border-bottom-style: hidden;
 	border-bottom-width: thin;
+}
+#AboutUsPageTitleContainer{
+	height: 180px;
 }
 .Introduce{
 	text-align: center;
@@ -154,14 +158,15 @@
 }
 #TitleBar{
 	background-color: transparent;
-	background: url(../Resource/AboutUsImages/AboutUsBackground.jpg);
+	background: url(../Resource/AboutUsImages/AboutUsBackgroundNew.jpg);
 	background-size: cover;
 	background-size-height: 100%;
+	background-position: center center;
 	height: auto;
 	margin-bottom: 0px;
 	text-align: center;
-	padding-bottom: 92px;
-	padding-top: 0px;
+	padding-bottom: 270px;
+	padding-top: 150px;
 }
 #OurStoryImage{
 	width: 100%;
@@ -292,19 +297,25 @@
 	height: auto;
 	position: relative;
 }
+#AboutUsTitle{
+	height: auto;
+}
 #AboutUsTitleTextBar{
 	margin-top: 0px;
 }
 #backgroundColorRow{
 	background-color: rgba(255,255,255,0.31);
 /*	opacity: 0.31;*/
-	margin-top: 326px;
-	padding-bottom: 26px;
+/*	margin-top: 326px;*/
+	height: 180px;
 }
 #MainAttarctText{
 	color: black;
 	font-weight: bold;
-	text-align: right;
+	text-align: center;
+	font-size: 4em;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 .ContentVideo{
 	width: 560px;
@@ -314,9 +325,6 @@
 	.AboutUsContentText{
 		padding-left: 25px;
 		padding-right: 25px;
-	}
-	#MainAttarctText{
-		text-align: center;
 	}
 	#SignalsText{
 		text-align: center;
@@ -331,5 +339,8 @@
 	.ContentVideo{
 		width: 100%;
 		height: auto;
+	}
+	#MainAttarctText{
+		font-size: 3em;
 	}
 }
