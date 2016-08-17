@@ -259,8 +259,8 @@ body{
 
 @media screen and (max-width: 992px) {
 	.container{
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 }
 
