@@ -14,8 +14,8 @@ if(document.getElementById("ProductIconDetail32")!=null)
 
 
 AnimationandClickResponse("DetailImage");
-AnimationandClickResponse("ContentProDetailText-Left");
-AnimationandClickResponse("ContentProDetailTitle-Left");
+AnimationandClickResponse("ProductTextDetailTextInforPart");
+AnimationandClickResponse("PopoutText");
 
 function AnimationandClickResponse(className)
 {
@@ -27,25 +27,25 @@ function AnimationandClickResponse(className)
 		var IDLength = IDname.length;
 		var KeyValue = IDname.charAt(IDLength-1);
 
-		d3.select("#DetailImage" + KeyValue)
-		.transition()
-		.duration(MiddleDurationTime)
-		.style("margin-left",function()
-		{
-			var MarginLeftValue = (ProductImageBoxWidth - 1.2*ProductImageWidth)/2;
-			return MarginLeftValue + "px";
-		})
-		.style("width",function()
-		{
-			var WidthValue = ProductImageWidth * 1.2;
-			return WidthValue + "px";
-		})
+//		d3.select("#DetailImage" + KeyValue)
+//		.transition()
+//		.duration(MiddleDurationTime)
+//		.style("margin-left",function()
+//		{
+//			var MarginLeftValue = (ProductImageBoxWidth - 1.2*ProductImageWidth)/2;
+//			return MarginLeftValue + "px";
+//		})
+//		.style("width",function()
+//		{
+//			var WidthValue = ProductImageWidth * 1.2;
+//			return WidthValue + "px";
+//		})
 
-		d3.select('#ProductPop'+KeyValue)
-		.transition()
-		.duration(MiddleDurationTime)	
-		.style("opacity",1)
-		.style("margin-top",5+"%");
+//		d3.select('#ProductPop'+KeyValue)
+//		.transition()
+//		.duration(MiddleDurationTime)	
+//		.style("opacity",1)
+//		.style("margin-top",5+"%");
 	})
 	.on("mouseout",function()
 	{
@@ -53,25 +53,25 @@ function AnimationandClickResponse(className)
 		var IDLength = IDname.length;
 		var KeyValue = IDname.charAt(IDLength-1);
 
-		d3.select("#DetailImage" + KeyValue)
-		.transition()
-		.duration(MiddleDurationTime)
-		.style("margin-left",function()
-		{
-			var MarginLeftValue = (ProductImageBoxWidth - ProductImageWidth)/2;
-			return MarginLeftValue + "px";
-		})
-		.style("width",function()
-		{
-			var WidthValue = ProductImageWidth ;
-			return WidthValue + "px";
-		})
+//		d3.select("#DetailImage" + KeyValue)
+//		.transition()
+//		.duration(MiddleDurationTime)
+//		.style("margin-left",function()
+//		{
+//			var MarginLeftValue = (ProductImageBoxWidth - ProductImageWidth)/2;
+//			return MarginLeftValue + "px";
+//		})
+//		.style("width",function()
+//		{
+//			var WidthValue = ProductImageWidth ;
+//			return WidthValue + "px";
+//		})
 
-		d3.select('#ProductPop'+KeyValue)
-		.transition()
-		.duration(MiddleDurationTime)
-		.style("opacity",0)
-		.style("margin-top",15+"%");
+//		d3.select('#ProductPop'+KeyValue)
+//		.transition()
+//		.duration(MiddleDurationTime)
+//		.style("opacity",0)
+//		.style("margin-top",15+"%");
 	})
 	.on("click",function()
 	{

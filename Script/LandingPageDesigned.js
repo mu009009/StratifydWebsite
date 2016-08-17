@@ -359,32 +359,6 @@ d3.select("#FirstWatchVideo")
 		window.location.href="http://www.stratifyd.com/about-us/";
 	})
 
-//First Try Button
-d3.select('#FirstTry')
-	.on("mouseover",function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"255,255,255"+')')
-		.style('border-color',"rgb"+'('+"255,255,255"+')')
-		.style('color',"rgb"+'('+"98,101,252"+')')
-	})
-	.on("mouseout",function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"98,101,252"+')')
-		.style('border-color',"rgb"+'('+"98,101,252"+')')
-		.style('color',"rgb"+'('+"255,255,255"+')')
-	})
-	.on("click",function()
-	{
-		window.location.href = "https://signals.stratifyd.com/login.html#new";
-	})
-
-
 //// GetTime Loop for Ad Part;
 //var T = 0;
 //var TimeValue ;

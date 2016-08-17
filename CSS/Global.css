@@ -247,6 +247,17 @@ body{
 	padding-right: 5%;
 */
 }
+#FirstTry{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 11.5px;
+	height: 60px;
+	width: 272px;
+	border-radius: 3%;
+	color: white;
+	background-color: rgb(98,101,252);
+	border-color: rgb(98,101,252);
+}
 .TopMargin{
 	margin-top: 2px;
 }
@@ -254,6 +265,9 @@ body{
 	#NavbarDetailPart{
 /*		width: 100%;*/
 		margin-left: 0px;
+	}
+	#FirstTry{
+		width: 232px;
 	}
 }
 

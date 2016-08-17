@@ -18,8 +18,6 @@
 <!--Maincotainer the whole page-->	
 <body>
 	
-<div class="jumbotron" id="TitleBar">
-	
 	<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
 	   <div class="navbar-header" id="CompanyTitelPartImportent">
 		  <button type="button" class="navbar-toggle" data-toggle="collapse" 
@@ -48,54 +46,44 @@
 					 <li><a href="#" id="navOurTeam">About Us</a>
 					 </li>
 					 <li><a href="#" id="navContactUs">Contact Us</a>
-					 </li>				 
+					 </li>
 				 </ul>
-			  </li>		  	  
-			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>
-	<!--		 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
+			  </li>
+		 		<li class="active NavBarButtons" id="navLogIN"><a href="#">Log in</a></li>	  
+<!--			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>-->
+<!--		     <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
 		  </ul>
 	   </div>
-	</nav>
+	</nav>	
 	
-	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+<div class="jumbotron" id="TitleBar">
+	
+	<div class = "container" id = "ProductTitleContainer">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		</div>
 		
-		<div class="col=xs-12 col-sm-12 col-md-4 col-lg-4" id="ProductBackgroundImage">
-			<img src="Resource/ProductPageImages/ProductHeader-Screenshots.png" class="IntroImage" id="ProductIntroImage">
-			</img>		
-		</div>
-		
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="ProductTitleBoxPart">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center" id="ProductTitleBoxPart">
 
-			<div class="ContentBox NormalBox" id="ProductTitlePart">
-					<h1 class = "ContentTile ContentText-Left" id="SignalsTitle">Signals
-					</h1>			
-					<div class = "ContentBox LeftBox" id="SignalIntroTextBox">
-					<h3 class="ContentTextInfo ContentText-Left" id="SignalsIntroText">
+					
+				<h1 class = "ContentTile" id="SignalsTitle">Signals
+				</h1>			
+					
+				<div class = "ContentBox LeftBox" id="SignalIntroTextBox">
+					<h3 class="ContentTextInfo" id="SignalsIntroText">
 						A powerful augemented intelligence engine for your business.
 					</h3>
-					</div>		
-				<span class="btn btnBlack" id="ProductTryB1">Free Trial</span>
-			</div>			
-	<!--
-				<h3 class="Introduce IntroCotent" id="SignalsText">
-					Signals Provides the opportunity to maximize your potential.
-				</h3>
-	-->
-		</div>		
-	</div>
+				</div>		
+				
+				<div class="row">
+					<div class="col-xs-12" id = "TitleButtonPart">
+						<span class="btn btn-info" id="FirstTry">Free Trial</span>
+					</div>			
+				</div>
+						
 			
-	<div class="row">
-		<div class="col-sm-4">
 		</div>			
 	</div>
-			
-	<div class="row">
-		<div class="col-sm-12 text-center" id = "TitleButtonPart">
-<!--			<span class="btn btn-warning" id="FirstTry">View Demo</span>-->
-		</div>			
-	</div>			
+	
 </div>
 
 	<div class="ContentBox NormalBox" id="ProductContent">
@@ -243,92 +231,96 @@
 
 	</div>
 	
-<div class = "cotainers" id = "BottomLinkPart">
-	<div class = "row" id = "BottomLinkBox">
-		<div class="col-xs-12 col-sm-12 col-md-2">
-		</div>		
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox1">
-			<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
-			<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
-			<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
-			<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
-			<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
-			<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
+<div class="containers" id="BottomLinkPart">
+	<div class = "container">
+		<div class = "row" id = "BottomLinkBox">
+	<!--
+			<div class="col-xs-12 col-sm-12 col-md-2">
+			</div>		
+	-->
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox1">
+				<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
+				<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
+				<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
+				<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
+				<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
+				<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox2">
+				<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
+				<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
+				<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
+				<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
+				<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
+				<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
+				<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
+				<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
+				<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox3">
+				<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
+				<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox4">
+				<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
+				<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
+				<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
+				<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
+				<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
+			</div>			
 		</div>
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox2">
-			<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
-			<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
-			<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
-			<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
-			<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
-			<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
-			<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
-			<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
-			<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
-		</div>
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox3">
-			<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
-			<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
-		</div>
-		<div class = "col-xs-6 col-sm-6 col-md-2 TopMargin" id = "BottomLinkContentBox4">
-			<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
-			<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
-			<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
-			<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
-			<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
-		</div>			
 	</div>
+
 </div>
 
-<div class = "cotainers" id = "CopyRightPart">
-	
-	<div class = "row" id = "BottomCopyRightPart">
-		
-		<div class="col-xs-12 col-sm-2 col-md-2">
-		</div>
-		
-		<div class = "col-xs-12 col-sm-4 col-md-4 text-left" id = "CopyRightBox1">
-			<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
-		</div>
-		
-		<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
-			<div class = "col-xs-12 col-sm-12 col-md-2">
-			</div>
-			
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
-				<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
-				</img>
+
+<div class="containers" id="CopyRightBackground">
+	<div class = "container" id = "CopyRightPart">
+
+		<div class = "row" id = "BottomCopyRightPart">
+
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-left" id = "CopyRightBox1">
+				<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
 			</div>
 
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
-				<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
-				</img>
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
+				<div class = "col-xs-12 col-sm-12 col-md-3">
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
+					<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
+					<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
+					<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+					</img>	
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
+					<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
+					<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+					</img>						
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
+					<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+					</img>				
+				</div>
 			</div>
 
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
-				<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
-				</img>	
-			</div>
-	
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
-				<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
-				</img>
-			</div>
-	
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
-				<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
-				</img>						
-			</div>
-	
-			<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
-				<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
-				</img>				
-			</div>
-		</div>
-
+		</div>	
 	</div>	
 </div>
-
 	
 <!-- Resource or Library Scripts -->
 

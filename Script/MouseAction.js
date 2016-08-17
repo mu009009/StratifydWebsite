@@ -342,6 +342,13 @@ d3.select('#NavBarLoginButton')
 	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
 })
 
+
+//New Log IN not Button
+d3.select('#navLogIN')
+.on('click',function(){
+	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
+})
+
 //New Nav Bar Button Change
 //Log in Button
 d3.select('#NavBarLoginButton')
@@ -445,3 +452,28 @@ d3.selectAll(".ContentVideo")
 
 
 //Auton Scroll
+
+//FirstFreeTrialButton
+d3.select('#FirstTry')
+	.on("mouseover",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',"rgb"+'('+"255,255,255"+')')
+		.style('border-color',"rgb"+'('+"255,255,255"+')')
+		.style('color',"rgb"+'('+"98,101,252"+')')
+	})
+	.on("mouseout",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',"rgb"+'('+"98,101,252"+')')
+		.style('border-color',"rgb"+'('+"98,101,252"+')')
+		.style('color',"rgb"+'('+"255,255,255"+')')
+	})
+	.on("click",function()
+	{
+		window.location.href = "https://signals.stratifyd.com/login.html#new";
+	})
