@@ -6,34 +6,15 @@
 	position: relative;
 	text-align: center;	
 }
-.col-sm-1{
-	text-align: center;
+.HowItWorksSecondTitle{
+	font-family: "Arial";
 }
-#NavBarPart{
-	background-color: transparent;
-	border-color: transparent;
-	text-align: center;
-}
-.NavBarButtons{
-	font-family: "Gotham Rounded";
-	font-weight: bold;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: transparent;
-	border-color: transparent;
-	color: rgb(235,235,235)
-}
+
 #SecondRowTitle{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: bold;
-	margin-top: 1.5%;
-	padding-left: 10%;
-}
-#SecondRowTitleLighter{
-	font-weight: lighter;
-	font-family: "Gotham Rounded";
-	margin-top: 1.5%;
-	padding-left: 10%;
+	margin-top: 3.5em;
+	padding-left: 15px;
 }
 #MainAttarctText{
 	color: white;
@@ -60,7 +41,7 @@
 }
 .Introduce{
 	text-align: center;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	color: white;
 }
 .IntroTitle{
@@ -131,12 +112,12 @@
 	z-index: 2;
 }
 .ContentText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	margin-top: 1%;
 	padding-bottom: 2%;
 }
 .AboutUsContentText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	line-height: 160%;
 	margin-top: 0px;
 	padding-left: 10%;
@@ -144,11 +125,11 @@
 	color: rgb(165,165,165);
 }
 .HowitWorksText{
-	font-family: "Gotham Rounded";
-	line-height: 160%;
+	font-family: "Arial";
 	margin-top: 0px;
 	padding-left: 10%;
 	color: rgb(165,165,165);
+	line-height: 2em;
 }
 #LinkButtonPartText1{
 	padding-top: 1%;
@@ -160,7 +141,7 @@
 #StroyTextPart2{
 }
 .FontStyle{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: 400;
 }
 .Photos{
@@ -168,22 +149,17 @@
 	border-style: hidden;
 /*	margin-left: 8.333333%;*/
 }
-#StoryRow{
-	margin-top: 1%;
-	padding-bottom: 1%;
-}
 #PhotoRow{
 	margin-top: 1%;
 	padding-bottom: 2%;
 }
 #TitleBar{
-	background-color: rgb(208,208,219);
-	background-size: cover;
-	background-size-height: 100%;
-	height: auto;
+	background-color: white;
 	margin-bottom: 0px;
 	text-align: center;
-	padding-bottom: 2%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: auto;
 }
 #OurStoryImage{
 	width: 100%;
@@ -224,16 +200,16 @@
 .SayingTitle{
 	margin-top: 1%;
 	padding-left: 0;
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 }
 .SayingText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 	color: rgb(156,156,156)
 }
 .MissionText{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-weight: lighter;
 	color: black;
 }
@@ -250,10 +226,16 @@
 	margin-top: 8%;
 }
 #BubbleProcessDetailCotainer{
-	background-color: rgb(248,248,251);
+	background-color: rgb(210,212,249);
 }
 #BubbleProcessDetailCotainer2{
-	background-color: rgb(208,208,219);
+	background-color: rgb(255,255,255);
+}
+#BubbleProcessDetailCotainer3{
+	background-color: rgb(246,246,248;
+}
+#BubbleProcessDetailCotainer4{
+	background-color: rgb(255,255,255);
 }
 #ProcessDetailCotainer{
 	background-color: rgb(150,152,173);
@@ -331,3 +313,16 @@
 	opacity: 0;
 	z-index: -1;
 }
+
+@media screen and (max-width: 992px) {
+	#StroyTextPart2{
+		text-align: center;
+	}
+	#FirstSubTitle{
+		margin-top: 30px;
+	}
+	.SecondRowTitle{
+		text-align: center;
+	}
+}
+

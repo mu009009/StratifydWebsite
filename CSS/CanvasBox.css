@@ -4,9 +4,12 @@
 	height: inherit;
 }
 .NormalBox{
-	width: 70%;
-	margin-left: 15%;
+	width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
 	height: inherit;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .FullSizeBoxWithStableHeight{
 	width: 100%;
