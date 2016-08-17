@@ -83,22 +83,22 @@ function AnimationandClickResponse(className)
 		switch(FinalKeyString)
 			{
 					case "DetailImage1":
-					window.location.href = "http://www.stratifyd.com/how-it-works/";
+					window.location.href = "HowitWorks.html";
 					break;
 					case "DetailImage2":
-					window.location.href = "http://www.stratifyd.com/easy-to-use/";
+					window.location.href = "Easy%20to%20Use.html";
 					break;
 					case "DetailImage3":
-					window.location.href = "http://www.stratifyd.com/high-powered-analytics/";
+					window.location.href = "high-powered-analytics.html";
 					break;
 					case "DetailImage4":
-					window.location.href = "http://www.stratifyd.com/intuitive-visualization/";
+					window.location.href = "IntuitiveVisuaIinterface.html";
 					break;
 					case "DetailImage5":
 					window.location.href = "http://blog.stratifyd.com/category/2-0-user-manual/";
 					break;
 					case "DetailImage6":
-					window.location.href = "http://www.stratifyd.com/comprehensive-data/";
+					window.location.href = "Comprehensive_data_analytics_solution.html";
 					break;		
 			}
 	})
