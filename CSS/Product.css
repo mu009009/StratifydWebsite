@@ -31,6 +31,20 @@
 #ProductDetailBox{
 	margin-top: 4%;
 }
+.ProductSixSectionIntroBox{
+	background-color: rgb(98,101,252);
+}
+.PopoutText{
+	font-family: "Arial";
+	text-align: right;
+	font-size: 1em;
+	font-weight: 300;	
+	color: rgb(98,101,252);
+	margin-top: 38px;
+	cursor: pointer;
+	margin-bottom: 50px;
+/*	margin-top: 5%;*/
+}
 .DetailLessPartCut{
 	width: 30%;
 	float: left;
@@ -59,8 +73,8 @@
 .BoxSize{
 	min-height: 250px;
 	height: auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-bottom: 30px;
 	overflow: hidden;
 }
@@ -69,13 +83,30 @@
 	padding-bottom: 50px;
 	border-radius: 2%;
 }
-#ProductContent{
-	padding-bottom: 96px;
+.ProductIntroDuceSubTitle{
+	cursor: pointer;
+	font-family: "Arial";
+	color: black;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+.ProductTextDetailTextBox{
+	margin-top: 40px;
+}
+.ProductTextDetailTextInforPart{
+	font-family: "Arial";
+	color: rgb(158,158,158);
+	font-size: 1em;
+	cursor: pointer;	
 }
 #TitleBar{
 	padding-top: 0px;
 	padding-bottom: 172px;
 	background-color: white;
+	background: url(../Resource/ProductPageImages/ProductBackground.jpg);
+	background-size: cover;
+	background-position: center center;
 }
 #JoinUsTitleBar{
 	padding-top: 0px;
@@ -92,14 +123,19 @@
 	width: 100%;
 }
 #ProductTitleBoxPart{
-	padding-top: 206px;
+	padding-top: 108px;
 	font-family: "Arial";
 }
 #SignalsTitle{
 	font-weight: 600;
+	font-size: 4em;
+	color: white;
 }
 #SignalsIntroText{
-	font-size: 1.5em;
+	font-size: 1.3em;
+	color: rgb(140,140,163);
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 #JoinUsBigTitle{
 	font-weight: 600;
@@ -148,6 +184,10 @@
 .JobsSelectClickable{
 	cursor: pointer;
 }
+#ProductContent{
+	padding-top: 118px;
+	padding-bottom: 94px;
+}
 #DirectlyJobs1{
 	padding-left: 15px;
 	padding-right: 15px;
@@ -185,7 +225,7 @@
 }
 @media screen and (max-width: 992px) {
 	#ProductTitleBoxPart{
-		padding-top: 45px;
+		padding-top: 212px;
 	}
 	#ProductIntroImage{
 		width: 80%;

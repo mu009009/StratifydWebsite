@@ -22,7 +22,7 @@
 	height: inherit;
 }
 .ContentTextInfo{
-	font-family: "Gotham Rounded";
+	font-family: "Arial";
 	font-style: normal;
 	font-weight: lighter;
 }
@@ -90,14 +90,4 @@
 	height: inherit;
 	position: relative;
 	margin-left: 20%;
-}
-.PopoutText{
-	font-family: "Gotham Rounded";
-	text-align: center;
-	font-size: 1em;
-	font-weight: bold;	
-	color: rgb(158,158,158);
-/*	margin-top: 5%;*/
-	margin-top: 15%;
-	opacity: 0;
 }
