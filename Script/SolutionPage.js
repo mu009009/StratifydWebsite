@@ -73,7 +73,7 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"246,246,248"+")";
+		var Color = "rgb"+"("+"255,255,255"+")";
 		return Color;
 	})
 //	.style("border-color",function()

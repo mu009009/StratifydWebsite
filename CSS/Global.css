@@ -63,6 +63,15 @@ body{
 .WhiteText{
 	color: white;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: rgb(136,134,172);
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color: rgb(136,134,172);
+}
+.dropdown-menu>li>a{
+	color: white;
+}
 #CopyRightBox1{
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -155,7 +164,7 @@ body{
 	background-color: rgb(98,101,252);
 	border-color: transparent;
 	text-align: center;
-	height: 70px;
+	min-height: 70px;
 	border-radius: 0%;
 }
 #NavBarPart2{
