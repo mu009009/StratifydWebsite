@@ -158,6 +158,18 @@ body{
 	height: 70px;
 	border-radius: 0%;
 }
+#NavBarPart2{
+	margin-top: 144px;
+	padding-left: 3.8%;
+	padding-right: 3.8%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: rgb(98,101,252);
+	border-color: transparent;
+	text-align: center;
+	height: 70px;
+	border-radius: 0%;
+}
 #CopyRightBackground{
 	background-color: rgb(43,43,43)
 }
