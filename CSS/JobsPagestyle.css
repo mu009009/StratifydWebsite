@@ -1,0 +1,6 @@
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: rgb(138,147,253);
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color: rgb(138,147,253);
+}
