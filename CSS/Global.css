@@ -282,13 +282,16 @@ body{
 .TopMargin{
 	margin-top: 2px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	#NavbarDetailPart{
 /*		width: 100%;*/
 		margin-left: 0px;
 	}
 	#FirstTry{
 		width: 232px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color: white;
 	}
 }
 

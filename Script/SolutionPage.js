@@ -402,7 +402,7 @@ d3.select('#FirstViewDemo')
 	})
 	.on("click",function()
 	{
-		window.location.href = "https://signals.stratifyd.com/login.html#new";
+		window.location.href = "https://signals.stratifyd.com/explorer.html?d=5762bbdc59820b22d64cb463&jq=%5B%5D&t=TvcVGsQhUu%2BYbWLkwNqtPqETGF6OtNUFC5jbLahXab9B78v2";
 	})
 
 
