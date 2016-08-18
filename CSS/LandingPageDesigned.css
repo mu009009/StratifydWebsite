@@ -9,21 +9,25 @@
 .col-sm-1{
 	text-align: center;
 }
+#FirstSubTitle{
+	margin-top: 24px;
+}
 #MainAttarctText{
 	color: white;
 	margin-top: 188px;
 	font-weight: 600;
 	margin-bottom: 0px;
-	font-size: 4em;
+	font-size: 4.5em;
 	line-height: 150%;
 }
 #SignalsText{
 	margin-top: 32px;
 	color: rgb(240,250,255);
 	font-weight: lighter;
-	line-height: 150%;
-	font-size: 1.3em;
+	line-height: 24px;
+	font-size: 1.5em;
 	margin-bottom: 0px;
+	opacity: 0.8;
 }
 #TitleButtonPart{
 	text-align: center;
@@ -103,7 +107,7 @@
 	height: 200px;
 	overflow: hidden;
 	z-index: 1;
-	background-color: rgb(98,101,252);
+	background-color: rgb(99,106,247);
 	border-radius: 2%;
 	font-family: "Arial";
 	margin-top: 5px;
@@ -125,7 +129,7 @@
 	height: 200px;
 	overflow: hidden;	
 	z-index: 2;
-	background-color: rgb(98,101,252);
+	background-color: rgb(99,106,247);
 	border-radius: 2%;
 	font-family: "Arial";
 	margin-top: 5px;
@@ -237,10 +241,14 @@
 	font-family: "Arial";
 	font-weight: lighter;
 }
+.SayingTitleTextStyle{
+	font-size: 1em;
+}
 .SayingText{
 	font-family: "Arial";
 	font-weight: lighter;
-	color: rgb(0,0,0)
+	color: rgb(0,0,0);
+	font-size: 1.3em;
 }
 .ProcessDetailTextIntro{
 	margin-top: 8%;

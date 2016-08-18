@@ -297,7 +297,7 @@ d3.select("#MediaText")
 d3.select("#ContactText")
 	.on("click",function()
 	{
-		window.location.href="http://www.tasteanalytics.com/contact-us/";
+		Intercom('show');
 	})
 
 //Blog
@@ -328,10 +328,10 @@ d3.select('#navBlog')
 	window.location.href="http://blog.stratifyd.com/";
 })
 
-d3.select('#navContactUs')
-.on('click',function(){
-	window.location.href="ContactUs.html";
-})
+//d3.select('#navContactUs')
+//.on('click',function(){
+//	window.location.href="ContactUs.html";
+//})
 
 d3.select('#navOurTeam')
 .on('click',function(){
@@ -462,18 +462,23 @@ d3.select('#FirstTry')
 		.duration(ShorDurationTime)
 		.style('background-color',"rgb"+'('+"255,255,255"+')')
 		.style('border-color',"rgb"+'('+"255,255,255"+')')
-		.style('color',"rgb"+'('+"98,101,252"+')')
+		.style('color',"rgb"+'('+"99,104,247"+')')
 	})
 	.on("mouseout",function()
 	{
 		d3.select(this)
 		.transition()
 		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"98,101,252"+')')
-		.style('border-color',"rgb"+'('+"98,101,252"+')')
+		.style('background-color',"rgb"+'('+"99,104,247"+')')
+		.style('border-color',"rgb"+'('+"99,104,247"+')')
 		.style('color',"rgb"+'('+"255,255,255"+')')
 	})
 	.on("click",function()
 	{
 		window.location.href = "https://signals.stratifyd.com/login.html#new";
 	})
+
+d3.select('#navContactUs')
+.on('click', function(){
+	Intercom('show');
+})

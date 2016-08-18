@@ -98,7 +98,7 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"98,101,252"+")";
+		var Color = "rgb"+"("+"99,104,247"+")";
 		return Color;
 	})
 //	.style("border-color",function()
@@ -151,7 +151,7 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"98,101,252"+")";
+		var Color = "rgb"+"("+"99,104,247"+")";
 		return Color;
 	})
 //	.style("border-color",function()
@@ -389,15 +389,15 @@ d3.select('#FirstViewDemo')
 		.duration(ShorDurationTime)
 		.style('background-color',"rgb"+'('+"255,255,255"+')')
 		.style('border-color',"rgb"+'('+"255,255,255"+')')
-		.style('color',"rgb"+'('+"98,101,252"+')')
+		.style('color',"rgb"+'('+"99,104,247"+')')
 	})
 	.on("mouseout",function()
 	{
 		d3.select(this)
 		.transition()
 		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"98,101,252"+')')
-		.style('border-color',"rgb"+'('+"98,101,252"+')')
+		.style('background-color',"rgb"+'('+"99,104,247"+')')
+		.style('border-color',"rgb"+'('+"99,104,247"+')')
 		.style('color',"rgb"+'('+"255,255,255"+')')
 	})
 	.on("click",function()

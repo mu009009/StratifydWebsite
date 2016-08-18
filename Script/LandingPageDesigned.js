@@ -93,7 +93,7 @@ d3.selectAll('.CenterandBoder')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"98,101,252"+")";
+		var Color = "rgb"+"("+"99,106,247"+")";
 		return Color;
 	})
 	
@@ -136,7 +136,7 @@ d3.selectAll('.CenterandBoder2')
 	.duration(ShorDurationTime)
 	.style("background-color",function()
 	{
-		var Color = "rgb"+"("+"98,101,252"+")";
+		var Color = "rgb"+"("+"99,106,247"+")";
 		return Color;
 	})
 	
