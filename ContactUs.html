@@ -6,7 +6,9 @@
     <title></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<link href="CSS/Global.css" rel="stylesheet"/>
 	<link href="CSS/Contact.css" rel="stylesheet"/>
+	<link href="CSS/LandingPageDesigned.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -18,112 +20,266 @@
 <script src="http://www.ourd3js.com/library/multext.js" charset="utf-8"></script>
 -->
 	
-<a href="mailto:name@rapidtables.com">Send mail</a>
+<!--<a href="mailto:name@rapidtables.com">Send mail</a>-->
 	
-<div class = "row MainPart" id="MainPartRow">
+	<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
+	   <div class="navbar-header" id="CompanyTitelPartImportent">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" 
+			 data-target="#example-navbar-collapse">
+			 <span class="sr-only">Switch</span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>			  
+		  </button>
+		  <a class="navbar-brand" id="CompanyIconTitleText" href="#">
+			  <img class="img" src="Resource/Icons/Stratifyd/newlogonowords-Transparent.png" id="NavTitleCompanyIcon">
+			  </img> 
+			  <span class="NavTitleName" id="StratifydLogoText">Stratifyd</span> 
+		   </a>	
+	   </div>
+	   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+		  <ul class="nav navbar-nav" id="NavbarDetailPart">
+			 <li class="active NavBarButtons" id="navProduct"><a href="#">PRODUCT</a></li>
+			 <li class="active NavBarButtons" id="navSolution"><a href="#">SOLUTION</a></li>
+			 <li class="active NavBarButtons" id="navBlog"><a href="#">BLOG</a></li>
+			 <li class="dropdown">
+				 <a href="#" class="dropdown-toggle NavBarButtons" data-toggle="dropdown"id="DraopDownMenu1">
+					 ABOUT<b class="caret"></b>
+				 </a>
+				 <ul class="dropdown-menu NavBarButtons">
+					 <li><a href="#" id="navOurTeam">About Us</a>
+					 </li>
+					 <li><a href="#" id="navContactUs">Contact Us</a>
+					 </li>
+				 </ul>
+			  </li>
+		 		<li class="active NavBarButtons" id="navLogIN"><a href="#">Log in</a></li>	  
+<!--			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>-->
+<!--		     <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
+		  </ul>
+	   </div>
+	</nav>	
+
+<div class="container" id="ContactUsMainPartBack">
+	<div class = "row MainPart" id="MainPartRow">
 	
-	<div class="row">
-		<h1 class="col-xs-12 col-sm-12" id = "Title">
-			Contact Us
-		</h1>
-		<div class="col-xs-3 col-sm-12"></div>
-		<h4 class="col-xs-6 col-sm-12" id = "Titleexplain">
-			Please fill out the form below and we'll get back to you shortly.
-		</h4>		
+		<div class="row">
+			<h1 class="col-xs-12 col-sm-12" id = "Title">
+				Contact Us
+			</h1>
+			<div class="col-xs-1 col-sm-12"></div>
+			<h4 class="col-xs-10 col-sm-12" id = "Titleexplain">
+				Please fill out the form below and we'll get back to you shortly.
+			</h4>		
+		</div>
+
+		<div class="row">
+
+			<div class = "col-xs-1 col-sm-1 col-md-2 col-lg-3">
+			</div>		
+
+			<div class = "col-xs-10 col-sm-10 col-md-8 col-lg-6">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+					<form class="bs-example bs-example-form" role="form">
+
+					   <div class="input-group FullSize">
+						 <input type="text" class="form-control InputBox" placeholder="First Name*" id="FirstNameText">
+					  </div>
+
+				   </form>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+
+					<form class="bs-example bs-example-form" role="form">
+
+					  <div class="input-group FullSize">
+						 <input type="text" class="form-control InputBox" placeholder="Last Name*" id="LastNameText">
+					  </div>					
+
+				   </form>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12">
+					<form class="bs-example bs-example-form" role="form">
+						<div class="input-group FullSize">
+						<input type="text" class="form-control InputBox" placeholder="Email Address*" id="EmailAddress">
+						</div>						
+					</form>
+				</div>
+
+				<div class="col-xs-12 col-sm-12" id="DropdownBox">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle FullSize" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							<span id="DropDownBoxPlaceTitle">- Please Select -<span>
+							<span class="caret" id="dropdownSpancaret1"></span>
+						</button>
+					  <ul class="dropdown-menu FullSize" aria-labelledby="dropdownMenu1">
+						<li><a href="#" class="dropdownOption">Sales</a></li>
+						<li><a href="#" class="dropdownOption">Partners</a></li>
+						<li><a href="#" class="dropdownOption">Press</a></li>
+						<li><a href="#" class="dropdownOption">Product Support</a></li>
+						<li><a href="#" class="dropdownOption">Other</a></li>
+					  </ul>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-12">
+					<form role="form">
+					  <div class="form-group">
+						<textarea class="form-control" rows="3" placeholder="Message" id="MessageBox"></textarea>
+					  </div>
+					</form>
+				</div>	
+
+<!--
+				<div class="col-xs-12 col-sm-12">
+					<button class="btn btn-warning" id="SendMessageBtn">Send Message
+					</button>
+				</div>
+-->
+				
+				<div class="row">
+					<div class="col-xs-12" id = "TitleButtonPart">
+						<span class="btn btn-info" id="FirstSendMessageButton">Send Message</span>
+					</div>			
+				</div>	
+
+			</div>
+
+		</div>
+		
 	</div>
 	
-	<div class="row">
-		
-		<div class = "col-xs-3 col-sm-4">
-		</div>		
-		
-		<div class = "col-xs-6 col-sm-4">
-			<div class="col-xs-12 col-sm-6">
-			   
-				<form class="bs-example bs-example-form" role="form">
-				  
-				   <div class="input-group FullSize">
-					 <input type="text" class="form-control InputBox" placeholder="First Name*" id="FirstNameText">
-				  </div>
-					
-			   </form>
-				
+	<div class="row AddressPartBox">
+
+		<div class="col-xs-12 col-sm-12 col-md-12 AddressPart" id="CompanyAddress">
+			
+			<div class="col-xs-12 col-sm-12 col-md-2 text-left">
 			</div>
 			
-			<div class="col-xs-12 col-sm-6">
-			   
-				<form class="bs-example bs-example-form" role="form">
-					
-				  <div class="input-group FullSize">
-					 <input type="text" class="form-control InputBox" placeholder="Last Name*" id="LastNameText">
-				  </div>					
-				   
-			   </form>
-				
+			<div class="col-xs-12 col-sm-12 col-md-2 text-left">
+				<h4 class="AddressText AddressTitle">UK Address:</h4>
+				<h5 class="AddressText AddressTextContent">24 Cornwall Rd, Dorchester, Dorset DR1 1RX.</h5>
+				<h5 class="AddressText AddressTextContent">Tel: +44 (0) 7944 724920.</h5>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-1 text-left">
 			</div>
 			
-			<div class="col-xs-12 col-sm-12">
-				<form class="bs-example bs-example-form" role="form">
-					<div class="input-group FullSize">
-					<input type="text" class="form-control InputBox" placeholder="Email Address*" id="EmailAddress">
-					</div>						
-			   	</form>
+			<div class="col-xs-12 col-sm-12 col-md-2 text-left">
+				<h4 class="AddressText AddressTitle">China Address:</h4>
+				<h5 class="AddressText AddressTextContent">9th, Guanghua road, Chaoyang District, Beijing SOHO 2.</h5>
+				<h5 class="AddressText AddressTextContent">Tel: +86 (1) 3466 390016.</h5>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-1 text-left">
 			</div>
 			
-			<div class="col-xs-12 col-sm-12" id="DropdownBox">
-				<div class="dropdown">
-					<button class="btn btn-default dropdown-toggle FullSize" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-						- Please Select -
-						<span class="caret" id="dropdownSpancaret1"></span>
-					</button>
-				  <ul class="dropdown-menu FullSize" aria-labelledby="dropdownMenu1">
-					<li><a href="#" class="dropdownOption">Action</a></li>
-					<li><a href="#" class="dropdownOption">Another action</a></li>
-					<li><a href="#" class="dropdownOption">Something else here</a></li>
-					<li><a href="#" class="dropdownOption">Separated link</a></li>
-				  </ul>
+			<div class="col-xs-12 col-sm-12 col-md-2 text-left">
+				<h4 class="AddressText AddressTitle">US Address:</h4>
+				<h5 class="AddressText AddressTextContent">1431 West Morehead Street, Charlotte, NC 28208.</h5>
+				<h5 class="AddressText AddressTextContent">Tel: +1 7042 810320.</h5>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+	
+<div class="containers" id="BottomLinkPart">
+	<div class = "container">
+		<div class = "row" id = "BottomLinkBox">
+	<!--
+			<div class="col-xs-12 col-sm-12 col-md-2">
+			</div>		
+	-->
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox1">
+				<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
+				<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
+				<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
+				<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
+				<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
+				<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox2">
+				<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
+				<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
+				<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
+				<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
+				<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
+				<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
+				<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
+				<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
+				<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox3">
+				<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
+				<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox4">
+				<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
+				<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
+				<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
+				<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
+				<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
+			</div>			
+		</div>
+	</div>
+
+</div>
+
+
+<div class="containers" id="CopyRightBackground">
+	<div class = "container" id = "CopyRightPart">
+
+		<div class = "row" id = "BottomCopyRightPart">
+
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-left" id = "CopyRightBox1">
+				<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
+			</div>
+
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
+				<div class = "col-xs-12 col-sm-12 col-md-3">
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
+					<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
+					<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
+					<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+					</img>	
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
+					<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
+					<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+					</img>						
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
+					<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+					</img>				
 				</div>
 			</div>
-			
-			<div class="col-xs-12 col-sm-12">
-				<form role="form">
-				  <div class="form-group">
-					<textarea class="form-control" rows="3" placeholder="Message" id="MessageBox"></textarea>
-				  </div>
-				</form>
-			</div>	
-			
-			<div class="col-xs-12 col-sm-12">
-				<button class="btn btn-warning" id="SendMessageBtn">Send Message
-				</button>
-			</div>			
 
-		</div>
-		
-	</div>
-		
-</div>
-	
-<div style="padding: 100px 100px 100px 100px;">
-	
-	<div class="col-xs-12 col-sm-12 col-md-12 AddressPart" id="CompanyAddress">
-		
-		<div class="col-xs-12 col-sm-4 col-md-4 text-center">
-			<h3>Address 1</h3>
-		</div>
-		
-		<div class="col-xs-12 col-sm-4 col-md-4 text-center">
-			<h3>Address 2</h3>
-		</div>
-		
-		<div class="col-xs-12 col-sm-4 col-md-4 text-center">
-			<h3>Address 3</h3>
-		</div>
-		
-	</div>
-	
-</div>
-
+		</div>	
+	</div>	
+</div>	
 	
 <!-- Control Scripts-->
 <script src="lib/css3-mediaqueries-js-master/css3-mediaqueries.js"></script>
@@ -131,6 +287,9 @@
 <script src="lib/d3/d3.min.js"></script>
 <script src="lib/queue/queue.min.js"></script>
 <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="Script/WindowResize.js"></script>
+<script src="Script/GlobalControl.js"></script>
+<script src="Script/MouseAction.js"></script>
 <script src="Script/Contact.js"></script>
 
 </body>
