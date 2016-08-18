@@ -14,6 +14,7 @@ if(document.getElementById("ProductIconDetail32")!=null)
 
 
 AnimationandClickResponse("DetailImage");
+AnimationandClickResponse("ProductIntroDuceSubTitle");
 AnimationandClickResponse("ProductTextDetailTextInforPart");
 AnimationandClickResponse("PopoutText");
 
@@ -95,7 +96,7 @@ function AnimationandClickResponse(className)
 					window.location.href = "IntuitiveVisuaIinterface.html";
 					break;
 					case "DetailImage5":
-					window.location.href = "http://blog.stratifyd.com/category/2-0-user-manual/";
+					window.location.href = "http://blog.stratifyd.com/2016/06/15/2-0-user-manual-table-of-content/";
 					break;
 					case "DetailImage6":
 					window.location.href = "Comprehensive_data_analytics_solution.html";

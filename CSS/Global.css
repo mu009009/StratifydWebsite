@@ -128,7 +128,7 @@ body{
 .SmallButtonTextLeft{
 	width: auto;
 	font-family: "Arial";
-	text-align: left;
+/*	text-align: left;*/
 	font-weight: 100;
 	color: #535353;
 	position: relative;
@@ -161,7 +161,7 @@ body{
 	padding-right: 3.8%;
 	padding-top: 7px;
 	padding-bottom: 7px;
-	background-color: rgb(98,101,252);
+	background-color: rgb(99,104,247);
 	border-color: transparent;
 	text-align: center;
 	min-height: 70px;
@@ -195,6 +195,12 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-right: 12px;
+}
+.BottomLinkContentBox{
+	display: inline-block;
+}
+#BottomLinkContentBox1{
+	
 }
 #CompanyTitelPartImportent{
 /*	margin-left: 5%;*/
@@ -260,7 +266,7 @@ body{
 .SecondRowTitle{
 	font-family: "Arial";
 	font-weight: bold;
-	margin-top: 142px;
+	margin-top: 118px;
 	font-size: 3em;
 	margin-bottom: 111px;
 /*
@@ -269,15 +275,15 @@ body{
 */
 }
 #FirstTry{
-	font-size: 24px;
+	font-size: 1.5em;;
 	font-weight: bold;
 	padding-top: 11.5px;
 	height: 60px;
 	width: 272px;
 	border-radius: 3%;
 	color: white;
-	background-color: rgb(98,101,252);
-	border-color: rgb(98,101,252);
+	background-color: rgb(99,104,247);
+	border-color: rgb(99,104,247);
 }
 .TopMargin{
 	margin-top: 2px;

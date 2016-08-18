@@ -12,16 +12,17 @@
 .SecondRowTitle{
 	font-family: "Arial";
 	font-weight: bold;
-	margin-top: 32px;
-	font-size: 3.5em;
-	margin-bottom: 32px;
+	margin-top: 34px;
+	font-size: 3em;
+	margin-bottom: 40px;
 }
 #SignalsText{
 	margin-top: 0px;
-	color: rgb(34,39,52);
+	color: white;
 	font-weight: lighter;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
+	opacity: 0.8;
 }
 #TitleButtonPart{
 	text-align: center;
@@ -147,9 +148,12 @@
 	margin-bottom: 56px;
 /*	margin-left: 8.333333%;*/
 }
+#OurMissionTitle{
+	margin-top: 16px;
+}
 #StoryRow1{
-	padding-bottom: 48px;
-	padding-top: 152px;
+/*	padding-bottom: 48px;*/
+	padding-top: 118px;
 }
 #StoryRow2{
 	padding-bottom: 66px;
@@ -167,7 +171,7 @@
 	height: auto;
 	margin-bottom: 0px;
 	text-align: center;
-	padding-bottom: 0px;
+	padding-bottom: 209px;
 	padding-top: 0px;
 }
 #OurStoryImage{
@@ -315,10 +319,11 @@
 	height: 180px;
 }
 #MainAttarctText{
-	color: black;
+	font-family: "Arial";
+	color: white;
 	font-weight: bold;
 	text-align: center;
-	font-size: 4em;
+	font-size: 4.5em;
 	padding-top: 0px;
 	margin-top: 0px;
 }

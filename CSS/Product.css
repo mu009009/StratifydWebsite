@@ -3,8 +3,8 @@
 	position: relative;
 }
 .DetailImage{
-	width: 60%;
-	margin-left: 20%;
+	width: 100%;
+	margin-left: 0%;
 	height: auto;
 	cursor: pointer;
 }
@@ -32,14 +32,14 @@
 	margin-top: 4%;
 }
 .ProductSixSectionIntroBox{
-	background-color: rgb(98,101,252);
+	background-color: rgb(99,104,247);
 }
 .PopoutText{
 	font-family: "Arial";
 	text-align: right;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: 300;	
-	color: rgb(98,101,252);
+	color: rgb(99,104,247);
 	margin-top: 38px;
 	cursor: pointer;
 	margin-bottom: 50px;
@@ -83,6 +83,10 @@
 	padding-bottom: 50px;
 	border-radius: 2%;
 }
+.ThirdRankPageStartTitle{
+	margin-top: 0px;
+	font-family: "Arial";
+}
 .ProductIntroDuceSubTitle{
 	cursor: pointer;
 	font-family: "Arial";
@@ -90,6 +94,10 @@
 	font-style: normal;
 	font-weight: lighter;
 	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
 }
 .ProductTextDetailTextBox{
 	margin-top: 40px;
@@ -97,16 +105,18 @@
 .ProductTextDetailTextInforPart{
 	font-family: "Arial";
 	color: rgb(158,158,158);
-	font-size: 1em;
-	cursor: pointer;	
+	font-size: 1.2em;
+	cursor: pointer;
+	margin-top: 28px;
 }
 #TitleBar{
 	padding-top: 0px;
 	padding-bottom: 0px;
 	background-color: white;
-	background: url(../Resource/ProductPageImages/ProductBackground.jpg);
+	background: url(../Resource/ProductPageImages/ProductBackgroundImageTest.jpg);
 	background-size: cover;
 	background-position: center center;
+	margin-bottom: 0px;
 }
 #JoinUsTitleBar{
 	padding-top: 0px;
@@ -130,16 +140,18 @@
 }
 #SignalsTitle{
 	font-weight: 600;
-	font-size: 4em;
+	font-size: 4.5em;
 	color: white;
 }
 #SignalsIntroText{
-	font-size: 1.3em;
-	color: rgb(140,140,163);
-	margin-top: 35px;
-	margin-bottom: 35px;
+	font-size: 1.5em;
+	color: rgb(255,255,255);
+	margin-top: 24px;
+	margin-bottom: 32px;
 	padding-left: 15px;
-	padding-right: 15px;	
+	padding-right: 15px;
+	line-height: 24px;
+	opacity: 0.8;
 }
 #JoinUsBigTitle{
 	font-weight: 600;
@@ -151,7 +163,7 @@
 	font-size: 2.5m;
 	font-weight: 600;
 	color: black;
-	margin-top: 45px;
+/*	margin-top: 45px;*/
 	margin-bottom: 75px;
 }
 .ThirdRankPageContentBoxPart{

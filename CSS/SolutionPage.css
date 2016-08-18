@@ -14,17 +14,18 @@
 	margin-top: 188px;
 	font-weight: bold;
 	font-family: "Arial";
-	font-size: 4em;
+	font-size: 4.5em;
 	margin-bottom: 0px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 #SignalsText{
-	margin-top: 32px;
-	color: rgb(128,128,148);
+	margin-top: 24px;
+	color: rgb(255,255,255);
+	opacity: 0.8;
 	font-family: "Arial";
 	font-weight: lighter;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	line-height: 150%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -103,7 +104,7 @@
 }
 .CenterandBoder{
 	text-align: center;
-	border-color: rgb(98,101,252);
+	border-color: rgb(99,104,247);
 	border-style: none;
 	border-width: thin;
 	overflow: hidden;
@@ -112,13 +113,13 @@
 	height: 200px;
 	overflow: hidden;
 	z-index: 1;
-	background-color: rgb(98,101,252);
+	background-color: rgb(99,104,247);
 	margin-bottom: 20px;
 	border-radius: 2%;
 }
 .CenterandBoder2{
 	text-align: center;
-	border-color: rgb(98,101,202);
+	border-color: rgb(99,104,247);
 	border-style: none;
 	border-width: thin;
 	overflow: hidden;
@@ -127,7 +128,7 @@
 	height: 200px;
 	overflow: hidden;	
 	z-index: 2;
-	background-color: rgb(98,101,252);
+	background-color: rgb(99,104,247);
 	margin-bottom: 20px;
 	border-radius: 2%;
 }
@@ -151,10 +152,11 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	background-color: white;
-	background: url(../Resource/SolutionPage/solutionPageBackground.jpg);
+	background: url(../Resource/SolutionPage/solutionBackgroundChangeTestAgainAgain.jpg);
 	background-size: cover;
 	background-position: center center;
 	margin-bottom: 0px;
+	padding-bottom: 144px;
 }
 .NameOh{
 	margin-top:0px;
@@ -320,8 +322,8 @@
 	width: 272px;
 	border-radius: 3%;
 	color: white;
-	background-color: rgb(98,101,252);
-	border-color: rgb(98,101,252);
+	background-color: rgb(99,104,247);
+	border-color: rgb(99,104,247);
 }
 #NavBarPart{
 	background-color: transparent;
