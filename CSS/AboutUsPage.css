@@ -167,8 +167,8 @@
 	height: auto;
 	margin-bottom: 0px;
 	text-align: center;
-	padding-bottom: 270px;
-	padding-top: 150px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 #OurStoryImage{
 	width: 100%;
@@ -325,6 +325,13 @@
 .ContentVideo{
 	width: 560px;
 	height: 315px;
+}
+#NavBarPart{
+	margin-bottom: 85px;
+	background-color: transparent;
+}
+#NavBarPart2{
+	margin-top: 209px;
 }
 @media screen and (max-width: 992px) {
 	.AboutUsContentText{

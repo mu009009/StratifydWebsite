@@ -380,6 +380,30 @@ d3.select("#FirstWatchVideo")
 //	TimeValue = setTimeout("RecordtheTime()",LoopChangeTime);
 //}
 
+//ViewDemoButton Action
+d3.select('#FirstViewDemo')
+	.on("mouseover",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',"rgb"+'('+"255,255,255"+')')
+		.style('border-color',"rgb"+'('+"255,255,255"+')')
+		.style('color',"rgb"+'('+"98,101,252"+')')
+	})
+	.on("mouseout",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',"rgb"+'('+"98,101,252"+')')
+		.style('border-color',"rgb"+'('+"98,101,252"+')')
+		.style('color',"rgb"+'('+"255,255,255"+')')
+	})
+	.on("click",function()
+	{
+		window.location.href = "https://signals.stratifyd.com/login.html#new";
+	})
 
 
 
