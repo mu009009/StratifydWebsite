@@ -310,7 +310,7 @@ d3.select("#BlogIext")
 //TitleStrtifyd
 d3.select('#CompanyIconTitleText')
 .on("click",function(){
-	window.location.href="LandingPageDesigned.html";
+	window.location.href="index.html";
 })
 
 d3.select('#navProduct')
