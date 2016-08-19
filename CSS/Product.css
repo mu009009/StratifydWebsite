@@ -101,6 +101,8 @@
 }
 .ProductTextDetailTextBox{
 	margin-top: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .ProductTextDetailTextInforPart{
 	font-family: "Arial";
@@ -142,6 +144,15 @@
 	font-weight: 600;
 	font-size: 4.5em;
 	color: white;
+	margin-top: 59px;
+	margin-bottom: 64px;
+}
+#ProductMainSignalTitle{
+	font-weight: 600;
+	font-size: 4.5em;
+	color: white;
+	margin-top: 59px;
+	margin-bottom: 64px;
 }
 #SignalsIntroText{
 	font-size: 1.5em;
@@ -150,6 +161,32 @@
 	margin-bottom: 32px;
 	padding-left: 15px;
 	padding-right: 15px;
+	line-height: 24px;
+	opacity: 0.8;
+}
+#JobsIntroTitleFirstOne{
+	font-size: 1.5em;
+	color: rgb(0,0,0);
+	margin-top: 24px;
+	margin-bottom: 32px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 24px;
+	opacity: 0.8;	
+}
+#ThirdRankPageIntroText{
+	font-size: 1.5em;
+	color: rgb(255,255,255);
+	margin-top: 24px;
+	margin-bottom: 32px;
+	line-height: 24px;
+	opacity: 0.5;
+}
+#SignalsIntroTitleText{
+	font-size: 2em;
+	color: rgb(255,255,255);
+	margin-top: 24px;
+/*	margin-bottom: 32px;*/
 	line-height: 24px;
 	opacity: 0.8;
 }
@@ -172,7 +209,8 @@
 }
 .ThirdRankPageContentTitle{
 	font-family: "Arial";
-	font-size:  2em;
+	font-size:  1.5em;
+	margin-top: 0px;
 }
 .ThirdRankPageContentText{
 	font-family: "Arial";
@@ -183,10 +221,13 @@
 }
 .ThirdRankImageIcon{
 	
-	width: 130.27px;
+	width: 65.13px;
 	max-width: 100%;
 	max-height: 130.27px;
 
+}
+.ThirdRankImageTextAllignControl{
+	text-align: right;
 }
 .JobsClass{
 	margin-bottom: 20px;
@@ -201,6 +242,58 @@
 .JobsPaddingChange{
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.ThirdPageTitleImageIcon{
+	max-width: 100%;
+}
+.ThirdPageTitleBoxPart{
+	font-family: "Arial";
+	padding-top: 0px;
+}
+#EasytoUseBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;	
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/Easy%20to%20Use_BakcgroundImageNoIcon.jpg);
+}
+#Comperhensive_Data_AnaBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/Comprehensive%20Data_BackgroundNoIcon.jpg);
+}
+#HighPowerAnaBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/High%20Powered%20Analytics_BackgroundImage.jpg);
+}
+#HowItWorksBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/How%20It%20Works_BackgroundNoIcon.jpg);
+}
+#IntuitiveVisualinterBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/Intuitive%20Visualization_BackgroundNoIcon.jpg);
 }
 #ProductContent{
 	padding-top: 118px;
@@ -253,9 +346,11 @@
 	margin-bottom: 90px;
 }
 @media screen and (max-width: 992px) {
+/*
 	#ProductTitleBoxPart{
 		padding-top: 212px;
 	}
+*/
 	#ProductIntroImage{
 		width: 80%;
 	}
@@ -266,13 +361,27 @@
 	.ThirdRankPageContentTitle{
 		padding-left: 30px;
 		padding-right: 0px;
+/*		font-size: 1.8em;*/
+		margin-top: 20px;
 	}
 	#ProductContent{
 		margin-left: 0px;
 		margin-right: 0px;
 		padding-left: 10px;
 		padding-right: 10px;
-	}	
+	}
+	.ThirdRankImageTextAllignControl{
+		text-align: center;
+	}
+	#SignalsTitle{
+		font-size: 2em;
+	}
+	#SignalsIntroTitleText{
+		font-size: 1.8em;
+	}
+	#ProductMainSignalTitle{
+		font-size: 3em;
+	}
 }
 
 @media screen and (max-width: 768px) {

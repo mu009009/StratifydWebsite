@@ -35,6 +35,7 @@ body{
 	margin-top: 10%;
 	color: rgb(0,0,0);
 	cursor: pointer;
+	font-size: 1.2em;
 }
 .ThirdTitle{
 	font-family: "Arial";
@@ -173,7 +174,7 @@ body{
 	padding-right: 3.8%;
 	padding-top: 7px;
 	padding-bottom: 7px;
-	background-color: rgb(98,101,252);
+	background-color: rgb(25,41,54);
 	border-color: transparent;
 	text-align: center;
 	height: 70px;
@@ -199,8 +200,8 @@ body{
 .BottomLinkContentBox{
 	display: inline-block;
 }
-#BottomLinkContentBox1{
-	
+.BottomIconLink{
+/*	text-align: right;*/
 }
 #CompanyTitelPartImportent{
 /*	margin-left: 5%;*/
@@ -295,7 +296,7 @@ body{
 		margin-left: 0px;
 	}
 	#FirstTry{
-		width: 232px;
+		max-width: 100%;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
 		color: white;
