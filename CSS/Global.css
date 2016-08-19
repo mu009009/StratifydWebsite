@@ -58,7 +58,7 @@ body{
 	margin-left: 12.5%;
 }
 .StableHeight{
-	min-height: 250px;
+	min-height: 200px;
 	height: auto;
 }
 .WhiteText{
@@ -257,13 +257,12 @@ body{
 	margin-bottom: 0px;
 }
 #NavTitleCompanyIcon{
-	width: 10%;
-}
-#NavTitleCompanyIcon{
 /*	width: 30px;*/
 	position: absolute;
 	margin-top: -10px;
 	min-width: 150px;
+	max-height: 65px;
+	width: 10%;
 }
 .SecondRowTitle{
 	font-family: "Arial";

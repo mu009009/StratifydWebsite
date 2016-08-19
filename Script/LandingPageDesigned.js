@@ -1,38 +1,38 @@
-d3.select("#FirstLearnMore")
-	.on("mouseover",function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"0,112,121"+')')
-		.style("border-color","rgb"+'('+"0,112,121"+')')
-	})
-	.on("mouseout",function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"0,161,175"+')')
-		.style("border-color","rgb"+'('+"0,161,175"+')')
-	})
-
-d3.select("#FirstWatchVideo")
-	.on("mouseover",function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"0,112,121"+')')
-		.style("border-color","rgb"+'('+"0,112,121"+')')
-	})
-	.on("mouseout",function()
-	{
-		d3.select(this)
-		.transition()
-		.duration(ShorDurationTime)
-		.style('background-color',"rgb"+'('+"0,161,175"+')')
-		.style("border-color","rgb"+'('+"0,161,175"+')')
-	})
+//d3.select("#FirstLearnMore")
+//	.on("mouseover",function()
+//	{
+//		d3.select(this)
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('background-color',"rgb"+'('+"0,112,121"+')')
+//		.style("border-color","rgb"+'('+"0,112,121"+')')
+//	})
+//	.on("mouseout",function()
+//	{
+//		d3.select(this)
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('background-color',"rgb"+'('+"0,161,175"+')')
+//		.style("border-color","rgb"+'('+"0,161,175"+')')
+//	})
+//
+//d3.select("#FirstWatchVideo")
+//	.on("mouseover",function()
+//	{
+//		d3.select(this)
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('background-color',"rgb"+'('+"0,112,121"+')')
+//		.style("border-color","rgb"+'('+"0,112,121"+')')
+//	})
+//	.on("mouseout",function()
+//	{
+//		d3.select(this)
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('background-color',"rgb"+'('+"0,161,175"+')')
+//		.style("border-color","rgb"+'('+"0,161,175"+')')
+//	})
 
 //Try Now and Watch Introduction Part
 //VerticalCenterTry();
@@ -54,11 +54,11 @@ d3.select("#FirstWatchVideo")
 //
 //}
 
-d3.select('#MainContentJumpButton1')
-	.on("click",function()
-	{
-		window.location.href = "https://signals.stratifyd.com/login.html#sign-in";
-	})
+//d3.select('#MainContentJumpButton1')
+//	.on("click",function()
+//	{
+//		window.location.href = "https://signals.stratifyd.com/login.html#sign-in";
+//	})
 
 //Bottom Link Buttons Size Transition
 var BottomIconsWidth = document.getElementById("ExecutiveIcon").getBoundingClientRect().width;
@@ -153,12 +153,12 @@ d3.selectAll('.CenterandBoder2')
 
 //Circle Buttons Size Transition
 
-d3.selectAll('.BubblePart')
-.on("mouseover",function()
-{
-	d3.select(this)
-	.transition()
-	.duration(ShorDurationTime)
+//d3.selectAll('.BubblePart')
+//.on("mouseover",function()
+//{
+//	d3.select(this)
+//	.transition()
+//	.duration(ShorDurationTime)
 //	.style("width",BubbleButton*1.5+"px")
 //	.style("margin-left",function()
 //	{
@@ -172,12 +172,12 @@ d3.selectAll('.BubblePart')
 //	})
 	
 //	TforCircleShowOnly = -9999;
-})
-.on("mouseout",function()
-{
-	d3.select(this)
-	.transition()
-	.duration(ShorDurationTime)
+//})
+//.on("mouseout",function()
+//{
+//	d3.select(this)
+//	.transition()
+//	.duration(ShorDurationTime)
 //	.style("width",BubbleButton+"px")
 //	.style("background-color",function()
 //	{
@@ -191,110 +191,110 @@ d3.selectAll('.BubblePart')
 //	})
 	
 //	TforCircleShowOnly = -1;
-})
-.on("click",function()
-{
-	var ClickObject = d3.select(this);
-	var ClickID = ClickObject[0][0].id;
-	console.log(ClickID);
-	switch (ClickID)
-	{
-		case "CircleBubble1":
-			
-		d3.selectAll(".ContinueChangeBox")	
-		.style("position","absolute");
-			
-		d3.select("#ContinueChangeBox1")
-		.style("position","relative");	
-			
-		d3.selectAll(".ContinueChangeBox")
-		.transition()
-		.duration(ShorDurationTime)
-		.style("opacity",0)
-		.style("z-index",-1);
-			
-		d3.select("#ContinueChangeBox1")
-		.transition()
-		.duration(ShorDurationTime)
-		.style('opacity',1)
-		.style("z-index",3);
-		
-		break;
-			
-		case "CircleBubble2":
-			
-		d3.selectAll(".ContinueChangeBox")	
-		.style("position","absolute");
-			
-		d3.select("#ContinueChangeBox2")
-		.style("position","relative");	
-			
-		d3.selectAll(".ContinueChangeBox")
-		.transition()
-		.duration(ShorDurationTime)
-		.style("opacity",0)
-		.style("z-index",-1)
-			
-		d3.select("#ContinueChangeBox2")
-		.transition()
-		.duration(ShorDurationTime)
-		.style('opacity',1)
-		.style("z-index",3);
-		
-
-		
-		break;
-			
-		case "CircleBubble3":
-			
-		d3.selectAll(".ContinueChangeBox")	
-		.style("position","absolute");
-			
-		d3.select("#ContinueChangeBox3")
-		.style("position","relative");				
-			
-		d3.selectAll(".ContinueChangeBox")
-		.transition()
-		.duration(ShorDurationTime)
-		.style("opacity",0)
-		.style("z-index",-1);
-			
-		d3.select("#ContinueChangeBox3")
-		.transition()
-		.duration(ShorDurationTime)
-		.style('opacity',1)
-		.style("z-index",3);
-		
-		break;	
-	}
-})
+//})
+//.on("click",function()
+//{
+//	var ClickObject = d3.select(this);
+//	var ClickID = ClickObject[0][0].id;
+//	console.log(ClickID);
+//	switch (ClickID)
+//	{
+//		case "CircleBubble1":
+//			
+//		d3.selectAll(".ContinueChangeBox")	
+//		.style("position","absolute");
+//			
+//		d3.select("#ContinueChangeBox1")
+//		.style("position","relative");	
+//			
+//		d3.selectAll(".ContinueChangeBox")
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style("opacity",0)
+//		.style("z-index",-1);
+//			
+//		d3.select("#ContinueChangeBox1")
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('opacity',1)
+//		.style("z-index",3);
+//		
+//		break;
+//			
+//		case "CircleBubble2":
+//			
+//		d3.selectAll(".ContinueChangeBox")	
+//		.style("position","absolute");
+//			
+//		d3.select("#ContinueChangeBox2")
+//		.style("position","relative");	
+//			
+//		d3.selectAll(".ContinueChangeBox")
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style("opacity",0)
+//		.style("z-index",-1)
+//			
+//		d3.select("#ContinueChangeBox2")
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('opacity',1)
+//		.style("z-index",3);
+//		
+//
+//		
+//		break;
+//			
+//		case "CircleBubble3":
+//			
+//		d3.selectAll(".ContinueChangeBox")	
+//		.style("position","absolute");
+//			
+//		d3.select("#ContinueChangeBox3")
+//		.style("position","relative");				
+//			
+//		d3.selectAll(".ContinueChangeBox")
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style("opacity",0)
+//		.style("z-index",-1);
+//			
+//		d3.select("#ContinueChangeBox3")
+//		.transition()
+//		.duration(ShorDurationTime)
+//		.style('opacity',1)
+//		.style("z-index",3);
+//		
+//		break;	
+//	}
+//})
 
 //Play Video
-d3.selectAll(".ContentVideo")
-.on("click",function()
-	{
-		d3.select(this).loop = true;
-		d3.select(this).play();
-	})
+//d3.selectAll(".ContentVideo")
+//.on("click",function()
+//	{
+//		d3.select(this).loop = true;
+//		d3.select(this).play();
+//	})
 
 //Signals Related Buttons click function
-d3.select('#TrySignals1')
-.on('click',function()
-{
-	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
-})
-
-d3.select('#TrySignals2')
-.on('click',function()
-{
-	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
-})
-
-d3.select('#TrySignals3')
-.on('click',function()
-{
-	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
-})
+//d3.select('#TrySignals1')
+//.on('click',function()
+//{
+//	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
+//})
+//
+//d3.select('#TrySignals2')
+//.on('click',function()
+//{
+//	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
+//})
+//
+//d3.select('#TrySignals3')
+//.on('click',function()
+//{
+//	window.location.href="https://signals.stratifyd.com/login.html#sign-in";
+//})
 
 //Bottom Link Part buttons First Part 4 buttons
 d3.select("#ExecutiveLearnMore")
@@ -479,6 +479,27 @@ d3.select("#FirstWatchVideo")
 //	TimeValue = setTimeout("RecordtheTime()",LoopChangeTime);
 //}
 
+d3.select('#LandingFirstLearnMoreProduct')
+	.on("mouseover",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',"rgb"+'('+"99,106,247"+')')
+		.style('color',"rgb"+'('+"255,255,255"+')')
+	})
+	.on("mouseout",function()
+	{
+		d3.select(this)
+		.transition()
+		.duration(ShorDurationTime)
+		.style('background-color',"transparent")
+		.style('color',"rgb"+'('+"99,106,247"+')')
+	})
+	.on("click",function()
+	{
+		window.location.href = "Product.html";
+	})
 
 
 
