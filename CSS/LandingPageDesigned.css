@@ -29,8 +29,12 @@
 	margin-bottom: 0px;
 	opacity: 0.8;
 }
-#TitleButtonPart{
-	text-align: center;
+#TitleButtonPart1{
+	text-align: right;
+	margin-top: 76px;
+}
+#TitleButtonPart2{
+	text-align: left;
 	margin-top: 76px;
 }
 #CompanIconPart{
@@ -67,6 +71,18 @@
 	font-size: 2.5em;
 	color: white;
 	
+}
+#LandingFirstLearnMoreProduct{
+	font-size: 1.5em;;
+	font-weight: bold;
+	padding-top: 11.5px;
+	height: 60px;
+	width: 272px;
+	border-radius: 3%;
+	color: rgb(99,104,247);
+	background-color: transparent;
+	border-color: rgb(99,104,247);
+	max-width: 100%;
 }
 #ASolutionYN{
 	font-family: "Arial";
@@ -467,9 +483,11 @@
 	#MainAttarctText{
 		font-size: 3em;
 	}
+/*
 	#FirstTry{
 		width: 232px;
 	}
+*/
 }
 
 @media screen and (max-width: 992px) {
@@ -481,6 +499,12 @@
 	}
 	#ProcessDetailIntroText2{
 		text-align: left;
+	}
+	#TitleButtonPart1{
+		text-align: center;
+	}
+	#TitleButtonPart2{
+		text-align: center;
 	}
 }
 
