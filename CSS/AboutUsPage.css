@@ -18,7 +18,7 @@
 }
 #SignalsText{
 	margin-top: 0px;
-	color: white;
+	color: rgb(35,41,54);
 	font-weight: lighter;
 	text-align: center;
 	font-size: 1.5em;
@@ -321,7 +321,7 @@
 }
 #MainAttarctText{
 	font-family: "Arial";
-	color: white;
+	color: rgb(35,41,54);
 	font-weight: bold;
 	text-align: center;
 	font-size: 4.5em;

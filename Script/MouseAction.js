@@ -206,7 +206,7 @@ d3.select("#HIWText")
 d3.select("#ETUText")
 	.on("click",function()
 	{
-		window.location.href="Easy%20to%20Use.html";
+		window.location.href="EasyToUse.html";
 	})
 
 d3.select("#INVisText")
@@ -218,13 +218,13 @@ d3.select("#INVisText")
 d3.select("#HPAText")
 	.on("click",function()
 	{
-		window.location.href="high-powered-analytics.html";
+		window.location.href="HighPoweredAnalytics.html";
 	})
 
 d3.select("#ComDataText")
 	.on("click",function()
 	{
-		window.location.href="Comprehensive_data_analytics_solution.html";
+		window.location.href="ComprehensiveDataAnalyticsSolution.html";
 	})
 
 //Solution
