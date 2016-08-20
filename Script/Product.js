@@ -87,10 +87,10 @@ function AnimationandClickResponse(className)
 					window.location.href = "HowitWorks.html";
 					break;
 					case "DetailImage2":
-					window.location.href = "Easy%20to%20Use.html";
+					window.location.href = "EasyToUse.html";
 					break;
 					case "DetailImage3":
-					window.location.href = "high-powered-analytics.html";
+					window.location.href = "HighPoweredAnalytics";
 					break;
 					case "DetailImage4":
 					window.location.href = "IntuitiveVisuaIinterface.html";
@@ -99,7 +99,7 @@ function AnimationandClickResponse(className)
 					window.location.href = "http://blog.stratifyd.com/2016/06/15/2-0-user-manual-table-of-content/";
 					break;
 					case "DetailImage6":
-					window.location.href = "Comprehensive_data_analytics_solution.html";
+					window.location.href = "ComprehensiveDataAnalyticsSolution.html";
 					break;		
 			}
 	})
@@ -153,11 +153,11 @@ d3.select("#MediaBtn3")
 d3.select('#DirectlyJobs1')
 	.on("click",function()
 	{
-		window.location.href="Senior_Software_Developer.html";
+		window.location.href="SeniorSoftwareDeveloper.html";
 	})
 
 d3.select('#DirectlyJobs2')
 	.on("click",function()
 	{
-		window.location.href="Data_Research_Analyst.html";
+		window.location.href="DataResearchAnalyst.html";
 	})
