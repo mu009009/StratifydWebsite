@@ -174,6 +174,12 @@ d3.select('#LandingFirstLearnMoreProduct')
 		window.location.href = "Product.html";
 	})
 
-
+//FirstFreeTrialButton
+d3.select('#FirstTry')
+	.on("click",function()
+	{
+//		window.location.href = "https://signals.stratifyd.com/login.html#new";
+		window.location.href = "Product.html";
+	})
 
 

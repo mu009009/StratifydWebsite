@@ -473,11 +473,6 @@ d3.select('#FirstTry')
 		.style('border-color',"rgb"+'('+"99,104,247"+')')
 		.style('color',"rgb"+'('+"255,255,255"+')')
 	})
-	.on("click",function()
-	{
-//		window.location.href = "https://signals.stratifyd.com/login.html#new";
-		window.location.href = "Product.html";
-	})
 
 d3.select('#navContactUs')
 .on('click', function(){
