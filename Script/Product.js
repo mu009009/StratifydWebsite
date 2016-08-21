@@ -90,7 +90,7 @@ function AnimationandClickResponse(className)
 					window.location.href = "EasyToUse.html";
 					break;
 					case "DetailImage3":
-					window.location.href = "HighPoweredAnalytics";
+					window.location.href = "HighPoweredAnalytics.html";
 					break;
 					case "DetailImage4":
 					window.location.href = "IntuitiveVisuaIinterface.html";

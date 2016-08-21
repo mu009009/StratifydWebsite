@@ -71,7 +71,7 @@
 	cursor: pointer;
 }
 .BoxSize{
-	min-height: 250px;
+	min-height: 400px;
 	height: auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -381,6 +381,9 @@
 	}
 	#ProductMainSignalTitle{
 		font-size: 3em;
+	}
+	.BoxSize{
+		min-height: 250px;
 	}
 }
 

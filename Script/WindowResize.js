@@ -9,5 +9,5 @@ window.onresize = function()
 //	BottomIconsWidth = document.getElementById("ExecutiveIcon").getBoundingClientRect().width;
 //	BottomMargineLeftStr = d3.select("#ExecutiveIcon").style("margin-left");
 //	BottomMargineLeftValue = parseFloat(ValuewithPxStrtoNumValue(BottomMargineLeftStr));
-	window.location.reload();
+//	window.location.reload();
 }
