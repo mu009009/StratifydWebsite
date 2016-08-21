@@ -475,7 +475,8 @@ d3.select('#FirstTry')
 	})
 	.on("click",function()
 	{
-		window.location.href = "https://signals.stratifyd.com/login.html#new";
+//		window.location.href = "https://signals.stratifyd.com/login.html#new";
+		window.location.href = "Product.html";
 	})
 
 d3.select('#navContactUs')
