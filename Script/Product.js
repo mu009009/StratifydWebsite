@@ -105,12 +105,13 @@ function AnimationandClickResponse(className)
 	})
 }
 
-
 //Product Free Trial
-d3.select('#ProductTryB1')
-.on('click',function(){
-	window.location.href="https://signals.stratifyd.com/login.html#new";
-})
+d3.select('#FirstTry')
+	.on("click",function()
+	{
+		window.location.href = "https://signals.stratifyd.com/login.html#new";
+	})
+
 
 
 //Jobs Opening Selection
