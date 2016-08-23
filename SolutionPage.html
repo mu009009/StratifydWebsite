@@ -6,6 +6,7 @@
     <title></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<link href="lib/FontAwesome/Font-Awesome-Stylus-master/example/dist/styles.css" rel="stylesheet">
 	<link href="CSS/Global.css" rel="stylesheet"/>
 	<link href="CSS/SolutionPage.css" rel="stylesheet">
 	<link href="CSS/Buttons.css" rel="stylesheet"/>
@@ -26,34 +27,31 @@
 			 <span class="icon-bar"></span>
 			 <span class="icon-bar"></span>			  
 		  </button>
-		  <a class="navbar-brand" id="CompanyIconTitleText" href="#">
+		  <a class="navbar-brand" id="CompanyIconTitleText" href="index.html">
 			  <img class="img" src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple-white.png" id="NavTitleCompanyIcon">
 			  </img> 
-<!--			  <span class="NavTitleName" id="StratifydLogoText">Stratifyd</span> -->
 		   </a>	
 	   </div>
 	   <div class="collapse navbar-collapse" id="example-navbar-collapse">
 		  <ul class="nav navbar-nav" id="NavbarDetailPart">
-			 <li class="active NavBarButtons" id="navProduct"><a href="#">PRODUCT</a></li>
-			 <li class="active NavBarButtons" id="navSolution"><a href="#">SOLUTION</a></li>
-			 <li class="active NavBarButtons" id="navBlog"><a href="#">BLOG</a></li>
+			 <li class="active NavBarButtons" id="navProduct"><a href="Product.html">PRODUCT</a></li>
+			 <li class="active NavBarButtons" id="navSolution"><a href="SolutionPage.html">SOLUTION</a></li>
+			 <li class="active NavBarButtons" id="navBlog"><a href="http://blog.stratifyd.com/">BLOG</a></li>
 			 <li class="dropdown">
 				 <a href="#" class="dropdown-toggle NavBarButtons" data-toggle="dropdown"id="DraopDownMenu1">
 					 ABOUT<b class="caret"></b>
 				 </a>
 				 <ul class="dropdown-menu NavBarButtons">
-					 <li><a href="#" id="navOurTeam">About Us</a>
+					 <li><a href="AboutUsPage.html" id="navOurTeam">About Us</a>
 					 </li>
-					 <li><a href="#" id="navContactUs">Contact Us</a>
+					 <li><a href="#" id="navContactUs" onclick="Intercom('show')">Contact Us</a>
 					 </li>
 				 </ul>
 			  </li>
-		 		<li class="active NavBarButtons" id="navLogIN"><a href="#">Log in</a></li>	  
-<!--			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>-->
-<!--		     <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
+		 		<li class="active NavBarButtons" id="navLogIN"><a href="https://signals.stratifyd.com/login.html#sign-in">Log in</a></li>
 		  </ul>
 	   </div>
-	</nav>	
+	</nav>
 	
 	<div class = "container" id = "SolutionPageMainTitleContainer">
 		
@@ -80,7 +78,8 @@
 
 		<div class="row">
 			<div class="col-xs-12" id = "TitleButtonPart">
-				<span class="btn btn-info" id="FirstViewDemo">View Demo</span>
+				<a href="https://signals.stratifyd.com/explorer.html?d=5762bbdc59820b22d64cb463&jq=%5B%5D&t=TvcVGsQhUu%2BYbWLkwNqtPqETGF6OtNUFC5jbLahXab9B78v2">
+					<span class="btn btn-info" id="FirstViewDemo">View Demo</span></a>
 			</div>			
 		</div>			
 		
@@ -93,23 +92,6 @@
 			
 </div>
 
-<!--<div class="jumbotron" id="PageContent">-->
-<!--
-	<div class="row">
-		<div class = "col-sm-6" id = "MainContentJumpBox1">
-			<h5 class = "ContentTextInfo ContentText-Center" id = "TryAdText">Every one can be data scientist
-			</h5>
-			<span class="btn btnBlack" id = "MainContentJumpButton1">Try Now
-			</span>
-		</div>
-		<div class = "col-sm-6" id = "MainContentJumpBox2">
-			<h5 class = "ContentTextInfo ContentText-Center" id = "ViewAdText">Value asset for our customers
-			</h5>
-			<span class="btn btnBlack" id = "MainContentJumpButton2">View Story
-			</span>
-		</div>
-	</div>
--->
 <div class = "container" id = "BubbleProcessDetailCotainer">
 
 	<div class = "row" id = "ProcessDetailContent">
@@ -129,131 +111,109 @@
 <!--</div>-->
 <div class = "container" id = "ProcessDetailCotainer2">
 	
-<!--
-	<div class="row">
-		<div class = "col-sm-12 text-center" id = "LinkButtonPartText1">
-		</div>
-	</div>
-	
--->
-	<div class="row">		
-			
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox11">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder" id = "LinkButtonCotainBox11">
+	<div class="row" id="FirstLinkButtonRow">
+				
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox11">
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView11">
+				<div class = 'col-sm-12 SolutionBox flipBox' id = "LinkCotainMainView11">
 					<img src="Resource/Icons/BottomLinkIcons/NewExcutivesIcon.png" class="img BottomIcons" id="ExecutiveIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "ExecutiveTitle">Executives</h5>
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText11">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText11">
 
 					<h5 class="LittleTitle"> Executives:
 					</h5>
 					<P>
-					<h5 class="LittleTitle">Use accurate, real-time data to make the right business decisions</h5>
+					<h5 class="TextControl">Use accurate, real-time data to make the right business decisions</h5>
 					</P>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "ExecutiveLearnMore">Learn More</h5>	
+					<a href="Resource/PDFResource/Case Study - Executive.pdf"><h5 class = "IconTitleS BlueLinkText" id = "ExecutiveLearnMore">Learn More</h5>
+					</a>		
 					</p>
 
 				</div>
 
 			</div>
-			
 		</div>
-		
-		
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox12">
 			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder" id = "LinkButtonCotainBox12">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox12">
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView12">
+				<div class = 'col-sm-12 SolutionBox flipBox' id = "LinkCotainMainView12">
 					<img src="Resource/Icons/BottomLinkIcons/User_white.png" class="img BottomIcons" id="BusinessIntIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "BussinessIntTitle">Business Analyst</h5>				
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText12">
+				<div class = 'col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText12">
 
 					<h5 class="LittleTitle"> Business Analyst:
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Deliver data analysis within minutes of a new request</h5>
+					<h5 class="TextControl">Deliver data analysis within minutes of a new request</h5>
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "BusinessIntLearnMore">Learn More</h5>	
+					<a href="Resource/PDFResource/Case Study - BI.pdf"><h5 class = "IconTitleS BlueLinkText" id = "BusinessIntLearnMore">Learn More</h5>
+					</a>
 					</p>
 				</div>
 
-			</div>			
-		</div>
-		
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox13">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
 			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder" id = "LinkButtonCotainBox13">
+		</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView13">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox13">
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainMainView13">
 					<img src="Resource/Icons/BottomLinkIcons/NewMarketingIcon_White.png" class="img BottomIcons" id="MarketingIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "MarketingTitle">Marketing</h5>				
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText13">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText13">
 
 					<h5 class="LittleTitle"> Marketing:
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Supply the entire marketing team with real-time information to build timely campaigns</h5>					
+					<h5 class="TextControl">Supply the entire marketing team with real-time information to build timely campaigns</h5>					
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "MarketingLearnMore">Learn More</h5>	
+					<a href="Resource/PDFResource/Case Study - Marketing.pdf"><h5 class = "IconTitleS BlueLinkText" id = "MarketingLearnMore">Learn More</h5>
+					</a>	
 					</p>
 				</div>
 
 			</div>			
 		</div>
 		
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox14">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder" id = "LinkButtonCotainBox14">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox14">
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView14">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainMainView14">
 					<img src="Resource/Icons/BottomLinkIcons/NewCustomerIcon.png" class="img BottomIcons" id="CustomerExIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "CustomerEXTitle">Customer Experience</h5>
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText14">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText14">
 
 					<h5 class="LittleTitle">Customer experience:
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Customer experience: Understand the drivers of your customers' biggest painpoints</h5>	
+					<h5 class="TextControl">Understand the drivers of your customers' biggest painpoints</h5>	
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "CustomerexperienceLearnMore">Learn More</h5>	
+					<a href="Resource/PDFResource/Case Study - Consumer Products.pdf"><h5 class = "IconTitleS BlueLinkText" id = "CustomerexperienceLearnMore">Learn More</h5></a>
 					</p>
 
 				</div>
@@ -261,7 +221,8 @@
 			</div>			
 		</div>
 
-	</div>	
+	</div>
+
 </div>
 
 
@@ -280,229 +241,188 @@
 
 <div class = "container" id = "ProcessDetailCotainer">
 	
-	<div class="row">
+	<div class="row" id="SecondLinkButtonRow">
 		
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox21">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder2" id = "LinkButtonCotainBox21">			
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox21">
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView21">
+				<div class = 'col-sm-12 SolutionBox flipBox' id = "LinkCotainMainView21">
 					<img src="Resource/Icons/BottomLinkIcons/NewRetailIcon.png" class="img BottomIcons" id="RetailIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "RetailTitle">Retail</h5>				
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText21">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText21">
 
 					<h5 class="LittleTitle">Retail: 
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Understand your product performance as well as customer sentiment across geographies and product lines</h5>	
+					<h5 class="TextControl">Understand your product performance as well as customer sentiment across geographies and product lines</h5>	
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "RetailLearnMore">Learn More</h5>	
+					<a href="Resource/PDFResource/Case Study - Retail.pdf"><h5 class = "IconTitleS BlueLinkText" id = "RetailLearnMore">Learn More</h5>
+					</a>	
 					</p>
 
 				</div>		
 
-			</div>
-
+			</div>			
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox22">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder2" id = "LinkButtonCotainBox22">
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView22">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12  col-md-12 CenterandBoder2" id = "LinkButtonCotainBox22">
+			
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainMainView22">
 					<img src="Resource/Icons/BottomLinkIcons/NewUtilitiesIcon.png" class="img BottomIcons" id="UtilitiesIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "UtilitiesTitle">Utilities</h5>				
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText22">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText22">
 
 					<h5 class="LittleTitle">Utilities: 
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Use immediate feedback to communicate more effectively with your customers</h5>	
+					<h5 class="TextControl">Use immediate feedback to communicate more effectively with your customers</h5>	
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "UtilitiesLearnMore">Learn More</h5>	
+					<a href="Resource/PDFResource/Case Study - Utilities.pdf"><h5 class = "IconTitleS BlueLinkText" id = "UtilitiesLearnMore">Learn More</h5></a>	
 					</p>
 
 				</div>	
 
 			</div>
-
 		</div>
 
 
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox23">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10  CenterandBoder2" id = "LinkButtonCotainBox23">
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView23">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox23">
+				<div class = 'col-sm-12 SolutionBox flipBox' id = "LinkCotainMainView23">
 					<img src="Resource/Icons/BottomLinkIcons/NewHospitalityIcon_White.png" class="img BottomIcons" id="HospitalityIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "HospitalityTitle">Hospitality</h5>					
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText23">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText23">
 
 					<h5 class="LittleTitle">Hospitality:
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Improve customer experience with a few clicks</h5>	
+					<h5 class="TextControl">Improve customer experience with a few clicks</h5>	
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "HospitalityLearnMore">Learn More</h5>	
+						<a href="Resource/PDFResource/Case Study - Hospitality for website.pdf"><h5 class = "IconTitleS BlueLinkText" id = "HospitalityLearnMore">Learn More</h5></a>	
 					</p>
 
 				</div>	
 
-			</div>
-
+			</div>			
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 SolutionPartOuterBox" id="LinkButtonOuterBox24">
-			
-			<div class="col-xs-1 col-md-1 col-md-1 col-lg-1">
-			</div>
-			
-			<div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10 CenterandBoder2" id = "LinkButtonCotainBox24">
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainMainView24">
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox24">
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainMainView24">
 					<img src="Resource/Icons/BottomLinkIcons/NewFinaicialIcon_White.png" class="img BottomIcons" id="FinancialIcon">
 					</img>
 					<h5 class = "IconTitleS WhiteText" id = "FinancialTitle">Financial</h5>				
 				</div>
 
-				<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-12 SolutionBox' id = "LinkCotainText24">
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox flipBox' id = "LinkCotainText24">
 
 					<h5 class="LittleTitle">Financial: 
 					</h5>
 
 					<p>
-					<h5 class="LittleTitle">Understand consumers' choices before your competitors</h5>	
+					<h5 class="TextControl">Understand consumers' choices before your competitors</h5>	
 					</p>
 
 					<p>
-					<h5 class = "IconTitleS BlueLinkText" id = "FinancialLearnMore">Learn More</h5>	
+						<a href="Resource/PDFResource/Case Study - Financial Services.pdf"><h5 class = "IconTitleS BlueLinkText" id = "FinancialLearnMore">Learn More</h5></a>
 					</p>
 
 				</div>	
 
-			</div>
-
-		</div>
-
-	</div>
-
-</div>
-
-<div class="containers" id="BottomLinkPart">
-	<div class = "container">
-		<div class = "row" id = "BottomLinkBox">
-	<!--
-			<div class="col-xs-12 col-sm-12 col-md-2">
-			</div>		
-	-->
-			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox1">
-				<span class = "BottomLinkTitle" id = "BottomProduct">PRODUCT</span>
-				<p class="SmallButtonTextLeft GrayText" id = "HIWText">How It Works</p>
-				<p class="SmallButtonTextLeft GrayText" id = "ETUText">Easy to Use</p>
-				<p class="SmallButtonTextLeft GrayText" id = "INVisText">Intuitive Visualization</p>
-				<p class="SmallButtonTextLeft" id = "HPAText">High Powered Analytics</p>
-				<p class="SmallButtonTextLeft" id = "ComDataText">Comprehensive Data</p>
-			</div>
-			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox2">
-				<span class = "BottomLinkTitle" id = "BottomSolutions">SOLUTIONS</span>
-				<p class="SmallButtonTextLeft" id = "BIext">Business Analysitc</p>
-				<p class="SmallButtonTextLeft" id = "ExcuText">Executives</p>
-				<p class="SmallButtonTextLeft" id = "MarketText">Marketing</p>
-				<p class="SmallButtonTextLeft" id = "CustomerEXText">Customer Experience</p>
-				<p class="SmallButtonTextLeft" id = "RetailText">Retail</p>
-				<p class="SmallButtonTextLeft" id = "UtilitiesText">Utilities</p>	
-				<p class="SmallButtonTextLeft" id = "HospitalityText">Hospitality</p>
-				<p class="SmallButtonTextLeft" id = "FinSerText">Finanical Services</p>					
-			</div>
-			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox3">
-				<span class = "BottomLinkTitle" id = "BottomResources">RESOURCES</span>
-				<p class="SmallButtonTextLeft" id = "BlogIext">Blog</p>				
-			</div>
-			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox4">
-				<span class = "BottomLinkTitle" id = "BottomCompany">COMPANY</span>
-				<p class="SmallButtonTextLeft" id = "OurTeamText">Our Team</p>
-				<p class="SmallButtonTextLeft" id = "JOppText">Job Opportunities</p>
-				<p class="SmallButtonTextLeft" id = "MediaText">Media</p>
-				<p class="SmallButtonTextLeft" id = "ContactText">Cantact Us</p>				
 			</div>			
 		</div>
+
+
 	</div>
 
 </div>
 
-
-<div class="containers" id="CopyRightBackground">
-	<div class = "container" id = "CopyRightPart">
-
-		<div class = "row" id = "BottomCopyRightPart">
-
-			<div class = "col-xs-12 col-sm-6 col-md-6 text-left" id = "CopyRightBox1">
-				<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
-			</div>
-
-			<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
-				<div class = "col-xs-12 col-sm-12 col-md-3">
-				</div>
-
-				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
-					<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
-					</img>
-				</div>
-
-				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
-					<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
-					</img>
-				</div>
-
-				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
-					<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
-					</img>	
-				</div>
-
-				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
-					<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
-					</img>
-				</div>
-
-				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
-					<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
-					</img>						
-				</div>
-
-				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
-					<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
-					</img>				
+<div class='site-map' >
+	<div class="container" >
+		<div class = "row">
+			<div class = "col-xs-6 col-md-3 site-map-list">
+				<div>
+					<ul class="list-unstyled">
+						<li class='title'>PRODUCT</li>
+						<li><a id = "HIWText" href="HowitWorks.html">How It Works</a></li>
+						<li><a id = "ETUText" href="EasyToUse.html">Easy to Use</a></li>
+						<li><a id = "INVisText" href="IntuitiveVisuaIinterface.html">Intuitive Visualization</a></li>
+						<li><a id = "HPAText" href="HighPoweredAnalytics.html">High Powered Analytics</a></li>
+						<li><a id = "ComDataText" href="ComprehensiveDataAnalyticsSolution.html">Comprehensive Data</a></li>
+					</ul>
 				</div>
 			</div>
-
-		</div>	
-	</div>	
+			<div class = "col-xs-6 col-md-3 site-map-list">
+				<div>
+					<ul class="list-unstyled">
+						<li class='title'>SOLUTIONS</li>
+						<li><a id = "BIext" href="Resource/PDFResource/Case Study - BI.pdf">Business Analysitc</a></li>
+						<li><a id = "ExcuText" href="Resource/PDFResource/Case Study - Executive.pdf">Executives</a></li>
+						<li><a id = "MarketText" href="Resource/PDFResource/Case Study - Marketing.pdf">Marketing</a></li>
+						<li><a id = "CustomerEXText" href="Resource/PDFResource/Case Study - Consumer Products.pdf">Customer Experience</a></li>
+						<li><a id = "RetailText" href="Resource/PDFResource/Case Study - Retail.pdf">Retail</a></li>
+						<li><a id = "UtilitiesText" href="Resource/PDFResource/Case Study - Utilities.pdf">Utilities</a></li>
+						<li><a id = "HospitalityText" href="Resource/PDFResource/Case Study - Hospitality for website.pdf">Hospitality</a></li>
+						<li><a id = "FinSerText" href="Resource/PDFResource/Case Study - Financial Services.pdf">Finanical Services</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-3 site-map-list">
+				<div>
+					<ul class="list-unstyled">
+						<li class='title'>RESOURCES</li>
+						<li><a id = "BlogIext" href="http://blog.stratifyd.com/">Blog</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-3 site-map-list">
+				<div>
+					<ul class="list-unstyled">
+						<li class='title'>COMPANY</li>
+						<li><a id = "OurTeamText" href="AboutUsPage.html">Our Team</a></li>
+						<li><a id = "JOppText" href="JoinUs.html">Job Opportunities</a></li>
+						<li><a id = "MediaText" href="MediaPage.html">Media</a></li>
+						<li><a id = "ContactText" onclick="Intercom('show')">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class = "row">
+			<div class='col-xs-12 col-md-6 BottomAlligainChange-Left'><span>Copyright ©	2015 — 2016 Stratifyd, Inc.</span></div>
+			<div class='col-xs-12 col-md-6 BottomAlligainChange-Right'>
+				<ul class="list-inline">
+					<a href="https://www.facebook.com/stratifyd/" class="FontAwosomeIcon"><li class="fa fa-facebook FontIconSize" aria-hidden="true" id="FacebookIcon"></li></a>
+					<a href="https://www.linkedin.com/company/stratifyd" class="FontAwosomeIcon"><li class="fa fa-linkedin FontIconSize" aria-hidden="true" id="LinkdeInIcon"></li></a>
+					<a href="https://twitter.com/StratifydTweets" class="FontAwosomeIcon"><li class="fa fa-twitter FontIconSize" aria-hidden="true" id="TwitterIcon"></li></a>
+					<a href="https://www.youtube.com/channel/UCAkngNoMwJDNjEPzX3lIBsw" class="FontAwosomeIcon"><li class="fa fa-youtube FontIconSize" aria-hidden="true" id=YoutubeIcon></li></a>
+					<a href="https://plus.google.com/u/0/+Stratifyd/posts" class="FontAwosomeIcon"><li class="fa fa-google-plus FontIconSize" aria-hidden="true" id="GooglePlusIcon"></li></a>
+					<a href="http://stratifyd.tumblr.com/" class="FontAwosomeIcon"><li class="fa fa-tumblr FontIconSize" aria-hidden="true" id="TumblrIcon"></li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
 
 	
@@ -512,19 +432,10 @@
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="http://www.ourd3js.com/library/multext.js" charset="utf-8"></script>
 -->
-<script src="lib/d3/d3.js"></script>
-<script src="lib/d3/d3.min.js"></script>
-<script src="lib/queue/queue.min.js"></script>
 	
 <!-- Control Scripts-->
-<script src="Script/TransForm.js"></script>
-<script src="Script/GlobalControl.js"></script>
-<script src="Script/FontSizeControl.js"></script>
-<script src="Script/MouseAction.js"></script>
-<script src="Script/SolutionPage.js"></script>
-<script src="Script/WindowResize.js"></script>
-<script src="lib/css3-mediaqueries-js-master/css3-mediaqueries.js"></script>
 <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="lib/FastClick/fastclick.js"></script>
 
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/yobfq5ll';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 <script>$(function() {window.Intercom("boot", { app_id: "yobfq5ll" });})</script>
