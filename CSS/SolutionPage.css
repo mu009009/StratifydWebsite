@@ -11,7 +11,7 @@
 }
 #MainAttarctText{
 	color: white;
-	margin-top: 188px;
+	margin-top: 95.89px;
 	font-weight: bold;
 	font-family: "Arial";
 	font-size: 4.5em;
@@ -42,7 +42,7 @@
 	padding-right: 20px;
 }
 .LittleTitle{
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family: "Arial";
 }
 #CompanIconPart{
@@ -107,6 +107,19 @@
 .BottomIcons{
 	width: 90px;
 }
+.CenterandBoderBox{
+	padding-right: 4px;
+	padding-left: 4px;
+	background-color: transparent;
+}
+#FirstLinkButtonRow{
+	padding-left: 11px;
+	padding-right: 11px;
+}
+#SecondLinkButtonRow{
+	padding-left: 11px;
+	padding-right: 11px;
+}
 .CenterandBoder{
 	text-align: center;
 	border-color: rgb(99,104,247);
@@ -118,9 +131,15 @@
 	height: 200px;
 	overflow: hidden;
 	z-index: 1;
-	background-color: rgb(99,104,247);
 	margin-bottom: 20px;
 	border-radius: 2%;
+	
+	transition-duration: 0.2s;
+	background-color: rgb(99,104,247);
+}
+.CenterandBoder:hover{
+	transition-duration: 0.2s;
+	background-color: rgb(255,255,255);
 }
 .CenterandBoder2{
 	text-align: center;
@@ -133,9 +152,22 @@
 	height: 200px;
 	overflow: hidden;	
 	z-index: 2;
-	background-color: rgb(99,104,247);
 	margin-bottom: 20px;
 	border-radius: 2%;
+	transition-duration: 0.2s;
+	background-color: rgb(99,104,247);
+}
+.CenterandBoder2:hover{
+	transition-duration: 0.2s;
+	background-color: rgb(255,255,255);
+}
+.flipBox{
+	transition-duration: 0.2s;
+	margin-top: 0px;
+}
+.flipBox:hover{
+	transition-duration: 0.2s;
+	margin-top: -200px;
 }
 .SolutionPartOuterBox{
 	padding-left: 0px;
@@ -267,7 +299,7 @@
 }
 #FirstTry{
 	font-size: 24px;
-	font-weight: 800;
+	font-weight: 500;
 	padding-top: 9px;
 	width: 272px;
 	height: 60px;
@@ -321,21 +353,29 @@
 }
 #FirstViewDemo{
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 500;
 	padding-top: 11.5px;
 	height: 60px;
 	width: 272px;
 	border-radius: 3%;
+	
+	transition-duration: 0.2s;
 	color: white;
 	background-color: rgb(99,104,247);
 	border-color: rgb(99,104,247);
+}
+#FirstViewDemo:hover{
+	transition-duration: 0.2s;
+	border-color: rgb(255,255,255);
+	background-color: rgb(255,255,255);
+	color: rgb(99,104,247);
 }
 #NavBarPart{
 	background-color: transparent;
 }
 @media screen and (max-width: 768px) {
 	#MainAttarctText{
-		margin-top: 188px;
+/*		margin-top: 96px;*/
 		font-size: 3em;
 	}
 	#FirstTry{

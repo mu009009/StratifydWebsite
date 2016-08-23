@@ -1,11 +1,12 @@
 html{
 	height: 100%;
-	font: normal 100% Gotham Rounded, sans-serif;
+	font: normal 100% Arial, sans-serif;
 	font-size: 16px;
 	overflow-x: hidden;
 }
 body{
 	background-color: rgb(255,255,255);
+	font-family: "Arial";
 }
 .CompanyIconPart{
 	width: 100%;
@@ -58,7 +59,7 @@ body{
 	margin-left: 12.5%;
 }
 .StableHeight{
-	min-height: 200px;
+	min-height: 180px;
 	height: auto;
 }
 .WhiteText{
@@ -73,6 +74,69 @@ body{
 .dropdown-menu>li>a{
 	color: white;
 }
+
+.site-map {
+	background: rgb(43,43,43);
+	color:#666;
+}
+
+.site-map-list{
+	margin: 50px 0;
+	text-align: center;
+}
+.BottomAlligainChange-Left{
+	text-align: left;
+}
+.BottomAlligainChange-Right{
+	text-align: right;
+}
+
+.site-map-list a {
+	cursor: pointer;
+	transition-duration: 0.2s;
+	color: #666;
+}
+
+.site-map-list a:hover {
+	text-decoration: none;
+	transition-duration: 0.2s;
+	color: rgb(72,168,222);
+}
+
+/*.site-map-list ul {
+	display: inline-block;
+}*/
+
+.site-map-list ul li {
+	width: 100%;
+	text-align: left;
+	display: block;
+}
+
+.site-map-list ul li.title {
+	font-weight: 500;
+	padding: 10px 0;
+	color: #ddd;
+}
+.site-map-list title:hover{
+	transition-duration: 1s;
+	color: rgb(72,168,222);
+}
+.site-map-list ul li > a {
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.list-inline li a img{
+	transition-duration: 0.2s;
+	background-color: rgb(5,124,217);
+}
+.list-inline li a img:hover {
+	transition-duration: 0.2s;
+	background-color: rgb(255,255,255);
+}
+
+
 #CopyRightBox1{
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -112,6 +176,9 @@ body{
 .BlueLinkText{
 	color: rgb(55,54,226)
 }
+.BlueLinkText:hover {
+	text-decoration: none;
+}
 .BottomLinkContentBox{
 	width: 25%;
 	float: left;
@@ -146,6 +213,26 @@ body{
 	margin-top: 20px;
 	margin-bottom: auto;
 	cursor: pointer;
+}
+.FontAwosomeIcon{
+	
+	font-size: 2em;
+	
+	transition-duration: 0.2s;
+	color: #057cd9;
+}
+.FontAwosomeIcon:hover{
+	transition-duration: 0.2s;
+	color: white;
+}
+.FontIconSize{
+	font-size: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.TextControl{
+	font-family: "Arial";
+	font-size: 1em;
 }
 #StratifydLogoText{
 	margin-left: 35px;
@@ -277,19 +364,85 @@ body{
 }
 #FirstTry{
 	font-size: 1.5em;;
-	font-weight: bold;
+	font-weight: 500;
 	padding-top: 11.5px;
 	height: 60px;
 	width: 272px;
 	border-radius: 3%;
+	transition-duration: 0.2s;
 	color: white;
 	background-color: rgb(99,104,247);
 	border-color: rgb(99,104,247);
 }
+#FirstTry:hover{
+	transition-duration: 0.2s;
+	color: rgb(99,104,247);
+	background-color: rgb(255,255,255);
+	border-color: rgb(255,255,255);
+}
 .TopMargin{
 	margin-top: 2px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (min-width: 992px) {
+	.BottomAlligainChange-Left{
+		text-align: left;
+	}
+	.BottomAlligainChange-Right{
+		text-align: right;
+	}
+	.site-map-list {
+		margin: 50px 0;
+	}
+	.site-map-list > div {
+		display: inline-block;
+	}
+
+	.site-map-list:nth-child(1) {
+		text-align: left;
+	}
+
+	.site-map-list:nth-child(4) {
+		text-align: right;
+	}	
+}
+
+@media screen and (min-width: 766px) and (max-width: 992px){
+	.BottomAlligainChange-Left{
+		text-align: left;
+	}
+	.BottomAlligainChange-Right{
+		text-align: right;
+	}
+	.container{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.site-map-list {
+		margin: 50px 0;
+	}
+	.site-map-list > div {
+		display: inline-block;
+	}
+
+	.site-map-list:nth-child(1) {
+		text-align: left;
+	}
+	
+	.site-map-list:nth-child(3) {
+		text-align: left;
+	}
+	
+	.site-map-list:nth-child(2) {
+		text-align: right;
+	}	
+
+	.site-map-list:nth-child(4) {
+		text-align: right;
+	}	
+}
+
+@media screen and (max-width: 766px) {
 	#NavbarDetailPart{
 /*		width: 100%;*/
 		margin-left: 0px;
@@ -300,9 +453,12 @@ body{
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
 		color: white;
 	}
-}
-
-@media screen and (max-width: 992px) {
+	.BottomAlligainChange-Left{
+		text-align: center;
+	}
+	.BottomAlligainChange-Right{
+		text-align: center;
+	}
 	.container{
 		padding-left: 10%;
 		padding-right: 10%;

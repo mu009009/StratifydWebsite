@@ -14,7 +14,7 @@
 }
 #MainAttarctText{
 	color: white;
-	margin-top: 188px;
+	margin-top: 165.89px;
 	font-weight: 600;
 	margin-bottom: 0px;
 	font-size: 4.5em;
@@ -46,6 +46,14 @@
 	border-bottom-style: hidden;
 	border-bottom-width: thin;
 }
+#FirstLinkButtonRow{
+	padding-left: 11px;
+	padding-right: 11px;
+}
+#SecondLinkButtonRow{
+	padding-left: 11px;
+	padding-right: 11px;
+}
 .Introduce{
 	text-align: center;
 	font-family: "Arial";
@@ -56,12 +64,9 @@
 	font-size: 2.5em;
 }
 .SolutionBox{
+	position: relative;
 	height: 200px;
 	font-family: "Arial";
-}
-.TextControl{
-	font-family: "Arial";
-	font-size: 1em;
 }
 #SayingTitle{
 	margin-top: 90px;
@@ -105,8 +110,8 @@
 	width: 90px;
 }
 .CenterandBoderBox{
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: 4px;
+	padding-left: 4px;
 	background-color: transparent;
 }
 .CenterandBoder{
@@ -123,12 +128,18 @@
 	height: 200px;
 	overflow: hidden;
 	z-index: 1;
-	background-color: rgb(99,106,247);
 	border-radius: 2%;
 	font-family: "Arial";
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-bottom: 5px;
 	padding-top: 30px;
+	
+	transition-duration: 0.2s;
+	background-color: rgb(99,106,247);
+}
+.CenterandBoder:hover{
+	transition-duration: 0.2s;
+	background-color: white;
 }
 .CenterandBoder2{
 	text-align: center;
@@ -145,12 +156,26 @@
 	height: 200px;
 	overflow: hidden;	
 	z-index: 2;
-	background-color: rgb(99,106,247);
 	border-radius: 2%;
 	font-family: "Arial";
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-bottom: 5px;
 	padding-top: 30px;
+	
+	transition-duration: 0.2s;
+	background-color: rgb(99,106,247);
+}
+.CenterandBoder2:hover{
+	transition-duration: 0.2s;
+	background-color: white;
+}
+.flipBox{
+	transition-duration: 0.2s;
+	margin-top: 0px;
+}
+.flipBox:hover{
+	transition-duration: 0.2s;
+	margin-top: -200px;
 }
 .LeftBoder{
 	border-left-color: black;
@@ -180,6 +205,8 @@
 }
 #DetailColum2ImageBox{
 	float: right;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 #DetailColum3{
 	margin-bottom: 0px;
@@ -213,7 +240,7 @@
 }
 .TitleRule{
 	margin-bottom: 0px;
-	margin-top: 15px;
+/*	margin-top: 15px;*/
 	font-family: "Arial";
 	font-size: 1.2em;
 	color: rgb(255,255,255);
@@ -229,7 +256,7 @@
 	padding-right: 20px;
 }
 .AdImageShow{
-	width: 100%;
+	width: 80%;
 	margin-bottom: 20%;
 }
 .CirclePart{
@@ -246,9 +273,9 @@
 .TextCotent{
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: rgb(246,246,248);
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: transparent;
 	border-radius: 2%;
 }
 .SayingTitle{
@@ -259,11 +286,12 @@
 }
 .SayingTitleTextStyle{
 	font-size: 1em;
+	min-height: 40px;
 }
 .SayingText{
 	font-family: "Arial";
 	font-weight: lighter;
-	color: rgb(0,0,0);
+	color: rgb(255,255,255);
 	font-size: 1.3em;
 }
 .ProcessDetailTextIntro{
@@ -322,8 +350,22 @@
 	margin-bottom: 84px;
 }
 .ButtonIconLittleMarginleft{
-	margin-left: 5px;
+/*	margin-left: 5px;*/
 	margin-bottom: 72px;
+}
+.QuotationIcon{
+	width: 15px;
+	opacity: 0.2;
+}
+.SpecialColumn{
+	width: 15px;
+	margin-right: 5px;
+	padding-left: 0px; 
+	padding-right: 0px;
+	float: left;
+}
+.SayingIconControl{
+	max-height: 50px;
 }
 #ErwinWhiteTitleText{
 	margin-bottom: 0px;
@@ -505,6 +547,18 @@
 	}
 	#TitleButtonPart2{
 		text-align: center;
+	}
+	.BottomAlligainChange-Left {
+		text-align: center;
+	}
+	.BottomAlligainChange-Right {
+		text-align: center;
+	}
+	.CenterandBoder{
+		margin-bottom: 20px;
+	}
+	.CenterandBoder2{
+		margin-bottom: 20px;
 	}
 }
 
