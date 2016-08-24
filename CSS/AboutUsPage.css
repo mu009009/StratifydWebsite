@@ -165,7 +165,7 @@
 }
 #TitleBar{
 	background-color: transparent;
-	background: url(../Resource/AboutUsImages/AboutUsBackgroundNew.jpg);
+	background: url(../Resource/AboutUsImages/AboutUsBackgroundGray.jpg);
 	background-size: cover;
 	background-size-height: 100%;
 	background-position: center center;
@@ -321,7 +321,7 @@
 }
 #MainAttarctText{
 	font-family: "Arial";
-	color: rgb(35,41,54);
+	color: rgb(255,255,255);
 	font-weight: bold;
 	text-align: center;
 	font-size: 4.5em;
