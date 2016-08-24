@@ -76,7 +76,7 @@ body{
 }
 
 .site-map {
-	background: rgb(43,43,43);
+	background: rgb(35,41,54);
 	color:#666;
 }
 
@@ -120,7 +120,7 @@ body{
 }
 .site-map-list title:hover{
 	transition-duration: 1s;
-	color: rgb(72,168,222);
+	color: rgb(99,104,247);
 }
 .site-map-list ul li > a {
 	display: inline-block;
@@ -219,7 +219,7 @@ body{
 	font-size: 2em;
 	
 	transition-duration: 0.2s;
-	color: #057cd9;
+	color: rgb(99,104,247);
 }
 .FontAwosomeIcon:hover{
 	transition-duration: 0.2s;

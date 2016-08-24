@@ -21,17 +21,17 @@
 	line-height: 150%;
 }
 #SignalsText{
-	margin-top: 32px;
+	margin-top: -14.55px;
 	color: rgb(240,250,255);
 	font-weight: lighter;
-	line-height: 24px;
+	line-height: 175%;
 	font-size: 1.5em;
 	margin-bottom: 0px;
 	opacity: 0.8;
 }
 #TitleButtonPart1{
 /*	text-align: right;*/
-	margin-top: 76px;
+	margin-top: 64.94px;
 }
 #TitleButtonPart2{
 /*	text-align: left;*/
@@ -75,6 +75,8 @@
 	font-weight: 600;
 	font-size: 2.5em;
 	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
 	
 }
 #LandingFirstLearnMoreProduct{
@@ -135,7 +137,7 @@
 	padding-top: 30px;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(99,106,247);
+	background-color: rgb(99,104,247);
 }
 .CenterandBoder:hover{
 	transition-duration: 0.2s;
@@ -163,7 +165,7 @@
 	padding-top: 30px;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(99,106,247);
+	background-color: rgb(99,104,247);
 }
 .CenterandBoder2:hover{
 	transition-duration: 0.2s;
@@ -190,10 +192,10 @@
 	margin-bottom: 120px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-	background-color: rgb(138,147,253);
+	background-color: rgba(99,104,247,0.8);
 }
 .navbar-nav>li>.dropdown-menu{
-	background-color: rgb(138,147,253);
+	background-color: rgba(99,104,247,0.8);
 }
 #DetailColum2{
 	border-left-color: transparent;
@@ -212,8 +214,10 @@
 	margin-bottom: 0px;
 }
 #ProcessDetailContent{
+/*
 	padding-left: 2.5%;
 	padding-right: 2.5%;
+*/
 /*	padding-bottom: 104px;*/
 }
 #LinkButtonPartText1{
@@ -235,6 +239,11 @@
 	background-position: center center;
 }
 
+
+.TextContentNopadding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .NameOh{
 	margin-top:0px;
 }
@@ -307,7 +316,7 @@
 	font-family: "Arial";
 	font-weight: lighter;
 	font-size: 1.3em;
-	line-height: 30px;
+	line-height: 175%;
 	color: rgb(55,54,226);
 }
 .ProcessDetailIntroText{
@@ -315,7 +324,7 @@
 	font-weight: lighter;
 	font-size: 1em;
 	color: rgb(172,172,172);
-	line-height: 24px;
+	line-height: 175%;;
 }
 .CustomerTitle{
 	margin-top: 110px;
@@ -400,8 +409,8 @@
 	cursor: default;
 }
 #TextBox{
-	padding-left: 6.25%;
-	padding-right: 6.25%;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 #TextSayingPart{
 	background-color: rgb(255,255,255);
@@ -437,8 +446,10 @@
 #CompanyIconPartRow1{
 	padding-top: 0;
 	text-align: center;
+/*
 	padding-left: 1%;
 	padding-right: 1%;
+*/
 }
 #CompanyIconPartRow2{
 	padding-top: 0;
