@@ -264,7 +264,7 @@ body{
 	background-color: rgb(25,41,54);
 	border-color: transparent;
 	text-align: center;
-	height: 70px;
+	min-height: 70px;
 	border-radius: 0%;
 }
 #CopyRightBackground{
