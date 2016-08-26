@@ -170,8 +170,10 @@
 	color: rgb(0,0,0);
 	margin-top: 24px;
 	margin-bottom: 32px;
+/*
 	padding-left: 15px;
 	padding-right: 15px;
+*/
 	line-height: 24px;
 	opacity: 0.8;	
 }
@@ -193,12 +195,14 @@
 }
 #JoinUsBigTitle{
 	font-weight: 600;
+/*
 	padding-left: 15px;
 	padding-right: 15px;
+*/
 }
 .ThirdRankPageSubTitle{
 	font-family: "Arial";
-	font-size: 2.5m;
+	font-size: 2.5em;
 	font-weight: 600;
 	color: black;
 /*	margin-top: 45px;*/
@@ -377,8 +381,10 @@
 	#ProductContent{
 		margin-left: 0px;
 		margin-right: 0px;
+/*
 		padding-left: 10px;
 		padding-right: 10px;
+*/
 	}
 	.ThirdRankImageTextAllignControl{
 		text-align: center;
