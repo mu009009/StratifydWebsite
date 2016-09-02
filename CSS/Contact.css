@@ -1,0 +1,109 @@
+.html{
+	font-family: "Arial";
+}
+body{
+	background-color: rgb(35,39,51);
+}
+.dropdown-menu>li>a{
+	color: black;
+}
+#AddressPartBox{
+	
+}
+#ContactUsMainPartBack{
+	padding-bottom: 124px;
+}
+#FirstSendMessageButton{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 11.5px;
+	height: 60px;
+	width: 272px;
+	border-radius: 3%;
+	color: white;
+	background-color: rgb(98,101,252);
+	border-color: rgb(98,101,252);
+}
+#FirstNameText{
+	min-height: 60px;
+	border-radius: 2%;
+}
+#LastNameText{
+	min-height: 60px;
+	border-radius: 2%;
+}
+#EmailAddress{
+	min-height: 60px;
+	border-radius: 2%;
+}
+#dropdownMenu1{
+	min-height: 60px;
+	border-radius: 2%;	
+}
+#MainPartRow{
+	background-color: rgb(35,39,51);
+	padding-bottom: 104px;
+}
+#CompanyAddress{
+	color: white;
+}
+.AddressText{
+	font-family: "Arial";
+}
+.AddressTitle{
+	font-size:  1.3em;
+}
+.AddressTextContent{
+	font-size: 1em;
+}
+#Title{
+	color: white;
+	text-align: center;
+	font-style: normal;
+	font-family: "Arial";
+	font-weight: 600;
+	margin-top: 200px;
+	font-size: 4em;
+}
+#Titleexplain{
+	color: white;
+	text-align: center;
+	font-style: normal;
+	font-family: "Arial";
+	font-size: 1.3em;
+	margin-top: 38px;
+	margin-bottom: 38px;
+}
+.FullSize{
+	width: 100%;
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: "Arial";
+}
+#DropdownBox{
+	margin-bottom: 35px;
+}
+#dropdownMenu1{
+	margin-bottom: 0px;
+	font-family: "Arial";
+	text-align: left;
+}
+#dropdownSpancaret1{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#MessageBox{
+	min-height: 240px;
+	overflow-y: auto;
+	font-family: "Arial";
+	resize: none;
+}
+#SendMessageBtn{
+	font-family: "Arial";
+}
+@media screen and (max-width: 768px) {
+	#FirstSendMessageButton{
+		width: 232px;
+	}
+}

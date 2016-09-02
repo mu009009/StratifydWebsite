@@ -1,0 +1,47 @@
+.btn
+{
+	font-family: "Arial";
+	cursor: pointer;
+	text-align: center;
+}
+.btnBlack
+{
+	margin-top: 8%;
+	transition-duration: 0.2s;
+	border-color: rgb(56,56,57);
+	background-color: transparent;
+	color: rgb(81,81,82);	
+}
+.btnBlack:hover {
+	transition-duration: 0.2s;
+	border-color: rgb(81,81,82);
+	background-color: rgb(81,81,82);
+	color: rgb(255,255,255);
+}
+.btn-info
+{
+	transition-duration: 0.2s;
+	border-color: rgb(80,167,224);
+	background-color: rgb(80,167,224);
+	color: rgb(255,255,255);
+}
+.btn-info:hover {
+	transition-duration: 0.2s;
+	border-color: rgb(33,124,186);
+	background-color: rgb(33,124,186);
+	color: rgb(255,255,255);	
+}
+#AboutUs{
+	margin-left: 0px;
+}
+#Login{
+	margin-right: 0px;
+}
+.img-circle{
+	width: 120px;
+	cursor: pointer;
+	background-color: white;
+	border-color: rgb(227,227,227);
+	border-style: dotted;
+	border-width: 5px;
+}

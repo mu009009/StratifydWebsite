@@ -1,0 +1,429 @@
+.IntroImage{
+	width: 30%;
+	position: relative;
+}
+.DetailImage{
+	width: 100%;
+	margin-left: 0%;
+	height: auto;
+	cursor: pointer;
+}
+#SignalIntroTextBox{
+	width: 100%;
+	margin-top: 2%;
+}
+#JionUsJobsSubTitleBox{
+	width: 100%;
+	margin-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#ProductIntroBox{
+	padding-bottom: 1%;
+}
+#ProductTryB1{
+	position: relative;
+	width: 272px;
+	height: 60px;
+	margin-top: 45px;
+	border-radius: 3%;
+}
+#ProductDetailBox{
+	margin-top: 4%;
+}
+.ProductSixSectionIntroBox{
+	background-color: rgb(99,104,247);
+}
+.PopoutText{
+	font-family: "Arial";
+	text-align: right;
+	font-size: 1.2em;
+	font-weight: 300;	
+	color: rgb(99,104,247);
+	margin-top: 38px;
+	cursor: pointer;
+	margin-bottom: 50px;
+/*	margin-top: 5%;*/
+}
+.DetailLessPartCut{
+	width: 30%;
+	float: left;
+	height: 220px;
+	overflow: hidden;
+}
+.DetailLargePartCut{
+	width: 70%;
+	height: 100%;
+	padding-left: 8%;
+	padding-right: 2%;
+	float: left;
+}
+.ContentProDetailTitle-Left{
+	text-align: left;
+	color: rgb(81,81,82);
+	cursor: pointer;
+}
+.ContentProDetailText-Left{
+	font-family: "Arial";
+	text-align: left;
+	color: rgb(158,158,158);
+	font-size: 1em;
+	cursor: pointer;
+}
+.BoxSize{
+	min-height: 400px;
+	height: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.JobContentBox{
+	background-color: white;
+	padding-bottom: 50px;
+	border-radius: 2%;
+}
+.ThirdRankPageStartTitle{
+	margin-top: 0px;
+	font-family: "Arial";
+}
+.ProductIntroDuceSubTitle{
+	cursor: pointer;
+	font-family: "Arial";
+	color: black;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+}
+.ProductTextDetailTextBox{
+	margin-top: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.ProductTextDetailTextInforPart{
+	font-family: "Arial";
+	color: rgb(158,158,158);
+	font-size: 1.2em;
+	cursor: pointer;
+	margin-top: 28px;
+	min-height: 120px;
+}
+#TitleBar{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background: url(../Resource/ProductPageImages/ProductBackgroundImageTest.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+}
+#JoinUsTitleBar{
+	padding-top: 0px;
+	padding-bottom: 70px;
+	background-color: rgb(246,246,248);
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#ProductBackgroundImage{
+	padding-top: 206px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+#ProductIntroImage{
+	width: 100%;
+}
+#ProductTitleBoxPart{
+	padding-top: 59px;
+	font-family: "Arial";
+}
+#SignalsTitle{
+	font-weight: 600;
+	font-size: 4.5em;
+	color: white;
+	margin-top: 59px;
+	margin-bottom: 64px;
+}
+#ProductMainSignalTitle{
+	font-weight: 600;
+	font-size: 4.5em;
+	color: white;
+	margin-top: 59px;
+	margin-bottom: 32px;
+}
+#SignalsIntroText{
+	font-size: 1.5em;
+	color: rgb(255,255,255);
+	margin-top: 24px;
+	margin-bottom: 64px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 24px;
+	opacity: 0.8;
+}
+#JobsIntroTitleFirstOne{
+	font-size: 1.5em;
+	color: rgb(0,0,0);
+	margin-top: 24px;
+	margin-bottom: 32px;
+/*
+	padding-left: 15px;
+	padding-right: 15px;
+*/
+	line-height: 24px;
+	opacity: 0.8;	
+}
+#ThirdRankPageIntroText{
+	font-size: 1.5em;
+	color: rgb(255,255,255);
+	margin-top: 24px;
+	margin-bottom: 32px;
+	line-height: 24px;
+	opacity: 0.5;
+}
+#SignalsIntroTitleText{
+	font-size: 2em;
+	color: rgb(255,255,255);
+	margin-top: 24px;
+/*	margin-bottom: 32px;*/
+	line-height: 24px;
+	opacity: 0.8;
+}
+#JoinUsBigTitle{
+	font-weight: 600;
+/*
+	padding-left: 15px;
+	padding-right: 15px;
+*/
+}
+.ThirdRankPageSubTitle{
+	font-family: "Arial";
+	font-size: 2.5em;
+	font-weight: 600;
+	color: black;
+/*	margin-top: 45px;*/
+	margin-bottom: 75px;
+}
+.ThirdRankPageContentBoxPart{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.ThirdRankPageContentTitle{
+	font-family: "Arial";
+	font-size:  1.5em;
+	margin-top: 0px;
+}
+.ThirdRankPageContentText{
+	font-family: "Arial";
+	font-size: 1.2em;
+	color: rgb(158,158,158);
+	padding-right: 0px;
+	margin-top: 20px;
+}
+.ThirdRankImageIcon{
+	
+	width: 97.69px;
+	max-width: 100%;
+	max-height: 130.27px;
+
+}
+.ThirdRankImageTextAllignControl{
+	text-align: right;
+}
+.JobsClass{
+	margin-bottom: 20px;
+	width: 100%;
+	height: inherit;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+.JobsSelectClickable{
+	cursor: pointer;
+	
+	transition-duration: 0.2s;
+	color: rgb(158,158,158);
+}
+.JobsSelectClickable:hover{
+	cursor: pointer;
+	
+	transition-duration: 0.2s;
+	color: rgb(72,168,222);
+}
+.JobsPaddingChange{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.ThirdPageTitleImageIcon{
+	max-width: 100%;
+}
+.ThirdPageTitleBoxPart{
+	font-family: "Arial";
+	padding-top: 0px;
+}
+#EasytoUseBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;	
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/Easy%20to%20Use_BakcgroundImageNoIcon.jpg);
+}
+#Comperhensive_Data_AnaBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/Comprehensive%20Data_BackgroundNoIcon.jpg);
+}
+#HighPowerAnaBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/High%20Powered%20Analytics_BackgroundImage.jpg);
+}
+#HowItWorksBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/How%20It%20Works_BackgroundNoIcon.jpg);
+}
+#IntuitiveVisualinterBackImage{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	background: url(../Resource/ProductPageImages/ThirdRankPages/BackgroundImages/Intuitive%20Visualization_BackgroundNoIcon.jpg);
+}
+#ProductContent{
+	padding-top: 118px;
+	padding-bottom: 94px;
+}
+#DirectlyJobs1{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 15px;
+}
+#DirectlyJobs2{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 15px;
+}
+#JoinUsTitle{
+	font-family: "Arial";
+	padding-top: 96px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#MediaImg1{
+	width: 170px;
+	max-height: 170px;
+}
+#MediaImg2{
+	width: 170px;
+	max-height: 170px;
+}
+#MediaImg3{
+	width: 170px;
+	max-height: 170px;
+}
+#MediaBtn1{
+	margin-top: 5px;
+}
+#MediaBtn2{
+	margin-top: 5px;
+}
+#MediaBtn3{
+	margin-top: 5px;
+}
+#NavBarPart{
+	background-color: transparent;
+}
+#NavBarPart2{
+	margin-top: 0px;
+}
+#FirstTry{
+	margin-bottom: 90px;
+}
+@media screen and (max-width: 992px) {
+/*
+	#ProductTitleBoxPart{
+		padding-top: 212px;
+	}
+*/
+	#ProductIntroImage{
+		width: 80%;
+	}
+	.ThirdRankPageContentText{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.ThirdRankPageContentTitle{
+		padding-left: 30px;
+		padding-right: 0px;
+/*		font-size: 1.8em;*/
+		margin-top: 20px;
+	}
+	#ProductContent{
+		margin-left: 0px;
+		margin-right: 0px;
+/*
+		padding-left: 10px;
+		padding-right: 10px;
+*/
+	}
+	.ThirdRankImageTextAllignControl{
+		text-align: center;
+	}
+	#SignalsTitle{
+		font-size: 2em;
+	}
+	#SignalsIntroTitleText{
+		font-size: 1.8em;
+	}
+	#ProductMainSignalTitle{
+		font-size: 3em;
+	}
+	.BoxSize{
+		min-height: 250px;
+	}
+	.ProductTextDetailTextInforPart{
+		min-height: 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.ThirdRankPageContentText{
+		padding-left: 0px;
+		margin-top: 25px;
+	}
+	.ThirdRankPageContentTitle{
+		padding-left: 10px;
+	}
+	#ProductContent{
+		width: 100%;
+	}
+	.ThirdRankImageIcon{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.ThirdRankPageContentBoxPart
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

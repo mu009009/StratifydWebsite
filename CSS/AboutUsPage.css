@@ -1,0 +1,370 @@
+.SubContentBox{
+	width: 50%;
+	margin-left: 25%;
+	height: 200px;
+	margin-top: 0px;
+	position: relative;
+	text-align: center;	
+}
+.col-sm-1{
+	text-align: center;
+}
+.SecondRowTitle{
+	font-family: "Arial";
+	font-weight: bold;
+	margin-top: 34px;
+	font-size: 3em;
+	margin-bottom: 40px;
+}
+#SignalsText{
+	margin-top: 0px;
+	color: rgb(35,41,54);
+	font-weight: lighter;
+	text-align: center;
+	font-size: 1.5em;
+	opacity: 0.8;
+}
+#TitleButtonPart{
+	text-align: center;
+	margin-top: 2%;
+}
+#CompanIconPart{
+	height: auto;
+	text-align: center;
+}
+#BubbleBottonGroupBox{
+	border-bottom: rgb(115,115,115);
+	border-bottom-style: hidden;
+	border-bottom-width: thin;
+}
+#AboutUsPageTitleContainer{
+	height: 180px;
+}
+.Introduce{
+	text-align: center;
+	font-family: "Arial";
+	color: white;
+}
+.IntroTitle{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.SolutionBox{
+	height: 200px;
+}
+#SayingTitle{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-family: "Arial";
+	font-weight: 500;
+}
+#ASolutionYN{
+	font-family: "Arial";
+	font-weight: 500;
+}
+#MainContentJumpBox1{
+	text-align: center;
+}
+#MainContentJumpBox2{
+	text-align: center;
+}
+#BubbleBottonGroupBox{
+	background-color: rgb(255,255,255);
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 8%;
+}
+.BottomIcons{
+	width: 90px;
+}
+.CenterandBoder{
+	text-align: center;
+	border-bottom-color: black;
+	border-right-color: black;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	overflow: hidden;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	height: 200px;
+	overflow: hidden;
+	z-index: 1;
+}
+.AboutUsVideo{
+	width: 100%;
+	height: 
+}
+.CenterandBoder2{
+	text-align: center;
+	border-bottom-color: transparent;
+	border-right-color: black;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	overflow: hidden;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-bottom: 10%;
+	height: 200px;
+	overflow: hidden;	
+	z-index: 2;
+}
+.ContentText{
+	font-family: "Arial";
+	margin-top: 1%;
+	padding-bottom: 2%;
+}
+.AboutUsContentText{
+	font-family: "Arial";
+	line-height: 175%;
+	margin-top: 40px;
+	color: rgb(165,165,165);
+	font-size: 1.2em;
+}
+.StoryTitleRow{
+	padding-left: 30px;
+	padding-right: 45px;
+}
+
+#LinkButtonPartText1{
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+#LinkButtonCotainBox24{
+	border-right-color: transparent;
+}
+#StroyTextPart2{
+}
+.FontStyle{
+	font-family: "Arial";
+	font-weight: 400;
+}
+.Photos{
+	width: 200px;
+	border-style: hidden;
+	margin-bottom: 56px;
+/*	margin-left: 8.333333%;*/
+	margin-top: 98px;
+}
+#OurMissionTitle{
+	margin-top: 16px;
+}
+#StoryRow1{
+/*	padding-bottom: 48px;*/
+	padding-top: 118px;
+}
+#StoryRow2{
+	padding-bottom: 66px;
+}
+#PhotoRow{
+/*	margin-top: 98px;*/
+	padding-bottom: 282px;
+}
+#TitleBar{
+	background-color: transparent;
+	background: url(../Resource/AboutUsImages/AboutUsBackgroundGray.jpg);
+	background-size: cover;
+	background-size-height: 100%;
+	background-position: center center;
+	height: auto;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-bottom: 209px;
+	padding-top: 0px;
+}
+#OurStoryImage{
+	width: 100%;
+	opacity: 0.51;
+}
+.PhotoTextInfo{
+	font-family: "Arial";
+	font-size: 1.2em;
+	color: rgb(116,116,126)
+}
+.NameOh{
+	margin-top:0px;
+}
+.TitleRule{
+	margin-bottom: 0px;
+	
+}
+.NamePartRule{
+	margin-top: 0%;
+	color: rgb(246,246,248);
+	margin-top: 0px;
+}
+.AdImageShow{
+	width: 100%;
+}
+.CirclePart{
+	margin-top: 10px;
+}
+.FullSizeImage{
+	width: 80%;
+	height: auto;
+}
+.TopMargin{
+	margin-top: 2%;
+}
+.Margin-left{
+	margin-left: 6.25%;
+}
+.TextCotent{
+	padding: 2%;
+	background-color: rgb(246,246,248);
+	border-radius: 2%;
+}
+.SayingTitle{
+	margin-top: 1%;
+	padding-left: 0;
+	font-family: "Arial";
+	font-weight: lighter;
+}
+.SayingText{
+	font-family: "Arial";
+	font-weight: lighter;
+	color: rgb(156,156,156)
+}
+.MissionText{
+	font-family: "Arial";
+	font-weight: lighter;
+	color: rgb(165,165,165);;
+	margin-top: 60px;
+	font-size: 1.2em;
+}
+#TextSayingPart{
+	padding-top: 1%;
+	background-color: rgb(150,152,173);
+	padding-bottom: 5%;
+}
+#LinkButtonCotainBox14{
+	border-right-color: transparent;
+}
+#SmallInsIconBox1{
+	width: 80%;
+	margin-top: 8%;
+}
+#BubbleProcessDetailCotainer{
+	background-color: rgb(255,255,255);
+}
+#BubbleProcessDetailCotainer2{
+	background-color: rgb(255,255,255);
+}
+#ProcessDetailCotainer{
+	background-color: rgb(150,152,173);
+}
+#CompanyIconPartRow1{
+	padding-top: 0;
+	text-align: center;
+}
+#CompanyIconPartRow2{
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 3%;
+	width: 70%;
+	margin-left: 15%;	
+	text-align: center;
+}
+#ExcutiveTeamTitle{
+	margin-top: 0px;
+}
+#CompanyCotainers{
+	background-color: rgb(255,255,255);
+	padding-bottom: 146px;
+}
+#TitleIntroNewLanding{
+	margin-top: 100px;
+}
+#IntroText1{
+	margin-top: 20px;
+}
+#FirstTry{
+	margin-top: 20px;
+	font-size: 32px;
+	font-weight: 800;
+	padding-top: 0px;
+	width: 360px;
+}
+#PageContent{
+	background-color: rgb(246,246,248);
+	margin-top: 0px;
+}
+#HowSignalsWorksDetail{
+	background-color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#HowSignalsWorksDetailCotnetRow{
+	width: 60%;
+	margin-left: 20%;
+	height: 500px;
+}
+.FullCoverContentImage{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+#AboutUsTitle{
+	height: auto;
+}
+#AboutUsTitleTextBar{
+	margin-top: 0px;
+}
+#backgroundColorRow{
+	background-color: rgba(255,255,255,0.31);
+/*	opacity: 0.31;*/
+/*	margin-top: 326px;*/
+	height: 180px;
+}
+#MainAttarctText{
+	font-family: "Arial";
+	color: rgb(255,255,255);
+	font-weight: bold;
+	text-align: center;
+	font-size: 4.5em;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.ContentVideo{
+	width: 560px;
+	height: 315px;
+}
+#NavBarPart{
+	margin-bottom: 85px;
+	background-color: transparent;
+}
+#NavBarPart2{
+	margin-top: 209px;
+}
+@media screen and (max-width: 992px) {
+	.AboutUsContentText{
+/*
+		padding-left: 25px;
+		padding-right: 25px;
+*/
+	}
+	#SignalsText{
+		text-align: center;
+		color: white;
+	}
+	.SecondRowTitle{
+		text-align: center;
+		font-size: 2em;
+	}
+	#OurStoryText{
+		text-align: left;
+	}
+	.ContentVideo{
+		width: 100%;
+		height: auto;
+	}
+	#MainAttarctText{
+		font-size: 3em;
+	}
+	.MissionText{
+		text-align: left;
+	}
+}

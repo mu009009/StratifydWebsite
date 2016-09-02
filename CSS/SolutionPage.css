@@ -1,0 +1,387 @@
+.SubContentBox{
+	width: 50%;
+	margin-left: 25%;
+	height: 200px;
+	margin-top: 0px;
+	position: relative;
+	text-align: center;	
+}
+.col-sm-1{
+	text-align: center;
+}
+#MainAttarctText{
+	color: white;
+	margin-top: 95.89px;
+	font-weight: bold;
+	font-family: "Arial";
+	font-size: 4.5em;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#SignalsText{
+	margin-top: 24px;
+	color: rgb(255,255,255);
+	opacity: 0.8;
+	font-family: "Arial";
+	font-weight: lighter;
+	font-size: 1.5em;
+	line-height: 150%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-right: 15px;
+}
+#TitleButtonPart{
+	text-align: center;
+	padding-top: 56px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.Demo1Box{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.LittleTitle{
+	font-size: 1em;
+	font-family: "Arial";
+}
+#CompanIconPart{
+	height: auto;
+	text-align: center;
+}
+#BubbleBottonGroupBox{
+	border-bottom: rgb(115,115,115);
+	border-bottom-style: hidden;
+	border-bottom-width: thin;
+}
+.IntroCotnetText{
+	font-family: "Arial";
+	font-weight: lighter;
+	color: rgb(128,128,148);
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 1.2em;
+}
+.Introduce{
+	text-align: center;
+	font-family: "Arial";
+	color: white;
+}
+.IntroTitle{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.SolutionBox{
+	height: 200px;
+	font-family: "Arial";
+/*	font-size: 1.2em;*/
+}
+#SayingTitle{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-family: "Arial";
+	font-weight: 500;
+}
+#ASolutionYN{
+	font-family: "Arial";
+	font-weight: 600;
+	margin-bottom: 44px;
+}
+#SITitleYN{
+	font-family: "Arial";
+	font-weight: 600;
+	margin-bottom: 44px;	
+}
+#MainContentJumpBox1{
+	text-align: center;
+}
+#MainContentJumpBox2{
+	text-align: center;
+}
+#BubbleBottonGroupBox{
+	background-color: rgb(255,255,255);
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 8%;
+}
+.BottomIcons{
+	width: 90px;
+}
+.CenterandBoderBox{
+	padding-right: 4px;
+	padding-left: 4px;
+	background-color: transparent;
+}
+#FirstLinkButtonRow{
+	padding-left: 11px;
+	padding-right: 11px;
+}
+#SecondLinkButtonRow{
+	padding-left: 11px;
+	padding-right: 11px;
+}
+.CenterandBoder{
+	text-align: center;
+	border-color: rgb(99,104,247);
+	border-style: none;
+	border-width: thin;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 200px;
+	overflow: hidden;
+	z-index: 1;
+	margin-bottom: 20px;
+	border-radius: 2%;
+	
+	transition-duration: 0.2s;
+	background-color: rgb(99,104,247);
+}
+.CenterandBoder:hover{
+	transition-duration: 0.2s;
+	background-color: rgb(255,255,255);
+}
+.CenterandBoder2{
+	text-align: center;
+	border-color: rgb(99,104,247);
+	border-style: none;
+	border-width: thin;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 200px;
+	overflow: hidden;	
+	z-index: 2;
+	margin-bottom: 20px;
+	border-radius: 2%;
+	transition-duration: 0.2s;
+	background-color: rgb(99,104,247);
+}
+.CenterandBoder2:hover{
+	transition-duration: 0.2s;
+	background-color: rgb(255,255,255);
+}
+.flipBox{
+	transition-duration: 0.2s;
+	margin-top: 0px;
+}
+.flipBox:hover{
+	transition-duration: 0.2s;
+	margin-top: -200px;
+}
+.SolutionPartOuterBox{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.pdfBrowser{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.PdfInfoStyle{
+	width: 100%;
+	height: 2400px;
+}
+#LinkButtonPartText1{
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+#TitleBar{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	background: url(../Resource/SolutionPage/solutionBackgroundChangeTestAgainAgain.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 0px;
+	padding-bottom: 144px;
+}
+.NameOh{
+	margin-top:0px;
+}
+.TitleRule{
+	margin-bottom: 0px;
+	
+}
+.NamePartRule{
+	margin-top: 0%;
+	color: rgb(246,246,248);
+	margin-top: 0px;
+}
+.AdImageShow{
+	width: 100%;
+}
+.CirclePart{
+	margin-top: 10px;
+}
+.FullSizeImage{
+	width: 80%;
+	height: auto;
+}
+.TopMargin{
+	margin-top: 2%;
+}
+.Margin-left{
+	margin-left: 6.25%;
+}
+.TextCotent{
+	padding: 2%;
+	background-color: rgb(246,246,248);
+	border-radius: 2%;
+}
+.SayingTitle{
+	margin-top: 1%;
+	padding-left: 0;
+	font-family: "Arial";
+	font-weight: lighter;
+}
+.SayingText{
+	font-family: "Arial";
+	font-weight: lighter;
+	color: rgb(156,156,156)
+}
+#TextSayingPart{
+	padding-top: 1%;
+	background-color: rgb(150,152,173);
+	padding-bottom: 5%;
+}
+#SmallInsIconBox1{
+	width: 80%;
+	margin-top: 8%;
+}
+#BubbleProcessDetailCotainer{
+	background-color: rgb(255,255,255);
+}
+
+#ProcessDetailCotainer{
+	background-color: rgb(255,255,255);
+	margin-top: 56px;
+	margin-bottom: 160px;
+}
+
+#ProcessDetailCotainer2{
+	background-color: rgb(255,255,255);
+	margin-top: 56px;
+}
+#CompanyIconPartRow1{
+	padding-top: 3%;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+#CompanyIconPartRow2{
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 3%;
+	width: 70%;
+	margin-left: 15%;	
+	text-align: center;
+}
+#LinkButtonPartText2{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#BubbleProcessDetailCotainer2{
+	padding-top: 0%;
+	background-color: rgb(255,255,255);
+}
+
+#CompanyCotainers{
+	background-color: rgb(246,246,248);
+}
+#TitleIntroNewLanding{
+	margin-top: 100px;
+}
+#IntroText1{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#FirstTry{
+	font-size: 24px;
+	font-weight: 500;
+	padding-top: 9px;
+	width: 272px;
+	height: 60px;
+	border-radius: 3%;
+}
+.SubDemo{
+	margin-top: 20px;
+	font-size: 32px;
+	font-weight: 600;
+	padding-top: 0px;
+	width: 180px;
+}
+#PageContent{
+	background-color: rgb(246,246,248);
+	margin-top: 0px;
+}
+#HowSignalsWorksDetail{
+	background-color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#HowSignalsWorksDetailCotnetRow{
+	width: 60%;
+	margin-left: 20%;
+	height: 500px;
+}
+.FullCoverContentImage{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.ContinueChangeBox{
+	margin-top: 1%;
+}
+
+#ContinueChangeBox1{
+	position: relative;
+	opacity: 1;
+	z-index: 3;
+}
+#ContinueChangeBox2{
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+	
+}
+#ContinueChangeBox3{
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+#FirstViewDemo{
+	font-size: 24px;
+	font-weight: 500;
+	padding-top: 11.5px;
+	height: 60px;
+	width: 272px;
+	border-radius: 3%;
+	
+	transition-duration: 0.2s;
+	color: white;
+	background-color: rgb(99,104,247);
+	border-color: rgb(99,104,247);
+}
+#FirstViewDemo:hover{
+	transition-duration: 0.2s;
+	border-color: rgb(255,255,255);
+	background-color: rgb(255,255,255);
+	color: rgb(99,104,247);
+}
+#NavBarPart{
+	background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+	#MainAttarctText{
+/*		margin-top: 96px;*/
+		font-size: 3em;
+	}
+	#FirstTry{
+		width: 232px;
+	}
+	.SecondRowTitle{
+		font-size: 2em;
+	}
+}
