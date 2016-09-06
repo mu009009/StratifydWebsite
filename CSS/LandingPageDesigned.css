@@ -86,9 +86,9 @@
 	height: 60px;
 	width: 272px;
 	border-radius: 3%;
-	color: rgb(99,104,247);
+	color: rgb(108,126,217);
 	background-color: transparent;
-	border-color: rgb(99,104,247);
+	border-color: rgb(108,126,217);
 	max-width: 100%;
 }
 #ASolutionYN{
@@ -137,7 +137,7 @@
 	padding-top: 30px;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(99,104,247);
+	background-color: rgb(108,126,217);
 }
 .CenterandBoder:hover{
 	transition-duration: 0.2s;
@@ -165,7 +165,7 @@
 	padding-top: 30px;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(99,104,247);
+	background-color: rgb(108,126,217);
 }
 .CenterandBoder2:hover{
 	transition-duration: 0.2s;
@@ -192,10 +192,10 @@
 	margin-bottom: 120px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-	background-color: rgba(99,104,247,0.8);
+	background-color: rgba(108,126,217,0.8);
 }
 .navbar-nav>li>.dropdown-menu{
-	background-color: rgba(99,104,247,0.8);
+	background-color: rgba(108,126,217,0.8);
 }
 #DetailColum2{
 	border-left-color: transparent;
