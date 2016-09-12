@@ -122,7 +122,7 @@
 }
 .CenterandBoder{
 	text-align: center;
-	border-color: rgb(108,126,217);
+	border-color: rgb(99,104,247);
 	border-style: none;
 	border-width: thin;
 	overflow: hidden;
@@ -135,7 +135,7 @@
 	border-radius: 2%;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(108,126,217);
+	background-color: rgb(99,104,247);
 }
 .CenterandBoder:hover{
 	transition-duration: 0.2s;
@@ -143,7 +143,7 @@
 }
 .CenterandBoder2{
 	text-align: center;
-	border-color: rgb(108,126,217);
+	border-color: rgb(99,104,247);
 	border-style: none;
 	border-width: thin;
 	overflow: hidden;
@@ -155,7 +155,7 @@
 	margin-bottom: 20px;
 	border-radius: 2%;
 	transition-duration: 0.2s;
-	background-color: rgb(108,126,217);
+	background-color: rgb(99,104,247);
 }
 .CenterandBoder2:hover{
 	transition-duration: 0.2s;
@@ -361,14 +361,14 @@
 	
 	transition-duration: 0.2s;
 	color: white;
-	background-color: rgb(108,126,217);
-	border-color: rgb(108,126,217);
+	background-color: rgb(99,104,247);
+	border-color: rgb(99,104,247);
 }
 #FirstViewDemo:hover{
 	transition-duration: 0.2s;
 	border-color: rgb(255,255,255);
 	background-color: rgb(255,255,255);
-	color: rgb(108,126,217);
+	color: rgb(99,104,247);
 }
 #NavBarPart{
 	background-color: transparent;
