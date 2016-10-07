@@ -11,7 +11,7 @@ function CountLeftTime(){
   var Secondstime = null;
 
   var StartTime = new Date();
-  var EndTime = new Date("2016/09/30");
+  var EndTime = new Date("2016/09/30 17:00");
 
   var LeftTime = EndTime.getTime() - StartTime.getTime();
 
@@ -19,6 +19,14 @@ function CountLeftTime(){
   Hourtime = Math.floor(LeftTime/(1000*60*60)%24);
   Minutestime = Math.floor(LeftTime/(1000*60)%60);
   Secondstime = Math.floor(LeftTime/(1000)%60);
+  
+  if((Math.floor(Math.floor(LeftTime/(1000)%60)))<0)
+  {
+	  Daytime = 0;
+	  Hourtime = 0;
+	  Minutestime = 0;
+	  Secondstime = 0;
+  } 
 
   document.getElementById("DayTime").innerHTML = Daytime;
   document.getElementById("HourTime").innerHTML = Hourtime;
