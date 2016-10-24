@@ -29,13 +29,9 @@
 	margin-bottom: 0px;
 	opacity: 0.8;
 }
-#TitleButtonPart1{
-/*	text-align: right;*/
-	margin-top: 69.94px;
-}
-#TitleButtonPart2{
-/*	text-align: left;*/
-	margin-top: 76px;
+#TitleButtonPart{
+	text-align: center;
+	padding-top: 150px;
 }
 #CompanIconPart{
 	height: auto;
@@ -380,6 +376,29 @@
 .SayingIconControl{
 	max-height: 50px;
 }
+.video_background_under_container{
+	background-color: white; 
+	margin-top: 400px; 
+	min-height: 400px; 
+	width: 100%'
+}
+.event_explain_contant{
+	margin-top:15px; 
+	float: left; 
+	width: 100%;
+	color: black;
+}
+.event_form_title{
+	 font-weight: bold; 
+	 color: #03587F;
+}
+.event_explain_title{
+	font-weight: bold;
+	color: black;
+}
+.event_explain_smallImage{
+	float: right;
+}
 #ErwinWhiteTitleText{
 	margin-bottom: 0px;
 }
@@ -557,10 +576,7 @@
 	#ProcessDetailIntroText2{
 		text-align: left;
 	}
-	#TitleButtonPart1{
-		text-align: center;
-	}
-	#TitleButtonPart2{
+	#TitleButtonPart{
 		text-align: center;
 	}
 	.BottomAlligainChange-Left {
@@ -574,6 +590,26 @@
 	}
 	.CenterandBoder2{
 		margin-bottom: 20px;
+	}
+	#backgrounVideo{
+		display: none;
+	}
+	.video_background_under_container{
+		margin-top: 200px;
+	}
+	.event_form_title{
+		text-align: center;
+	}
+	.event_explain_title{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.event_explain_contant{
+		text-align: center;
+	}
+	.event_explain_smallImage{
+		text-align: center;
+		float: none;
 	}
 }
 

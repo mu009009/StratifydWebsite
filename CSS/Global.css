@@ -293,6 +293,9 @@ body{
 .BottomIconLink{
 /*	text-align: right;*/
 }
+.float_control_right_to_center{
+	float: right;
+}
 #CompanyTitelPartImportent{
 /*	margin-left: 5%;*/
 /*	margin-right: 5%;*/
@@ -450,7 +453,10 @@ body{
 
 	.site-map-list:nth-child(4) {
 		text-align: right;
-	}	
+	}
+	.float_control_right_to_center{
+		float: none;
+	}
 }
 
 @media screen and (max-width: 766px) {
@@ -476,6 +482,10 @@ body{
 	}
 	#NavBarDropdownMenu{
 		text-align: right;
+	}
+	.float_control_right_to_center
+	{
+		float: none;
 	}
 }
 

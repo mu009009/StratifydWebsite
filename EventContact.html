@@ -13,6 +13,9 @@
 	<link href="CSS/CanvasBox.css" rel="stylesheet"/>
 	<link href="CSS/EventContact.css" rel="stylesheet"/>	
 	<link rel="icon" type="image/png" href="Resource/Icons/Stratifyd/Stratifyd-Logo.png"/>
+	<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="lib/FastClick/fastclick.js"></script>	
+	<script src="Script/min/bootbox.min.js"></script>
 </head>
 <body>
 <!--Maincotainer the whole page-->	
@@ -53,49 +56,27 @@
 	   </div>
 	</nav>
 	
-<div class="jumbotron" style="margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<!--<div class="jumbotron" style="margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
 	<video id="backgrounVideo" playsinline autoplay muted loop 
-		   style='top: -200px; left: 50%; transform: translateX(-50%) translateY(0%); position: absolute; background-size: cover; z-index: -100; width: 100%'>
+		   style='top: -100px; left: 50%; transform: translateX(-50%) translateY(0%); position: absolute; background-size: cover; z-index: -100; width: 100%'>
 		<source src='Resource/BackgroundVideo/Relasing_Video.mp4' type="video/webm">
 	</video>
-</div>
-	
-<!--
-<div class="jumbotron" id="TitleBar">
-	<div class = "container" id = "LandingPageMainTitleContainer">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="Introduce IntroTitle" id="MainAttarctText">DATA TO REVENUE
-				<h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-			</div>		
-			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-				<h3 class="Introduce IntroCotent" id="SignalsText">
-					Signals<sup style = 'font-size: 0.5em; vertical-align:super;'>TM</sup> is an A.I.—powered Next-Gen Data Analytics Platform
-				</h3>
-			</div>		
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-md-12 text-center" id = "TitleButtonPart1">
-				<a href="Product.html"><span class="btn btn-info" id="FirstTry">Learn More</span></a>
-			</div>
-		</div>			
-	</div>
-</div>
--->
+	<div class="col-xs-12" id = "TitleButtonPart">
+		<a href="#">
+			<span class="btn btn-info" id="FirstTry">Watch Video</span>
+		</a>
+	</div>			
 <!--</div>-->
-<div style='background-color: rgba(255,255,255,0.6); min-height: 800px width: 100%;'>
-	<div style='background-color: white; margin-top: 400px; min-height: 400px; width: 100%'>
+	
+<div style='background-color: rgba(255,255,255,0.6); min-height: 800px; width: 100%;'>
+	<div class='video_background_under_container'>
 		<div class="container" style="padding-top: 77px; padding-bottom: 120px">
 			<div class="row">
 				<div class="col-xs-12 col-md-6 pull-right">
 					<div class="col-xs-12" style='background-color: #B2DFEF; padding-top: 20px; padding-bottom: 20px; border-radius: 20px; color: white'>
 						<form role="form">
 						  <div class="form-group">
-							  <h3 style='font-weight: bold; color: #03587F'>Request pre-access to new Signals</h3>
+							  <h3 class='event_form_title'>Request pre-access to new Signals</h3>
 						  </div>
 						  <div class="form-group">
 							<label for="name">First Name *</label>
@@ -135,7 +116,7 @@
 						</div>
 					</div>
 				</div>				
-				<div class="col-xs-12 col-md-6" style='color: black'>
+				<div class="col-xs-12 col-md-6">
 <!--
 					<div class="row">
 						<span style="float: left;"><img src="Resource/EventPageImages/1477106453_New.svg" style=" width: 50%;"></span>
@@ -150,19 +131,19 @@
 -->
 					<div class="row">
 						<div class="col-xs-12">
-							<h4 style="font-weight: bold;"> A.I.-Powered Intelligence Engine
+							<h4 class="event_explain_title"> A.I.-Powered Intelligence Engine
 							</h4>
 						</div>
 						<div class="col-xs-12 col-md-6">
-							<div style="margin-top:15px; float: left">
+							<div class='event_explain_contant'>
 								<h4> Neutral Network Analysis </h4>
 								<h4>Predictive Analysis </h4>
 								<h4>MultiLingual NLP </h4>
 							</div>
 						</div>
-						<div class="col-xs-12 col-md-6">
+						<div class="col-xs-12 col-md-6 event_explain_smallImage">
 							<i>
-							<span><img src="Resource/EventPageImages/A.I.-PoweredIcon-01.svg" style="float: right; width:70%">
+							<span><img src="Resource/EventPageImages/A.I.-PoweredIcon-01.svg" class='float_control_right_to_center' style="width:70%">
 							</span>
 							</i>
 						</div>
@@ -170,11 +151,11 @@
 					
 					<div class="row" style="margin-top:15px;">
 						<div class="col-xs-12">
-							<h4 style="font-weight: bold;"> Insights across All Data
+							<h4 class="event_explain_title"> Insights across All Data
 							</h4>
 						</div>
 						<div class="col-xs-12 col-md-6">
-							<div style="margin-top:15px; float: left">
+							<div class='event_explain_contant'>
 								<h4> Marketing </h4>
 								<h4>Sales </h4>
 								<h4>CRM </h4>
@@ -183,9 +164,9 @@
 								<h4>Operation </h4>								
 							</div>
 						</div>
-						<div class="col-xs-12 col-md-6">
+						<div class="col-xs-12 col-md-6 event_explain_smallImage">
 							<i>
-							<span><img src="Resource/EventPageImages/Insight%20across%20all%20data-01.svg" style="float: right; width:70%">
+							<span><img src="Resource/EventPageImages/Insight%20across%20all%20data-01.svg" class='float_control_right_to_center' style="width:70%">
 							</span>
 							</i>
 						</div>
@@ -193,19 +174,19 @@
 					
 					<div class="row" style="margin-top:15px;">
 						<div class="col-xs-12">
-							<h4 style="font-weight: bold;"> User-Center Visual Analysitc
+							<h4 class="event_explain_title"> User-Center Visual Analysitc
 							</h4>
 						</div>
 						<div class="col-xs-12 col-md-6">
-							<div style="margin-top:15px; float: left">
+							<div class='event_explain_contant'>
 								<h4>Interactive Storytelling </h4>
 								<h4>Effective Collaborations </h4>
 								<h4>Customizable Visualization </h4>
 							</div>
 						</div>
-						<div class="col-xs-12 col-md-6">
+						<div class="col-xs-12 col-md-6 event_explain_smallImage">
 							<i>
-							<span><img src="Resource/EventPageImages/UserCenter-01.svg" style="float: right; width:70%">
+							<span><img src="Resource/EventPageImages/UserCenter-01.svg" class='float_control_right_to_center' style="width:50%">
 							</span>
 							</i>
 						</div>
@@ -295,17 +276,31 @@
 -->
 	
 <script>
-	var vid = document.getElementById('backgrounVideo');
-	vid.playbackRate = 0.5;
+//	var vid = document.getElementById('backgrounVideo');
+//	vid.playbackRate = 0.5;
 	function SubmittoChannel(){
 		console.log('Test If it work');
 		var values = [];
 		$('input').each(function() {
 			values.push($(this).val());
 		});
-		console.log(values);
 		
-		postUserFeedback(values[2],values[1],values[0], values[3], values[4])
+		if((values[2]=='')||(values[1]=='')||(values[0]==''))
+			{
+				bootbox.alert('Your full name and valid email address is required.');
+			}
+		else{
+			if(emailCheck(values[2]))
+				{
+					bootbox.alert('Your information has succeeded uploaded, our staff members will contact with you soon.')
+					postUserFeedback(values[2],values[1],values[0], values[3], values[4]);						
+				}
+			else
+				{
+					bootbox.alert('Your full name and valid email address is required.');					
+				}
+		
+		}
 	} 
 	
 	var kFeedbackWebHook = 'https://hooks.slack.com/services/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';
@@ -369,11 +364,23 @@
 //		networkIndicator(false);
 	  });
 	}
+	
+	function emailCheck(emailAddr)
+	{
+		if((emailAddr == null) || (emailAddr.length < 2)) return false ;
+		var aPos = emailAddr.indexOf("@" ,1) ;
+		if(aPos < 0)
+		{
+			return false ;
+		}
+		if(emailAddr.indexOf("." ,aPos+2) < 0)
+		{
+			return false ;
+		}
+		return true ;
+	}	
 
 </script>
-	
-<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<script src="lib/FastClick/fastclick.js"></script>
 	
 <!-- Control Scripts-->
 
