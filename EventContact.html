@@ -291,7 +291,7 @@
 		
 		if((values[2]=='')||(values[1]=='')||(values[0]==''))
 			{
-				bootbox.alert('Your full name and valid company email address is required, you may not sign up with your gmail.s');
+				bootbox.alert('Your full name and valid company email address is required, you may not sign up with your gmail.');
 			}
 		else{
 			if(emailCheck(values[2]))
@@ -385,6 +385,11 @@
 		var judgeifGmail = lowerAddr.indexOf("@gmail");
 		console.log(judgeifGmail);
 		if(judgeifGmail>0)
+		{
+			return false;
+		}
+		var judgeifQQ = lowerAddr.indexOf("@qq")
+		if(judgeifQQ>0)
 		{
 			return false;
 		}
