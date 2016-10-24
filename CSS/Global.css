@@ -78,6 +78,9 @@ body{
 .site-map {
 	background: rgb(35,41,54);
 	color: #666;
+	width: 100%;
+	position: relative;
+	bottom: 0%;
 }
 
 .site-map-list{
