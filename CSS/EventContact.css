@@ -30,8 +30,8 @@
 	opacity: 0.8;
 }
 #TitleButtonPart{
-	text-align: center;
-	padding-top: 250px;
+	text-align: right;
+	padding-top: 20px;
 }
 #CompanIconPart{
 	height: auto;
@@ -188,7 +188,7 @@
 	margin-bottom: 120px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-	background-color: rgba(99,104,247,0.8);
+	background-color: transparent;
 }
 .navbar-nav>li>.dropdown-menu{
 	background-color: rgba(99,104,247,0.8);
@@ -377,8 +377,8 @@
 	max-height: 50px;
 }
 .video_background_under_container{
-	background-color: white; 
-	margin-top: 50px; 
+	background-color: transparent; 
+/*	margin-top: 50px; */
 	min-height: 400px; 
 	width: 100%'
 }
@@ -398,6 +398,25 @@
 }
 .event_explain_smallImage{
 	float: right;
+}
+.right_card{
+	background-color: rgba(255,255,255,0.9);  
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-top: 20px; padding-bottom: 20px; padding-left: 60px; padding-right: 60px;
+	min-height: 680px;
+}
+.left_card{
+	background-color: #B2DFEF; 
+	padding-top: 20px; padding-bottom: 20px;
+	padding-left: 60px; padding-right: 60px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: white;
+	min-height: 680px;
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color: rgba(25,41,54,0.8);
 }
 #ErwinWhiteTitleText{
 	margin-bottom: 0px;
@@ -546,22 +565,27 @@
 	z-index: -1;
 }
 #WatchVideo{
-	font-size: 1.5em;;
+/*	font-size: 1.5em;*/
 	font-weight: 500;
+/*
 	padding-top: 11.5px;
 	height: 60px;
 	width: 272px;
+*/
 	border-radius: 30px;
 	transition-duration: 0.2s;
 	color: white;
-	background-color: #337ab7;
-	border-color: #2e6da4;
+	background-color: #B2DFEF;
+	border-color: #B2DFEF;
 }
 #WatchVideo:hover{
 	transition-duration: 0.2s;
 /*	color: rgb(99,104,247);*/
-	background-color: #286090;
-	border-color: #204d74;
+	background-color: rgb(120,200,226);
+	border-color: #B2DFEF;
+}
+#NavBarPart2{
+	margin-top: 0px;
 }
 @media screen and (max-width: 768px) {
 	.BigSize{
@@ -636,5 +660,17 @@
 	#WatchVideo{
 		max-width: 100%;
 	}	
+	.right_card
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.left_card
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;		
+	}
 }
 
